@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2847350819
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f68c54210031c6d51877cf201446fa34
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Icon/Achiv_Accum.png
+- Assets/BundleData/Icon/Achiv_Arena.png
+Dependencies: []

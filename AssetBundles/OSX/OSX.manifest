@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 4087499170
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: player-bundle
+      Dependencies: {}
+    Info_1:
+      Name: icon-bundle
+      Dependencies: {}
+    Info_2:
+      Name: sound-bundle
+      Dependencies: {}
