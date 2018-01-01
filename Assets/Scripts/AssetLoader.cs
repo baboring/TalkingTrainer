@@ -55,13 +55,13 @@ namespace TTrainer {
 			isInitilizaed = true;
 		}
 
-		protected IEnumerator InitializeLevelAsync (string levelName, bool isAdditive)
+		public IEnumerator InitializeLevelAsync (string assetBundleName,string levelName, bool isAdditive)
 		{
 			// This is simply to get the elapsed time for this phase of AssetLoading.
 			float startTime = Time.realtimeSinceStartup;
 
 			// Load level from assetBundle.
-			AssetBundleLoadOperation request = AssetBundleManager.LoadLevelAsync(sceneAssetBundle, levelName, isAdditive);
+			AssetBundleLoadOperation request = AssetBundleManager.LoadLevelAsync(assetBundleName, levelName, isAdditive);
 			if (request == null)
 				yield break;
 
@@ -109,7 +109,7 @@ namespace TTrainer {
 			if(!isInitilizaed)
 				yield return null;
 			// Load variant level which depends on variants.
-			yield return StartCoroutine(InitializeLevelAsync (sceneName, true) );
+			yield return StartCoroutine(InitializeLevelAsync (sceneAssetBundle,sceneName, true) );
 			
 			// Load asset.
 			yield return StartCoroutine(InstantiateGameObjectAsync (assetBundleName, assetName) );

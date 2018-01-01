@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 149440674
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: player-bundle
+      Dependencies: {}
+    Info_1:
+      Name: icon-bundle
+      Dependencies: {}
+    Info_2:
+      Name: sound-bundle
+      Dependencies: {}
+    Info_3:
+      Name: scene-bundle
+      Dependencies:
+        Dependency_0: icon-bundle
+        Dependency_1: sound-bundle
