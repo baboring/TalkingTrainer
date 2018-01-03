@@ -11,8 +11,7 @@ namespace TTrainer {
 	public class ResourceManager : SingletonMono<ResourceManager>{
 
 		//makes a list _singleWords and a dictionary _SentencesTypes
-		public List<LessionInfo> _lessionList;
-		public List<LessionUnitInfo> _lessionUnitTable;
+		public List<InfoLessonData> _lstLesson;
 
 		void Start() {
 
@@ -22,7 +21,7 @@ namespace TTrainer {
 			// load & make a table with GreetingWords csv
 			//CsvUtil class
 			Debug.Log("Load csv - ContantsTable");
-			_lessionList = R.CsvUtil.LoadObjects<LessionInfo>(path+"ContentsTable.csv");
+			_lstLesson = R.CsvUtil.LoadObjects<InfoLessonData>(path+"ContentsTable.csv");
 
 			Debug.Log("Load csv [complete]");
 
@@ -32,7 +31,7 @@ namespace TTrainer {
 		public void LoadAsyncLessionList(AssetInfo info) {
 
 			StartCoroutine(LoadAssetBundle(info,(request)=>{
-				_lessionList = R.CsvUtil.LoadObjects<LessionInfo>(request.GetAsset<TextAsset>());
+				_lstLesson = R.CsvUtil.LoadObjects<InfoLessonData>(request.GetAsset<TextAsset>());
 				info.isLoaded = true;
 				Debug.Log("Load csv - ContantsTable");
 			}));
@@ -67,7 +66,7 @@ namespace TTrainer {
 	}
 
 
-	public class LessionInfo {
+	public class InfoLessonData {
 
 		public int index;
 		public bool Enable;
@@ -78,10 +77,15 @@ namespace TTrainer {
 		public bool UpsideDown;
 		public int Repeat;
 		public bool CustomSetting;
+
+		public InfoStudyBoardData[]  lstStudyBoard {
+			get;
+			set;
+		}
 	}
 
 
-	public class LessionUnitInfo {
+	public class InfoStudyBoardData {
 		public int index;
 		public string Category;
 		public string Path;

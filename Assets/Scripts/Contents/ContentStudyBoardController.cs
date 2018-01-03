@@ -7,7 +7,7 @@ using UnityEngine.UI;
 namespace TTrainer {
 
 	using AssetBundles;
-	public class ContentMemoryCardController : ContentControllerBase {
+	public class ContentStudyBoardController : ContentControllerBase {
 
 		[SerializeField]
 		private ConfigSceneData config;
@@ -23,9 +23,12 @@ namespace TTrainer {
 		protected RectTransform objContentViewSnap;
 		
 		[SerializeField]
-		protected UILessionDisplay objDisplayItem;	// prefab
+		protected UILessionDisplay prefabDisplayItem;	// prefab
+		[SerializeField]
+		protected UIStudyBoard prefabStudyBoard;	// prefab
 
 		private UILessionDisplay currentUnit = null;
+		private List<InfoLessonData> _lstUnits = null;
 
 		ControllerEntity _controllerEntity = new ControllerEntity();
 
@@ -33,26 +36,38 @@ namespace TTrainer {
 		// Use this for initialization
 		IEnumerator Start () {
 			
-			objDisplayItem.gameObject.SetActive(false);
-			yield return null;
+			prefabDisplayItem.gameObject.SetActive(false);
+			prefabStudyBoard.gameObject.SetActive(false);
 
-			AssetInfo assetInfo = new AssetInfo(config.tableBundleName, config.tableAssetName);
-			// Resources.instance.LoadAsyncLessionsTable(assetInfo);
-			ResourceManager.instance.LoadAsyncLessionList(assetInfo);
-
-			if(!assetInfo.isLoaded)
-				yield return null;
+			yield return StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(config.tableBundleName, config.tableAssetName,(bundleLoaded)=>{
+				_lstUnits = R.CsvUtil.LoadObjects<InfoLessonData>(bundleLoaded.GetAsset<TextAsset>());
+				Debug.Log("Load asset " + config.tableAssetName);
+			})));
 
 			_controllerEntity.controller = this;
-			_controllerEntity.Event = eEntityState.Listup;
-
-			objDisplayItem.gameObject.SetActive(false);
+			_controllerEntity.Event = eEntityState.Contents;
 
 			// list up items
-			foreach(var info in ResourceManager.instance._lessionList) {
-				var go = GameObject.Instantiate(objDisplayItem.gameObject,objContentViewListup);
+			ListupContents();
+		}
+
+		void ListupContents() {
+			prefabDisplayItem.gameObject.SetActive(false);
+			objContentViewListup.transform.Clear();
+			foreach(var info in this._lstUnits) {
+				var go = GameObject.Instantiate(prefabDisplayItem.gameObject,objContentViewListup);
 				go.SetActive(true);
 				var controller = go.GetComponent<UILessionDisplay>();
+				controller.Prime(config.tableBundleName,info);
+			}
+		}
+		void ListupStudyBoards(InfoLessonData lesson) {
+			prefabStudyBoard.gameObject.SetActive(false);
+			objContentViewSnap.transform.Clear();
+			foreach(var info in lesson.lstStudyBoard) {
+				var go = GameObject.Instantiate(prefabStudyBoard.gameObject,objContentViewSnap);
+				go.SetActive(true);
+				var controller = go.GetComponent<UIStudyBoard>();
 				controller.Prime(config.tableBundleName,info);
 			}
 		}
@@ -74,8 +89,8 @@ namespace TTrainer {
 		}		
 
 		public void UpdateDisplay(eEntityState eState) {
-			objListup.gameObject.SetActive(eState == eEntityState.Listup);
-			objPlay.gameObject.SetActive(eState != eEntityState.Listup);
+			objListup.gameObject.SetActive(eState == eEntityState.Contents);
+			objPlay.gameObject.SetActive(eState != eEntityState.Contents);
 			
 		}
 
@@ -83,29 +98,43 @@ namespace TTrainer {
 			Debug.Log("Click " + uiInfo.info.TitleName);
 
 			currentUnit = uiInfo;
-			_controllerEntity.Event = eEntityState.Play;
+			ListupStudyBoards(currentUnit.info);
+			_controllerEntity.Event = eEntityState.Lesson;
 		}
+
+		public void OnClickExit() {
+			switch((eEntityState)_controllerEntity.Event){
+				case eEntityState.Contents:
+					TTrainer.Main.instance.UnloadScene();
+					break;
+				case eEntityState.Lesson:
+					ListupContents();
+					_controllerEntity.Event = eEntityState.Contents;
+					break;
+			}
+		}
+		
 
 		/// -------------------------------------
 		public enum eEntityState {
 			None = 0,
-			Listup,
-			Play,
+			Contents,
+			Lesson,
 		}
 
 		class ControllerEntity : Entity {
-			public ContentMemoryCardController controller;
+			public ContentStudyBoardController controller;
 			class FSM : StateTransitionTable {}
 			public ControllerEntity() {
 				transitionTable = new FSM();
-				transitionTable.SetState(eEntityState.Listup,new ListupState());
-				transitionTable.SetState(eEntityState.Play,new PlayState());
+				transitionTable.SetState(eEntityState.Contents,new ContentsState());
+				transitionTable.SetState(eEntityState.Lesson,new LessonState());
 			}
 
 		}
 
 		// Wander around
-		class ListupState : IState {
+		class ContentsState : IState {
 			public void Enter(Entity e) {
 				ControllerEntity entity = (ControllerEntity)e;
 				entity.controller.UpdateDisplay((eEntityState)e.Event);
@@ -114,7 +143,7 @@ namespace TTrainer {
 			public void Execute(Entity e){}
 		}
 
-		class PlayState : IState {
+		class LessonState : IState {
 			public void Enter(Entity e) {
 				ControllerEntity entity = (ControllerEntity)e;
 				entity.controller.UpdateDisplay((eEntityState)e.Event);

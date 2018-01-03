@@ -9,4 +9,7 @@ public class ConfigSceneData : ScriptableObject {
 	public string tableBundleName;
 	[SerializeField]
 	public string tableAssetName;
+
+	[SerializeField]
+	public string[] dependencyBundles;
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,13 +16,12 @@ namespace TTrainer {
 		[SerializeField]
 		protected Text displayDesc;
 
-		public LessionInfo info {
+		public InfoLessonData info {
 			private set;
 			get;
 		}
 
-		public List<LessionUnitInfo> _lessionUnitTable = null;
-		public void Prime(string bundleName, LessionInfo info) {
+		public void Prime(string bundleName, InfoLessonData info) {
 			if(null == info)
 				return;
 			this.info = info;
@@ -32,12 +32,21 @@ namespace TTrainer {
 			if(null != displayDesc)
 				displayDesc.text = string.Format("Total : 0");
 
-			StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(bundleName, info.SheetName,(bundleLoaded)=>{
-				_lessionUnitTable = R.CsvUtil.LoadObjects<LessionUnitInfo>(bundleLoaded.GetAsset<TextAsset>());
-				Debug.Log("Load csv - lessionUnitTable");
+			Action<int> funcUpdateTotal = new Action<int>((total)=>{
 				if(null != displayDesc)
-					displayDesc.text = string.Format("Total : {0}",_lessionUnitTable.Count);
-			})));
+					displayDesc.text = string.Format("Total : {0}",total);
+			});
+
+			if(info.lstStudyBoard == default(InfoStudyBoardData[])) {
+				StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(bundleName, info.SheetName,(bundleLoaded)=>{
+					var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>());
+					info.lstStudyBoard = lstBoard.ToArray();
+					Debug.Log("Load asset " + info.SheetName);
+					funcUpdateTotal(info.lstStudyBoard.Length);
+				})));
+			}
+			else 
+				funcUpdateTotal(info.lstStudyBoard.Length);
 		}
 
 		
