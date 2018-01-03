@@ -1,0 +1,145 @@
+SM-Day01,13,23
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,잠이 깨다,wake up,,sm_1m_1d_01_wake up,,2,,0
+2,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,일어나다,get up,,sm_1m_1d_02_get up,,2,,0
+3,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,늦잠 자다,sleep in,,sm_1m_1d_03_sleep in,,2,,0
+4,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,세수하다,wash my face,,sm_1m_1d_04_wash my face,,2,,0
+5,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,손을 씻다,wash my hands,,sm_1m_1d_04_wash my hands,,,,
+6,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,양치질 하다,brush my teeth,,sm_1m_1d_05_brush my teeth,,,,
+7,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,집을 나서다,leave my house,,sm_1m_1d_06_leave my house,,,,
+8,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,집에 오다,come home,,sm_1m_1d_07_come home,,,,
+9,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,출근하다,go to work,,sm_1m_1d_08_go to work,,,,
+10,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,출근하다,leave for work,,sm_1m_1d_08_leave for work,,,,
+11,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,퇴근하다,leave the office,,sm_1m_1d_09_leave the office,,,,
+12,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,TV를 혼자 보다,watch TV alone,,sm_1m_1d_10_watch tv alone,,,,
+13,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,혼자서 TV를 보다,watch TV by oneself,,sm_1m_1d_10_watch TV by oneself,,,,
+14,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,가족과 함께 공원 가다,go to the park with my family,,sm_1m_1d_11_go to the park with my family,,,,
+15,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,친구들과 수다 떨다,chat with my firends,,sm_1m_1d_12_chat with my firends,,,,
+16,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,휴식을 취하다,get some rest,,sm_1m_1d_13_get some rest,,,,
+17,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,(술) 한잔 하다,have a drink,,sm_1m_1d_14_have a drink,,,,
+18,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,산책 나가다,go for a walk,,sm_1m_1d_15_go for a walk,,,,
+19,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,커피숍에서 커피 마시다,drink coffee at a coffee shop,,sm_1m_1d_16_drink coffee at a coffee shop,,,,
+20,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,영화 보다,watch a movie,,sm_1m_1d_17_watch a movie,,,,
+21,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,책 읽다,read a book,,sm_1m_1d_18_read a book,,,,
+22,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,샤워를 하다,take a shower,,sm_1m_1d_19_take a shower,,,,
+23,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,잠자리에 들다,go to bed,,sm_1m_1d_20_go to bed,,,,
+SM-Day02,13,23
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,게임하는데 시간을 보내다,Spend an hour playing games,,sm_1m_2d_01_Spend an hour playing games,,,,0
+2,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,옷사는데 많은 돈을 소비 하다,Spend a lot of money shopping for clothes,,sm_1m_2d_02_Spend a lot of money shopping for clothes,,,,0
+3,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,돈을 조금 소비 하다,Spend little money on,,sm_1m_2d_03_Spend little money on,,,,0
+4,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,돈을 낭비 하다,It's a waste of money,,sm_1m_2d_04_It's a waste of money,,,,0
+5,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,시간을 낭비 하다,It's a waste of time,,sm_1m_2d_04_It's a waste of time,,,,
+6,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화로 얘기하다,Talk on the phone,,sm_1m_2d_05_Talk on the phone,,,,
+7,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화 걸다,make a call,,sm_1m_2d_06_make a call,,,,
+8,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,문자를 보내다,send a text message,,sm_1m_2d_07_send a text message,,,,
+9,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,메시지를 남기다,Leave a message,,sm_1m_2d_08_Leave a message,,,,
+10,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,음성 메시지를 남기다,Leave a voice mail,,sm_1m_2d_08_Leave a voice mail,,,,
+11,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화를 다시 받다,return a call,,sm_1m_2d_09_return a call,,,,
+12,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내 폰으로 TV를 보다,Watch TV on my phone,,sm_1m_2d_10_Watch TV on my phone,,,,
+13,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내 폰으로 음악을 듣다,Listen to music on my phone,,sm_1m_2d_11_Listen to music on my phone,,,,
+14,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내폰으로 메일을 확인하다,Check my eamil on my phone,,sm_1m_2d_12_Check my eamil on my phone,,,,
+15,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,책을 선택하다 책을 고르다,Choose a book Pick a book,,sm_1m_2d_13_Choose a book Pick a book,,,,
+16,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,줄을 서다,Wait in line,,sm_1m_2d_14_Wait in line,,,,
+17,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 계산하다,Pay for the item,,sm_1m_2d_15_Pay for the item,,,,
+18,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 환불하다,retuen the item,,sm_1m_2d_16_retuen the item,,,,
+19,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 교환하다,exchange the item,,sm_1m_2d_17_exchange the item,,,,
+20,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,환불하다,get a refund,,sm_1m_2d_18_get a refund,,,,
+21,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV스위치를 켜다,Switch on the TV,,sm_1m_2d_19_Switch on the TV,,,,
+22,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV를 켜다,turn on the TV,,sm_1m_2d_19_turn on the TV,,,,
+23,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV를 끄다,Switch off the TV,,sm_1m_2d_20_Switch off the TV,,,,
+SM-Day03,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,쇼핑하러 가다,go shopping,,sm_1m_3d_01_go shopping,,,,0
+2,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,죠깅하러 가다,go jogging,,sm_1m_3d_02_go jogging,,,,0
+3,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,산책하러 가다,go walking,,sm_1m_3d_03_go walking,,,,0
+4,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,볼링치러 가다,go bowling,,sm_1m_3d_04_go bowling,,,,0
+5,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,스키타러 가다,go skiing,,sm_1m_3d_05_go skiing,,,,
+6,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,스노우보드타러 가다,go snowboarding,,sm_1m_3d_06_go snowboarding,,,,
+7,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,수영하러 가다,go swimming,,sm_1m_3d_07_go swimming,,,,
+8,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,등산하러 가다,go hiking,,sm_1m_3d_08_go hiking,,,,
+9,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,낚시하러 가다,go fishing,,sm_1m_3d_09_go fishing,,,,
+10,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,나이트클럽에 가다,go clubing,,sm_1m_3d_10_go clubing,,,,
+11,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,영화보러 가다,go to see a movie,,sm_1m_3d_11_go to see a movie,,,,
+12,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,콘서트에 가다,go to concerts,,sm_1m_3d_12_go to concerts,,,,
+13,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,백화점에 가다,go to department store,,sm_1m_3d_13_go to department store,,,,
+14,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,파티에 가다,go to a party,,sm_1m_3d_14_go to a party,,,,
+15,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,연극보러 가다,go to a play,,sm_1m_3d_15_go to a play,,,,
+16,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,해변에 가다,go to a beach,,sm_1m_3d_16_go to a beach,,,,
+17,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,대중목욕탕에 가다,go to a public bath,,sm_1m_3d_17_go to a public bath,,,,
+18,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,도서관에 가다,go to a library,,sm_1m_3d_18_go to a library,,,,
+19,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,헬스클럽에 가다,go to the gym,,sm_1m_3d_19_go to the gym,,,,
+20,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,병원에 가다,go to see a doctor,,sm_1m_3d_20_go to see a doctor,,,,
+SM-All of days,13,67
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,잠이 깨다,wake up,,sm_1m_1d_01_wake up,,2,,0
+2,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,일어나다,get up,,sm_1m_1d_02_get up,,2,,0
+3,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,늦잠 자다,sleep in,,sm_1m_1d_03_sleep in,,2,,0
+4,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,세수하다,wash my face,,sm_1m_1d_04_wash my face,,2,,0
+5,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,손을 씻다,wash my hands,,sm_1m_1d_04_wash my hands,,,,
+6,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,양치질 하다,brush my teeth,,sm_1m_1d_05_brush my teeth,,,,
+7,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,집을 나서다,leave my house,,sm_1m_1d_06_leave my house,,,,
+8,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,집에 오다,come home,,sm_1m_1d_07_come home,,,,
+9,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,출근하다,go to work,,sm_1m_1d_08_go to work,,,,
+10,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,출근하다,leave for work,,sm_1m_1d_08_leave for work,,,,
+11,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,퇴근하다,leave the office,,sm_1m_1d_09_leave the office,,,,
+12,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,TV를 혼자 보다,watch TV alone,,sm_1m_1d_10_watch tv alone,,,,
+13,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,혼자서 TV를 보다,watch TV by oneself,,sm_1m_1d_10_watch TV by oneself,,,,
+14,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,가족과 함께 공원 가다,go to the park with my family,,sm_1m_1d_11_go to the park with my family,,,,
+15,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,친구들과 수다 떨다,chat with my firends,,sm_1m_1d_12_chat with my firends,,,,
+16,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,휴식을 취하다,get some rest,,sm_1m_1d_13_get some rest,,,,
+17,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,(술) 한잔 하다,have a drink,,sm_1m_1d_14_have a drink,,,,
+18,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,산책 나가다,go for a walk,,sm_1m_1d_15_go for a walk,,,,
+19,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,커피숍에서 커피 마시다,drink coffee at a coffee shop,,sm_1m_1d_16_drink coffee at a coffee shop,,,,
+20,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,영화 보다,watch a movie,,sm_1m_1d_17_watch a movie,,,,
+21,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,책 읽다,read a book,,sm_1m_1d_18_read a book,,,,
+22,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,샤워를 하다,take a shower,,sm_1m_1d_19_take a shower,,,,
+23,스피킹 매트릭스 1m,speaking-matrix/1 minute/day1,1,1,잠자리에 들다,go to bed,,sm_1m_1d_20_go to bed,,,,
+24,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,게임하는데 시간을 보내다,Spend an hour playing games,,sm_1m_2d_01_Spend an hour playing games,,,,
+25,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,옷사는데 많은 돈을 소비 하다,Spend a lot of money shopping for clothes,,sm_1m_2d_02_Spend a lot of money shopping for clothes,,,,
+26,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,돈을 조금 소비 하다,Spend little money on,,sm_1m_2d_03_Spend little money on,,,,
+27,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,돈을 낭비 하다,It's a waste of money,,sm_1m_2d_04_It's a waste of money,,,,
+28,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,시간을 낭비 하다,It's a waste of time,,sm_1m_2d_04_It's a waste of time,,,,
+29,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화로 얘기하다,Talk on the phone,,sm_1m_2d_05_Talk on the phone,,,,
+30,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화 걸다,make a call,,sm_1m_2d_06_make a call,,,,
+31,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,문자를 보내다,send a text message,,sm_1m_2d_07_send a text message,,,,
+32,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,메시지를 남기다,Leave a message,,sm_1m_2d_08_Leave a message,,,,
+33,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,음성 메시지를 남기다,Leave a voice mail,,sm_1m_2d_08_Leave a voice mail,,,,
+34,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,전화를 다시 받다,return a call,,sm_1m_2d_09_return a call,,,,
+35,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내 폰으로 TV를 보다,Watch TV on my phone,,sm_1m_2d_10_Watch TV on my phone,,,,
+36,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내 폰으로 음악을 듣다,Listen to music on my phone,,sm_1m_2d_11_Listen to music on my phone,,,,
+37,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,내폰으로 메일을 확인하다,Check my eamil on my phone,,sm_1m_2d_12_Check my eamil on my phone,,,,
+38,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,책을 선택하다 책을 고르다,Choose a book Pick a book,,sm_1m_2d_13_Choose a book Pick a book,,,,
+39,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,줄을 서다,Wait in line,,sm_1m_2d_14_Wait in line,,,,
+40,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 계산하다,Pay for the item,,sm_1m_2d_15_Pay for the item,,,,
+41,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 환불하다,retuen the item,,sm_1m_2d_16_retuen the item,,,,
+42,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,물건을 교환하다,exchange the item,,sm_1m_2d_17_exchange the item,,,,
+43,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,환불하다,get a refund,,sm_1m_2d_18_get a refund,,,,
+44,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV스위치를 켜다,Switch on the TV,,sm_1m_2d_19_Switch on the TV,,,,
+45,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV를 켜다,turn on the TV,,sm_1m_2d_19_turn on the TV,,,,
+46,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV를 끄다,Switch off the TV,,sm_1m_2d_20_Switch off the TV,,,,
+47,스피킹 매트릭스 1m,speaking-matrix/1 minute/day2,1,2,TV를 꺼불다,Turn off the TV,,sm_1m_2d_20_Turn off the TV,,,,
+48,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,쇼핑하러 가다,go shopping,,sm_1m_3d_01_go shopping,,,,
+49,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,죠깅하러 가다,go jogging,,sm_1m_3d_02_go jogging,,,,
+50,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,산책하러 가다,go walking,,sm_1m_3d_03_go walking,,,,
+51,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,볼링치러 가다,go bowling,,sm_1m_3d_04_go bowling,,,,
+52,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,스키타러 가다,go skiing,,sm_1m_3d_05_go skiing,,,,
+53,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,스노우보드타러 가다,go snowboarding,,sm_1m_3d_06_go snowboarding,,,,
+54,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,수영하러 가다,go swimming,,sm_1m_3d_07_go swimming,,,,
+55,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,등산하러 가다,go hiking,,sm_1m_3d_08_go hiking,,,,
+56,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,낚시하러 가다,go fishing,,sm_1m_3d_09_go fishing,,,,
+57,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,나이트클럽에 가다,go clubing,,sm_1m_3d_10_go clubing,,,,
+58,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,영화보러 가다,go to see a movie,,sm_1m_3d_11_go to see a movie,,,,
+59,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,콘서트에 가다,go to concerts,,sm_1m_3d_12_go to concerts,,,,
+60,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,백화점에 가다,go to department store,,sm_1m_3d_13_go to department store,,,,
+61,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,파티에 가다,go to a party,,sm_1m_3d_14_go to a party,,,,
+62,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,연극보러 가다,go to a play,,sm_1m_3d_15_go to a play,,,,
+63,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,해변에 가다,go to a beach,,sm_1m_3d_16_go to a beach,,,,
+64,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,대중목욕탕에 가다,go to a public bath,,sm_1m_3d_17_go to a public bath,,,,
+65,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,도서관에 가다,go to a library,,sm_1m_3d_18_go to a library,,,,
+66,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,헬스클럽에 가다,go to the gym,,sm_1m_3d_19_go to the gym,,,,
+67,스피킹 매트릭스 1m,speaking-matrix/1 minute/day3,1,3,병원에 가다,go to see a doctor,,sm_1m_3d_20_go to see a doctor,,,,

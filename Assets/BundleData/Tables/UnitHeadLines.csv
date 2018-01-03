@@ -1,0 +1,67 @@
+index,Category,Unit,Lesson,Title,Desc,KeyWord
+#!int,!String,!Int,!Int,!String,!String,!String
+1,미드 영어회화,1,1,I'm gonna…,난 ~을 할 거야,gonna
+2,미드 영어회화,1,2,I am not gonna…,난 ~을 하지 않을 거야,gonna
+3,미드 영어회화,1,3,I swear I'm gonna…,맹세코 꼭 ~을 할 거야,gonna
+4,미드 영어회화,1,4,You're gonna…,넌 ~을 하게 될 거야,gonna
+5,미드 영어회화,1,5,We're gonna…,우린 ~을 하게 될 거야,gonna
+6,미드 영어회화,1,6,I'm afraid we're going to…,안됐지만 우린 ~을 하게 될 거야,gonna
+7,미드 영어회화,1,7,He's not gonna…,그 남잔 ~을 하지 않을 거야,gonna
+8,미드 영어회화,1,8,She's never gonna…,그 여잔 절대로 ~을 하지 않을 거야,gonna
+9,미드 영어회화,1,9,It's gonna be…,그건 ~이 될 거야,gonna
+10,미드 영어회화,1,10,There's gonna be…,~이 있게 될 거야,gonna
+11,미드 영어회화,1,11,So how're you gonna…?,그래서 어떻게 ~을 할 건데?,gonna
+12,미드 영어회화,1,12,Are we gonna talk about…?,우리 ~에 대해서 얘기해 볼까?,gonna
+13,미드 영어회화,2,13,I'm getting…,~이 되기 시작하고 있어,get
+14,미드 영어회화,2,14,I'm not getting…,~이 되지 않아,get
+15,미드 영어회화,2,15,I'm gonna go get…,가서 ~을 가지고 올게,get
+16,미드 영어회화,2,16,I just get back from…,방금 ~에서 돌아왔어,get
+17,미드 영어회화,3,17,I wanna…,~을 하고 싶어,want
+18,미드 영어회화,3,18,I don't wanna…,~을 하고 싶지 않아,want
+19,미드 영어회화,3,19,I never wanted to…,~을 하는 것은 정말 싫었어,want
+20,미드 영어회화,3,20,I just wanted to…,그냥 ~을 하고 싶었을 뿐이야,want
+21,미드 영어회화,3,21,I wanted to ask you…,너에게 ~을 물어보고 싶었어,want
+22,미드 영어회화,3,22,I wanted to apologize for…,~에 대해 사과하고 싶었어,want
+23,미드 영어회화,3,23,I want you to…,~을 해주면 좋겠어,want
+24,미드 영어회화,3,24,I didn't want you to…,니가 ~하는 걸 바라지 않았어,want
+25,미드 영어회화,3,25,You want me to…?,나더러 ~을 하라고?,want
+26,미드 영어회화,3,26,She wanted me to…,그 여자는 내가 ~하기를 바랐어,want
+27,미드 영어회화,3,27,She wanted so much to…,그 여자는 정말 ~을 하고 싶어 했는데,want
+28,미드 영어회화,3,28,You want a…?,~을 바라니?,want
+29,미드 영어회화,3,29,You wanna..?,~하기를 바라니?,want
+30,미드 영어회화,3,30,Where do you wanna..?,어디서/로 ~을 하고 싶니?,want
+31,미드 영어회화,3,31,Why do you want to…?,왜 ~하려고 했니?,want
+32,미드 영어회화,3,32,Who do you want…?,누가 ~했으면 좋겠니?,want
+33,미드 영어회화,3,33,If you want I could…,너만 좋다면 내가 ~을 할 수도 있어,want
+34,미드 영어회화,3,34,If you wanna ~ you're gonna…,~을 하고 싶다면 …을 하게 될 거야,want
+35,미드 영어회화,3,35,If you wannt me to~ you better…,내가 ~을 하기를 바란다면 …해야만 해.,want
+36,미드 영어회화,3,36,Last thing I want to do is…,난 절대 ~은 하고 싶지 않아,want
+37,미드 영어회화,4,37,I need to…,난 ~을 할 필요가 있어,need
+38,미드 영어회화,4,38,I just need to…,난 ~만 하면 돼,need
+39,미드 영어회화,4,39,I don't need to…,난 ~을 할 필요가 없어,need
+40,미드 영어회화,4,40,You don't need to…,넌 ~을 할 필요가 없어,need
+41,미드 영어회화,4,41,We still need…,그래도 우리는 ~이/할 필요가 있어,need
+42,미드 영어회화,4,42,All I need is …,내게 필요한 건 ~ 뿐이야,need
+43,미드 영어회화,5,43,I lke to get to …,난 ~에 가는 걸 좋아하거든,like
+44,미드 영어회화,5,44,I'd like to …,난 ~을 하고 싶어,like
+45,미드 영어회화,5,45,Would you like to …?,~을 하고 싶니?,like
+46,미드 영어회화,5,46,How would you like …,니가 ~라면 어떻겠니?,like
+47,미드 영어회화,6,47,Let's…,~을 하자,Let
+48,미드 영어회화,6,48,Let's get…,~이 되도록 하자,Let
+49,미드 영어회화,6,49,Let me…,내가 ~을 해볼게,Let
+50,미드 영어회화,6,50,Did you let anyone else …,누구 다른 사람도 ~을 하게 했니?,Let
+51,미드 영어회화,7,51,I have a …,~이 있지,Have
+52,미드 영어회화,7,52,I don't have …,난 ~이 없어,Have
+53,미드 영어회화,7,53,I didn't have any …,~이 없었어,Have
+54,미드 영어회화,7,54,Do you have any …?,~이 있니?,Have
+55,미드 영어회화,7,55,Would you have any reason to …?,~을 할 만한 이유가 있어?,Have
+56,미드 영어회화,7,56,I gotta …,난 ~을 해야만 해,Have
+57,미드 영어회화,7,57,You gotta …,넌 ~을 해야만 해,Have
+58,미드 영어회화,7,58,You don't have to …,~할 필요는 없어,Have
+59,미드 영어회화,7,59,I have to decide …,난 ~을 결정해야만 해,Have
+60,미드 영어회화,7,60,All you have to do is …,넌 ~만 하면 돼,Have
+61,미드 영어회화,7,61,I'm gonna have someone …,누군가를 시켜서 ~을 하게 할 거야,Have
+62,미드 영어회화,7,62,I've been -ing …,난 계속 ~을 하고 있어,Have
+63,미드 영어회화,7,63,I've got enough …,~은 충분해,Have
+64,미드 영어회화,7,64,I say I've heard …,~라는 얘기를 들었어,Have
+65,미드 영어회화,7,65,I've never heard …,~은 처음 들었어,Have

@@ -1,0 +1,63 @@
+#미-패U01-1,13,60
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+#!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit1,1,1,너에게 이걸 사줄거야.,I'm gonna get you for this.,snd001_1_1_너에게 이걸 사줄거야,0,snd001_1_1_I'm gonna get you for this,1,,
+2,미드 영어회화,mid-unit1,1,1,여기서 나갈 꺼야.,I'm gonna get out of here.,snd001_1_2_여기서 나갈 거야,0,snd001_1_2_I'm gonna get out of here,1,,
+3,미드 영어회화,mid-unit1,1,1,그 여자에게 데이트 신청 할 거야.,I'm gonna ask her out.,snd001_1_3_그 여자에게 데이트 신청 할 거야,2,snd001_1_3_I'm gonna ask her out,1,,
+4,미드 영어회화,mid-unit1,1,1,너를 신고해야만 할 거야.,I'm gonna have to report you.,snd001_1_4_너를 신고해야만 할 거야,2,snd001_1_4_I'm gonna have to report you,1,,
+5,미드 영어회화,mid-unit1,1,1,그 남자를 포기 할 거야.,I'm gonna give up on him.*( give up on + 사람 ),snd001_1_5_그 남자를 포기 할 거야,2,snd001_1_5_I'm gonna give up on him,1,,
+6,미드 영어회화,mid-unit1,1,2,나는 겁먹지 않을 거야.,I'm not gonna be intimidated.,snd002_1_1_나는 겁먹지 않을 거야,1,snd002_1_1_I'm not gonna be intimidated,1,,
+7,미드 영어회화,mid-unit1,1,2,그렇게 돈을 많이 내지는 않을 거야.,I'm not gonna pay that much.,snd002_1_2_그렇게 돈을 많이 내지는 않을 거야,1,snd002_1_2_I'm not gonna pay that much,1,,
+8,미드 영어회화,mid-unit1,1,2,너한테 말하지 않을 거야.,I'm not gonna tell you.,snd002_1_3_너한테 말하지 않을 거야,1,snd002_1_3_I'm not gonna tell you,1,,
+9,미드 영어회화,mid-unit1,1,2,너에게 상처를 주지 않을 거야.,I'm not gonna hurt you.,snd002_1_4_너에게 상처를 주지 않을 거야,1,snd002_1_4_I'm not gonna hurt you,1,,
+10,미드 영어회화,mid-unit1,1,2,내 파트너를 버리지 않을 거야.,I'm not gonna abandon my partner.* abandon ( 버리다  떠나다  단념하다  내주다),snd002_1_5_내 파트너를 버리지 않을 거야,1,snd002_1_5_I'm not gonna abandon my partner,1,,
+11,미드 영어회화,mid-unit1,1,3,맹세코 보복을 할 거야.,I swear I'm gonna get even.* even은 평평하게 한다든가 짝이 맞는 짝수라든가 뭔가 공평하다는 뜻이 있다. 그래서 get even은 공평하게 하다. 즉 한 대 쳤으면 나도 한 대 쳐서 공평하게 '보복하다'라는 의미가 된다.,snd003_1_1_맹세코 보복을 할 거야,1,snd003_1_1_I swear I'm gonna get even,1,,
+12,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 언젠가는 여기를 뜰 거야.,I swear I'm gonna walk out of here one day.,snd003_1_2_무슨일이 있어도 언젠가는 여기를 뜰 거야,1,snd003_1_2_I swear I'm gonna walk out of here one day,1,,
+13,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 내 잘못에 대한 보상을 할게.,I swear I'm gonna make it up to you.* 애인의 생일이나 아내의 결혼기념일을 깜빡했다면  나중에 보상을 해줘야 하죠. 즉 '웬수'를 갚아야 한다고 할때 사용 합니다.,snd003_1_3_무슨일이 있어도 내 잘못에 대한 보상을 할게,,snd003_1_3_I swear I'm gonna make it up to you,,,
+14,미드 영어회화,mid-unit1,1,3,돈을 갚아 주겠다고 맹세할게.,I swear I'm gonna pay you back.,snd003_1_4_돈을 갚아 주겠다고 맹세할게,,snd003_1_4_I swear I'm gonna pay you back,,,
+15,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 이 일은 떄려치울 거야.,I swear I'm gonna quit this job.,snd003_1_5_무슨일이 있어도 이 일은 떄려치울 거야,,snd003_1_5_I swear I'm gonna quit this job,,,
+16,미드 영어회화,mid-unit1,1,4,넌 결국 감방에서 썩게 될 거야.,You're gonna end up in jail.,snd004_1_1_넌 결국 감방에서 썩게 될 거야,,snd004_1_1_You're gonna end up in jail,,,
+17,미드 영어회화,mid-unit1,1,4,넌 엄청나게 재미를 볼거야.,You're gonna have the time of your life.,snd004_1_2_넌 엄청나게 재미를 볼거야,,snd004_1_2_You're gonna have the time of your life,,,
+18,미드 영어회화,mid-unit1,1,4,넌 이걸 후회 하게 될거야.,You're gonna regret this.,snd004_1_3_넌 이걸 후회 하게 될거야,,snd004_1_3_You're gonna regret this,,,
+19,미드 영어회화,mid-unit1,1,4,넌 네 생명을 위태롭게 할 거야.,You're gonna risk your life.,snd004_1_4_넌 네 생명을 위태롭게 할 거야,,snd004_1_4_You're gonna risk your life,,,
+20,미드 영어회화,mid-unit1,1,4,넌 일을 엉망진창으로 만들게 될 거야.,You're gonna make a mess of things.,snd004_1_5_넌 일을 엉망진창으로 만들게 될 거야,,snd004_1_5_You're gonna make a mess of things,,,
+21,미드 영어회화,mid-unit1,1,5,우린 그만두기로 했어.,We're gonna call it quits.,snd005_1_1_우린 그만두기로 했어,,snd005_1_1_We're gonna call it quits,,,
+22,미드 영어회화,mid-unit1,1,5,우린 같이 들어와 살거야.,We're gonna move in together.,snd005_1_2_우린 같이 들어와 살거야,,snd005_1_2_We're gonna move in together,,,
+23,미드 영어회화,mid-unit1,1,5,우린 사장한테 갈 거야.,We're gonna go to the boss.,snd005_1_3_우린 사장한테 갈 거야,,snd005_1_3_We're gonna go to the boss,,,
+24,미드 영어회화,mid-unit1,1,5,우린 찢어질 거야.,We're gonna split up.,snd005_1_4_우린 찢어질 거야,,snd005_1_4_We're gonna split up,,,
+25,미드 영어회화,mid-unit1,1,5,우린 그 놈을 간방에 넣어버릴 거야.,We're gonna put him away.,snd005_1_5_우린 그 놈을 간방에 넣어버릴 거야,,snd005_1_5_We're gonna put him away,,,
+26,미드 영어회화,mid-unit1,1,6,안됐지만 자네를 해고 할 수밖에 없네.,I'm afraid we're going to have to let you go.* <let + 사람 + go>는 언뜻 보면 사람을 가게 한다는 뜻으로 보이지만 사실은 그 사람을 집에 애를 보러 가게 한다는 뜻이랍니다. 즉 '해고한다'는 의미죠.,snd006_1_1_안됐지만 자네를 해고 할 수밖에 없네,,snd006_1_1_I'm afraid we're going to have to let you go,,,
+27,미드 영어회화,mid-unit1,1,6,안됐지만 우린 찢어지게 될거야.,I'm afraid we're going to split up.* <split up> 찢어진다,snd006_1_2_안됐지만 우린 찢어지게 될거야,,snd006_1_2_I'm afraid we're going to split up,,,
+28,미드 영어회화,mid-unit1,1,6,아무래도 이 건은 장부에서 떨어버려야 될 것 같아.,I'm afraid we're going to have to write this one off.* 외상 장부에서 떨어버리는 게 속이 편할때 장부에서 떨어버리는 것을 write off 라고 한답니다.,snd006_1_3_아무래도 이 건은 장부에서 떨어버려야 될 것 같아,,snd006_1_3_I'm afraid we're going to have to write this one off,,,
+29,미드 영어회화,mid-unit1,1,6,우린 돈을 모두 잃어버리게 될 것 같아서 유감이야.,I'm afraid we're going to lose all our money.,snd006_1_4_우린 돈을 모두 잃어버리게 될 것 같아서 유감이야,,snd006_1_4_I'm afraid we're going to lose all our money,,,
+30,미드 영어회화,mid-unit1,1,6,우린 목표를 달성하지 못하게 될 것 같아서 유감이야.,I'm afraid we're going to never reach our goal.,snd006_1_5_우린 목표를 달성하지 못하게 될 것 같아서 유감이야,,snd006_1_5_I'm afraid we're going to never reach our goal,,,
+31,미드 영어회화,mid-unit1,1,7,그 남잔 그 여자한테 인사도 하지 않을 거야.,He's not gonna give her the time of day.어떤 사람이 하는 짓이 하도 밥맛이라 꼴도 보기 싫어서 아는 체도 안 할 때가 가끔 있죠? 이럴 때 딱 맞는 표현이 <not give + 사람 + the time of day> 랍니다.,snd007_1_1_그 남잔 그 여자한테 인사도 하지 않을 거야,,snd007_1_1_He's not gonna give her the time of day,,,
+32,미드 영어회화,mid-unit1,1,7,그 남잔 더이상 하려고 하지 않을 거야.,He's not gonna try anymore.,snd007_1_2_그 남잔 더이상 하려고 하지 않을 거야,,snd007_1_2_He's not gonna try anymore,,,
+33,미드 영어회화,mid-unit1,1,7,그 남잔 굽히려고 하지 않을 거야,He's not gonna give in.* 강하게 주장하다가도 그만 굽히거나 자제력을 잃고 욕망에 굴복할 때는 give in 이라고 쓰면 됩니다.,snd007_1_3_그 남잔 굽히려고 하지 않을 거야,,snd007_1_3_He's not gonna give in,,,
+34,미드 영어회화,mid-unit1,1,7,그 남잔 내일이나 돼야 도착하게 될 거야.,He's not gonna make it until tomorrow.,snd007_1_4_그 남잔 내일이나 돼야 도착하게 될 거야,,snd007_1_4_He's not gonna make it until tomorrow,,,
+35,미드 영어회화,mid-unit1,1,7,그 남잔 화학 요법은 받으려고 하지 않을 거야.,He's not gonna have chemotherapy.,snd007_1_5_그 남잔 화학 요법은 받으려고 하지 않을 거야,,snd007_1_5_He's not gonna have chemotherapy,,,
+36,미드 영어회화,mid-unit1,1,8,그 여잔 그 남자와 절대로 데이트하려고 하지 않을 거야.,She's never gonna go out with him.*<ask out> 데이트 신청하다. *<go out>데이트 하다.,snd008_1_1_그 여잔 그 남자와 절대로 데이트하려고 하지 않을 거야,,snd008_1_1_She's never gonna go out with him,,,
+37,미드 영어회화,mid-unit1,1,8,그 여잔 이 사업에선 절대로 성공하지 못할 거야.,She's never gonna make it in this business.<make it> 두가지 숙어 ( '도착하다'  '성공하다'),snd008_1_2_그 여잔 이 사업에선 절대로 성공하지 못할 거야,,snd008_1_2_She's never gonna make it in this business,,,
+38,미드 영어회화,mid-unit1,1,8,그 여잔 그런 헛소리는 절대로 받아들이지 않을 거야.,She's never gonna take that crap.,snd008_1_3_그 여잔 그런 헛소리는 절대로 받아들이지 않을 거야,,snd008_1_3_She's never gonna take that crap,,,
+39,미드 영어회화,mid-unit1,1,8,그 여잔 절대로 조용히 있지는 않을 거야.,She's never gonna go quietly,snd008_1_4_그 여잔 절대로 조용히 있지는 않을 거야,,snd008_1_4_She's never gonna go quietly,,,
+40,미드 영어회화,mid-unit1,1,8,그 여잔 절대로 나를 이해하지 못할 거야.,She's never gonna understand me.,snd008_1_5_그 여잔 절대로 나를 이해하지 못할 거야,,snd008_1_5_She's never gonna understand me,,,
+41,미드 영어회화,mid-unit1,1,9,그건 피바다가 될 거야.,It's gonna be a bloodbath.* 유혈이 낭자한 상황을 우리는 '피바다'라고 하지만 영어로는 피로 목욕한다는 의미인 bloodbath라고 한다.,snd009_1_1_그건 피바다가 될 거야,,snd009_1_1_It's gonna be a bloodbath,,,
+42,미드 영어회화,mid-unit1,1,9,아마 오래 가지 못할 거야.,It's gonna be over soon.* be over는 '끝났다'는 숙어 표현 입니다.,snd009_1_2_아마 오래 가지 못할 거야,,snd009_1_2_It's gonna be over soon,,,
+43,미드 영어회화,mid-unit1,1,9,그게 그남자를 마지막으로 보는 떄가 될 거야.,It's gonna be the last time I see him.,snd009_1_3_그게 그남자를 마지막으로 보는 떄가 될 거야,,snd009_1_3_It's gonna be the last time I see him,,,
+44,미드 영어회화,mid-unit1,1,9,그건 엄청나게 재미있게 될 거야.,It's gonna be hilarious.,snd009_1_4_그건 엄청나게 재미있게 될 거야,,snd009_1_4_It's gonna be hilarious,,,
+45,미드 영어회화,mid-unit1,1,9,그건 장거리 운전이 될 거야.,It's gonna be a long drive.,snd009_1_5_그건 장거리 운전이 될 거야,,snd009_1_5_It's gonna be a long drive,,,
+46,미드 영어회화,mid-unit1,1,10,말썽이 있을 거야.,There's gonna be trouble.,snd010_1_1_말썽이 있을 거야,,snd010_1_1_There's gonna be trouble,,,
+47,미드 영어회화,mid-unit1,1,10,부검이 있을 거야.,There's gonna be an autopsy.,snd010_1_2_부검이 있을 거야,,snd010_1_2_There's gonna be an autopsy,,,
+48,미드 영어회화,mid-unit1,1,10,재판이 있을 거야.,There's gonna be a trial.,snd010_1_3_재판이 있을 거야,,snd010_1_3_There's gonna be a trial,,,
+49,미드 영어회화,mid-unit1,1,10,나중에 그걸 할 시간이 있을 거야.,There's gonna be time for that later.,snd010_1_4_나중에 그걸 할 시간이 있을 거야,,snd010_1_4_There's gonna be time for that later,,,
+50,미드 영어회화,mid-unit1,1,10,다른 기회가 있을 거야.,There's gonna be another opportunity.,snd010_1_5_다른 기회가 있을 거야,,snd010_1_5_There's gonna be another opportunity,,,
+51,미드 영어회화,mid-unit1,1,11,그래서 어떻게 몰래 들어갈 건데?,So how're you gonna sneak in?,snd011_1_1_그래서 어떻게 몰래 들어갈 건데-,,snd011_1_1_So how're you gonna sneak in-,,,
+52,미드 영어회화,mid-unit1,1,11,그래서 그 돈을 어떻게 갚을 건데?,So How're you gonna pay for it?,snd011_1_2_그래서 그 돈을 어떻게 갚을 건데-,,snd011_1_2_So How're you gonna pay for it-,,,
+53,미드 영어회화,mid-unit1,1,11,그래서 어떻게 받아낼 건데?,So How're you gonna get it?,snd011_1_3_그래서 어떻게 받아낼 건데-,,snd011_1_3_So How're you gonna get it-,,,
+54,미드 영어회화,mid-unit1,1,11,그래서 어떻게 탈옥 할 건데?,So How're you gonna escape?,snd011_1_4_그래서 어떻게 탈옥 할 건데-,,snd011_1_4_So How're you gonna escape-,,,
+55,미드 영어회화,mid-unit1,1,11,그래서 어떻게 살아갈 건데?,So How're you gonna go on with your life?* 아무리 고달프더라도 포기하지 말고 앞으로 나아가라는 의미의 표현이 go on with one's life 입니다.,snd011_1_5_그래서 어떻게 살아갈 건데-,,snd011_1_5_So How're you gonna go on with your life-,,,
+56,미드 영어회화,mid-unit1,1,12,자 이제 우리의 관계에 대해서 얘기해 볼까?,Are we gonna talk about our relationship?,snd012_1_1_자 이제 우리의 관계에 대해서 얘기해 볼까-,,snd012_1_1_Are we gonna talk about our relationship-,,,
+57,미드 영어회화,mid-unit1,1,12,자 이제 정말로 우리에게 필요한 것이 뭔지에 대해서 얘기해 볼까?,Are we gonna talk about our what we really need?,snd012_1_2_자 이제 정말로 우리에게 필요한 것이 뭔지에 대해서 얘기해 볼까-,,snd012_1_2_Are we gonna talk about our what we really need-,,,
+58,미드 영어회화,mid-unit1,1,12,이제 우리 그 평결에 대해서 얘기해 볼까?,Are we gonna talk about the verdict?,snd012_1_3_이제 우리 그 평결에 대해서 얘기해 볼까-,,snd012_1_3_Are we gonna talk about the verdict-,,,
+59,미드 영어회화,mid-unit1,1,12,자 이제 우리 당신이 바람을 피운 것에 대해서 얘기해 볼까?,Are we gonna talk about your affair?배우자 몰래 다른 남녀와 만나 정분을 나누는 것을 <have an affair with + 사람>으로 표현 합니다.*Department of General Affair 회사의 총무과표현.,snd012_1_4_자 이제 우리 당신이 바람을 피운 것에 대해서 얘기해 볼까-,,snd012_1_4_Are we gonna talk about your affair-,,,
+60,미드 영어회화,mid-unit1,1,12,자 이제 우리 당신이 어젯밤에 어디에 있었는지에 대해서 얘기해 볼까?,Are we gonna talk about where you were last night?,snd012_1_5_자 이제 우리 당신이 어젯밤에 어디에 있었는지에 대해서 얘기해 볼까-,,snd012_1_5_Are we gonna talk about where you were last night-,,,

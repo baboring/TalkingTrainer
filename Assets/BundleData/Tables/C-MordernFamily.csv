@@ -1,0 +1,40 @@
+S1_01,13,18
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,모던 패밀리 S01,morden-family_s1,1,1,Kids breakfirst Kids_Philwould you get them.,,snd001_1_01_Kids breakfirst Kids_Philwould you get them,,,2,,0
+2,모던 패밀리 S01,morden-family_s1,1,1,YeahJust a sec.,,snd001_1_02_YeahJust a sec,,,2,,0
+3,모던 패밀리 S01,morden-family_s1,1,1,Kids Get down here.,,snd001_1_03_Kids Get down here,,,2,,0
+4,모던 패밀리 S01,morden-family_s1,1,1,Why are you guys yelling at us when we're way upstairs just text me.,,snd001_1_04_Why are you guys yelling at us when we're way upstairs just text me,,,2,,0
+5,모던 패밀리 S01,morden-family_s1,1,1,AlrightThat's not gonna happen and wow you're not wearing that outfit.,,snd001_1_05_AlrightThat's not gonna happen and wow you're not wearing that outfit,,,,,
+6,모던 패밀리 S01,morden-family_s1,1,1,What's wrong with it?,,snd001_1_06_What's wrong with it-,,,,,
+7,모던 패밀리 S01,morden-family_s1,1,1,Honey do you have anything to say to you're daughter about her skirt?,,snd001_1_07_Honey do you have anything to say to you're daughter about her skirt-,,,,,
+8,모던 패밀리 S01,morden-family_s1,1,1,SorryOh yeahit looks really cute sweetheart!,,snd001_1_08_SorryOh yeahit looks really cute sweetheart!,,,,,
+9,모던 패밀리 S01,morden-family_s1,1,1,thanks.,,snd001_1_09_thanks,,,,,
+10,모던 패밀리 S01,morden-family_s1,1,1,Noit's way to short people know you're a girl you don't need to prove it to them.,,snd001_1_10_Noit's way to short people know you're a girl you don't need to prove it to them,,,,,
+11,모던 패밀리 S01,morden-family_s1,1,1,Luke got his head stuck in the banister again.,,snd001_1_11_Luke got his head stuck in the banister again,,,,,
+12,모던 패밀리 S01,morden-family_s1,1,1,I got it where's the babyoil?,,snd001_1_12_I got it where's the babyoil-,,,,,
+13,모던 패밀리 S01,morden-family_s1,1,1,It's on our bedside tip...i don't know find it.,,snd001_1_13_It's on our bedside tip...i don't know find it,,,,,
+14,모던 패밀리 S01,morden-family_s1,1,1,I... was out of control growing up there you know I said it.,,snd001_1_14_I... was out of control growing up there you know I said it,,,,,
+15,모던 패밀리 S01,morden-family_s1,1,1,I just don't want my kids to make the same bad mistakes I made.,,snd001_1_15_I just don't want my kids to make the same bad mistakes I made,,,,,
+16,모던 패밀리 S01,morden-family_s1,1,1,If Hayley never gets up on a beach in florida half naked... I've done my job.,,snd001_1_16_If Hayley never gets up on a beach in florida half naked... I've done my job,,,,,
+17,모던 패밀리 S01,morden-family_s1,1,1,Our job.,,snd001_1_17_Our job,,,,,
+18,모던 패밀리 S01,morden-family_s1,1,1,Right I've done our job.,,snd001_1_18_Right I've done our job,,,,,
+S1_02,13,10
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,모던 패밀리 S01,morden-family_s1,1,2,Come on coach !! you've gotta take that kid out !,,snd001_1_19_Come on coach !! you've gotta take that kid out !,,,,,0
+2,모던 패밀리 S01,morden-family_s1,1,2,You wanna take hime out?,,snd001_1_20_You wanna take hime out-,,,,,0
+3,모던 패밀리 S01,morden-family_s1,1,2,How about I take you out?,,snd001_1_21_How about I take you out-,,,,,0
+4,모던 패밀리 S01,morden-family_s1,1,2,Why don't you worry about your son.,,snd001_1_22_Why don't you worry about your son,,,,,0
+5,모던 패밀리 S01,morden-family_s1,1,2,He'd spent the first half with his hands in his pants!,,snd001_1_23_He'd spent the first half with his hands in his pants!,,,,,
+6,모던 패밀리 S01,morden-family_s1,1,2,I've wanted to tell her off that for the last six weeks...,,snd001_1_24_I've wanted to tell her off that for the last six weeks...,,,,,
+7,모던 패밀리 S01,morden-family_s1,1,2,I'm Josh Brian's dad.,,snd001_1_25_I'm Josh Brian's dad,,,,,
+8,모던 패밀리 S01,morden-family_s1,1,2,Hi I'm Gloria Pritchet Manny's mother.,,snd001_1_26_Hi I'm Gloria Pritchet Manny's mother,,,,,
+9,모던 패밀리 S01,morden-family_s1,1,2,Oh this must be your dad.,,snd001_1_27_Oh this must be your dad,,,,,
+10,모던 패밀리 S01,morden-family_s1,1,2,Uhnonothat's funny. Actually no I'm her husband! Don't be fooled by the ...,,snd001_1_28_Uhnonothat's funny. Actually no I'm her husband! Don't be fooled by the ...,,,,,
+S1_03,13,3
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Answer1_File,Answer1_During,Question_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!String,!Float,!Float,!String,!Float
+1,모던 패밀리 S01,morden-family_s1,1,2,Oh She's adorable!,,snd001_1_29_Oh She's adorable!,,,,,
+2,모던 패밀리 S01,morden-family_s1,1,2,OhThank you.,,snd001_1_30_OhThank you,,,,,
+3,모던 패밀리 S01,morden-family_s1,1,2,Hi precious. Hello,,snd001_1_31_Hi precious. Hello,,,,,

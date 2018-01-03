@@ -1,0 +1,19 @@
+#,,,,자동 뒤섞기,속도,상하반전,반복횟수,설정 고정
+index,Enable,TitleName,SheetName,IsAllowedShuffle,Speed,UpsideDown,Repeat,CustomSetting
+#!int,!Bool,!String,!String,!Bool,!Float,!Bool,!Int,!Bool
+1,TRUE,미드패턴 (Unit 01 Gonna),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+2,TRUE,미드패턴 (Unit 02 Get),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+3,TRUE,미드패턴 (Unit 03 Wanna Part1),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+4,TRUE,미드패턴 (Unit 03 Wanna Part2),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+5,TRUE,미드패턴 (Unit 03 Wanna Part3),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+6,TRUE,미드패턴 (Unit 03 Wanna Part4),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+7,TRUE,미드패턴 (Unit 03 Wanna Part5),CData002-Data-Pattern01,TRUE,,FALSE,0,FALSE
+#8,TRUE,미드패턴 (Unit 04 Need),미-패U04-1,TRUE,,FALSE,0,FALSE
+#9,TRUE,미드패턴 (Unit 05 Like),미-패U05-1,TRUE,,FALSE,0,FALSE
+#10,TRUE,미드패턴 (Unit 06 Let),미-패U06-1,TRUE,,FALSE,0,FALSE
+#11,TRUE,미드패턴 (Unit 07 Have Part1),미-패U07-1(P1),TRUE,,FALSE,0,FALSE
+#12,TRUE,미드패턴 (Unit 07 Have Part2),미-패U07-1(P2),TRUE,,FALSE,0,FALSE
+#13,TRUE,미드패턴 (Unit 07 Have Part3),미-패U07-1(P3),TRUE,,FALSE,0,FALSE
+#14,TRUE,미드패턴 (Unit 07 Have Part4),미-패U07-1(P4),TRUE,,FALSE,0,FALSE
+#15,TRUE,미드패턴 (Unit 01 대화),미-패U01-2,FALSE,,FALSE,0,FALSE
+#16,TRUE,미드패턴 (Unit 03 패턴 All),미-패U03-1,TRUE,,FALSE,0,FALSE

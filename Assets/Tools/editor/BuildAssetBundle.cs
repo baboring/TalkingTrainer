@@ -1,7 +1,17 @@
 ﻿using UnityEditor;
 using System.IO;
+using UnityEngine;
 
 public class BuildAssetBundle {
+
+	[MenuItem("Tool/Asset Bundle/Clean All Cache Bundle")]
+    public static void CleanCache ()
+    {
+        if (Caching.ClearCache ()) 
+            Debug.Log("Successfully cleaned the cache.");
+        else 
+            Debug.Log("Cache is being used.");
+    }
 
 	[MenuItem("Tool/Asset Bundle/Build Asset Bundles Using BuildMap")]
     static void BuildMapABs()

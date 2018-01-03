@@ -1,0 +1,117 @@
+미-패U06-1,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit6,6,47,교수님에게 물어보자.,Let's ask the professor.,snd047_1_1_교수님에게 물어보자,,snd047_1_1_Let's ask the professor,1,,
+2,미드 영어회화,mid-unit6,6,47,이걸 신고하자.,Let's report this.,snd047_1_2_이걸 신고하자,,snd047_1_2_Let's report this,1,,
+3,미드 영어회화,mid-unit6,6,47,그건 잊어버리자.,Let's forget about it.,snd047_1_3_그건 잊어버리자,,snd047_1_3_Let's forget about it,1,,
+4,미드 영어회화,mid-unit6,6,47,파티를 열자.,Let's have a party.,snd047_1_4_파티를 열자,,snd047_1_4_Let's have a party,1,,
+5,미드 영어회화,mid-unit6,6,47,아이들에게 말해주자.,Let's tell the kids.,snd047_1_5_아이들에게 말해주자,,snd047_1_5_Let's tell the kids,,,
+6,미드 영어회화,mid-unit6,6,48,술마시고 취해 보자.,Let's get drunk.,snd048_1_1_술마시고 취해 보자,,snd048_1_1_Let's get drunk,,,
+7,미드 영어회화,mid-unit6,6,48,진지하게 하자.,Let's get serious.,snd048_1_2_진지하게 하자,,snd048_1_2_Let's get serious,,,
+8,미드 영어회화,mid-unit6,6,48,어리석게 굴지 마.,Let's get real.,snd048_1_3_어리석게 굴지 마,,snd048_1_3_Let's get real,,,
+9,미드 영어회화,mid-unit6,6,48,제대로 정신을 차려 보자.,Let's get it together.,snd048_1_4_제대로 정신을 차려 보자,,snd048_1_4_Let's get it together,,,
+10,미드 영어회화,mid-unit6,6,48,같이 자자.,Let's get laid.,snd048_1_5_같이 자자,,snd048_1_5_Let's get laid,,,
+11,미드 영어회화,mid-unit6,6,49,내가 뭘 좀 말해줄게.,Let me tell you something.,snd049_1_1_내가 뭘 좀 말해줄게,,snd049_1_1_Let me tell you something,,,
+12,미드 영어회화,mid-unit6,6,49,내가 그 여자에게 물어볼게.,Let me ask her.,snd049_1_2_내가 그 여자에게 물어볼게,,snd049_1_2_Let me ask her,,,
+13,미드 영어회화,mid-unit6,6,49,그 질문에 대해서는 내가 대답할게.,Let me answer that question.,snd049_1_3_그 질문에 대해서는 내가 대답할게,,snd049_1_3_Let me answer that question,,,
+14,미드 영어회화,mid-unit6,6,49,네게 그 돈을 꿔줄게.,Let me loan you the money.,snd049_1_4_네게 그 돈을 꿔줄게,,snd049_1_4_Let me loan you the money,,,
+15,미드 영어회화,mid-unit6,6,49,내가 네 대신 알아볼게.,Let me find out for you.,snd049_1_5_내가 네 대신 알아볼게,,snd049_1_5_Let me find out for you,,,
+16,미드 영어회화,mid-unit6,6,50,누구 다른사람에게도 이것에 관해 알려줬니?,Did you let anyone elst know about this?,snd050_1_1_누구 다른사람에게도 이것에 관해 알려줬니-,,snd050_1_1_Did you let anyone elst know about this-,,,
+17,미드 영어회화,mid-unit6,6,50,누구 다른 사람에게도 열쇠를 여는 번호를 알려줬니?,Did you let anyone else have the combination?,snd050_1_2_누구 다른 사람에게도 열쇠를 여는 번호를 알려줬니-,,snd050_1_2_Did you let anyone else have the combination-,,,
+18,미드 영어회화,mid-unit6,6,50,누구 다른 사람에게도 네가 여기 있었다는 것을 알려줬니?,Did you let anyone else find out you were here?,snd050_1_3_누구 다른 사람에게도 네가 여기 있었다는 것을 알려줬니-,,snd050_1_3_Did you let anyone else find out you were here-,,,
+19,미드 영어회화,mid-unit6,6,50,누구 다른사람 에게도 우리 계획을 알려줬어?,Did you let anyone else in on our plan.,snd050_1_4_누구 다른사람 에게도 우리 계획을 알려줬어-,,snd050_1_4_Did you let anyone else in on our plan-,,,
+20,미드 영어회화,mid-unit6,6,50,누구 다른사람에게도 범죄 현장에 접근하게 했나?,Did you let anyone else onto the crime scene?,snd050_1_5_누구 다른사람에게도 범죄 현장에 접근하게 했나-,,snd050_1_5_Did you let anyone else onto the crime scene-,,,
+미-패U07-1(P1),13,25
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit7,7,51,두통이 있어.,I have a headache.,snd051_1_1_두통이 있어,,snd051_1_1_I have a headache,1,,
+2,미드 영어회화,mid-unit7,7,51,이론이 하나 있지.,I have a theory.,snd051_1_2_이론이 하나 있지,,snd051_1_2_I have a theory,1,,
+3,미드 영어회화,mid-unit7,7,51,좋은 아이디어가 있지.,I have a great idea.,snd051_1_3_좋은 아이디어가 있지,,snd051_1_3_I have a great idea,1,,
+4,미드 영어회화,mid-unit7,7,51,남몰래 그런 의혹을 가지고 있었지.,I have a sneaking suspicion.,snd051_1_4_남몰래 그런 의혹을 가지고 있었지,,snd051_1_4_I have a sneaking suspicion,1,,
+5,미드 영어회화,mid-unit7,7,51,몇 가지 후회되는 점이 있지.,I have a few regrets.,snd051_1_5_몇 가지 후회되는 점이 있지,,snd051_1_5_I have a few regrets,,,
+6,미드 영어회화,mid-unit7,7,52,난 참을성이 많지 않아.,I don't have a lot of patience.,snd052_1_1_난 참을성이 많지 않아,,snd052_1_1_I don't have a lot of patience,,,
+7,미드 영어회화,mid-unit7,7,52,난 가까운 친구가 많지 않아.,I don't have a lot of close friends.,snd052_1_2_난 가까운 친구가 많지 않아,,snd052_1_2_I don't have a lot of close friends,,,
+8,미드 영어회화,mid-unit7,7,52,난 태도가 나쁘지는 않아.,I don't have a bad attitude.,snd052_1_3_난 태도가 나쁘지는 않아,,snd052_1_3_I don't have a bad attitude,,,
+9,미드 영어회화,mid-unit7,7,52,내게는 그런 권리가 없어.,I don't have the rights.,snd052_1_4_내게는 그런 권리가 없어,,snd052_1_4_I don't have the rights,,,
+10,미드 영어회화,mid-unit7,7,52,문제는 없어.,I don't have issues.,snd052_1_5_문제는 없어,,snd052_1_5_I don't have issues,,,
+11,미드 영어회화,mid-unit7,7,53,휘발류가 없었어.,I didn't have any gasoline.,snd053_1_1_휘발류가 없었어,,snd053_1_1_I didn't have any gasoline,,,
+12,미드 영어회화,mid-unit7,7,53,돈이 없었어.,I didn't have any money.,snd053_1_2_돈이 없었어,,snd053_1_2_I didn't have any money,,,
+13,미드 영어회화,mid-unit7,7,53,단서가 없었어.,I didn't have any clues.,snd053_1_3_단서가 없었어,,snd053_1_3_I didn't have any clues,,,
+14,미드 영어회화,mid-unit7,7,53,문제가 없었어.,I didn't have any trouble.,snd053_1_4_문제가 없었어,,snd053_1_4_I didn't have any trouble,,,
+15,미드 영어회화,mid-unit7,7,53,혼돈 되지 않았어.,I didn't have any confusion.,snd053_1_5_혼돈 되지 않았어,,snd053_1_5_I didn't have any confusion,,,
+16,미드 영어회화,mid-unit7,7,54,잔돈을 가진 게 있니?,Do you have any loose change?,snd054_1_1_잔돈을 가진 게 있니-,,snd054_1_1_Do you have any loose change-,,,
+17,미드 영어회화,mid-unit7,7,54,좋은 의견이 있니?,Do you have any suggestions.,snd054_1_2_좋은 의견이 있니-,,snd054_1_2_Do you have any suggestions,,,
+18,미드 영어회화,mid-unit7,7,54,마지막으로 남길 말이 있는가?,Do you have any last words?,snd054_1_3_마지막으로 남길 말이 있는가-,,snd054_1_3_Do you have any last words-,,,
+19,미드 영어회화,mid-unit7,7,54,도덕 개념이 있는거니?,Do you have any morals?,snd054_1_4_도덕 개념이 있는거니-,,snd054_1_4_Do you have any morals-,,,
+20,미드 영어회화,mid-unit7,7,54,건강상의 문제가 있니?,Do you have any health problem?,snd054_1_5_건강상의 문제가 있니-,,snd054_1_5_Do you have any health problem-,,,
+21,미드 영어회화,mid-unit7,7,55,그 남자 말을 믿을 만한 이유가 있나?,Would you have any reason to believe him?,snd055_1_1_그 남자 말을 믿을 만한 이유가 있나-,,snd055_1_1_Would you have any reason to believe him-,,,
+22,미드 영어회화,mid-unit7,7,55,그걸 취소할 만한 이유가 있나?,Would you have any reason to call it off?,snd055_1_2_그걸 취소할 만한 이유가 있나-,,snd055_1_2_Would you have any reason to call it off-,,,
+23,미드 영어회화,mid-unit7,7,55,나를 의심할 만한 이유가 있나?,Would you have any reason to doubt me?,snd055_1_3_나를 의심할 만한 이유가 있나-,,snd055_1_3_Would you have any reason to doubt me-,,,
+24,미드 영어회화,mid-unit7,7,55,그 남자를 체포할 만한 이유가 있나?,Would you have any reason to arrest him?,snd055_1_4_그 남자를 체포할 만한 이유가 있나-,,snd055_1_4_Would you have any reason to arrest him-,,,
+25,미드 영어회화,mid-unit7,7,55,바꿀 만한 이유가 있나?,Would you have any reason to trade?,snd055_1_5_바꿀 만한 이유가 있나-,,snd055_1_5_Would you have any reason to trade-,,,
+미-패U07-1(P2),13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit7,7,56,난 인생의 패배자들과 데이트를 하는 걸 그만두어야 해.,I gotta stop dating losers.,snd056_1_1_난 인생의 패배자들과 데이트를 하는 걸 그만두어야 해,,snd056_1_1_I gotta stop dating losers,,,
+2,미드 영어회화,mid-unit7,7,56,난 잊어야만 해.,I gotta let go.,snd056_1_2_난 잊어야만 해,,snd056_1_2_I gotta let go,,,
+3,미드 영어회화,mid-unit7,7,56,난 살인범을 잡아야만 해.,I gotta catch the killer.,snd056_1_3_난 살인범을 잡아야만 해,,snd056_1_3_I gotta catch the killer,,,
+4,미드 영어회화,mid-unit7,7,56,난 조용하게 쉬어야만 해.,I gotta have some peace and quiet.,snd056_1_4_난 조용하게 쉬어야만 해,,snd056_1_4_I gotta have some peace and quiet,,,
+5,미드 영어회화,mid-unit7,7,56,난 진실을 알아야만 해.,I gotta know the truth.,snd056_1_5_난 진실을 알아야만 해,,snd056_1_5_I gotta know the truth,,,
+6,미드 영어회화,mid-unit7,7,57,이걸 잘 살펴야 해.,You gotta watch this.,snd057_1_1_이걸 잘 살펴야 해,,snd057_1_1_You gotta watch this,,,
+7,미드 영어회화,mid-unit7,7,57,그 여자의 공로를 인정해 줘야해.,You gotta give her credit.(give + 사람 + credit for + 일)은 어떤일에 대해서 그 사람의 공으로 인정해준다는 의미 입니다.,snd057_1_2_그 여자의 공로를 인정해 줘야해,,snd057_1_2_You gotta give her credit,,,
+8,미드 영어회화,mid-unit7,7,57,그 사람은 알아줘야 한다니까.,You gotta hand it to him.(숙어입니다. 그냥 외우셈~),snd057_1_3_그 사람은 알아줘야 한다니까,,snd057_1_3_You gotta hand it to him,,,
+9,미드 영어회화,mid-unit7,7,57,넌 그 일에 최선을 다해야 해.,You gotta give it your best shot.,snd057_1_4_넌 그 일에 최선을 다해야 해,,snd057_1_4_You gotta give it your best shot,,,
+10,미드 영어회화,mid-unit7,7,57,자넨 실수에서 교훈을 배워야만 해.,You gotta learn form your mistake.,snd057_1_5_자넨 실수에서 교훈을 배워야만 해,,snd057_1_5_You gotta learn form your mistake,,,
+11,미드 영어회화,mid-unit7,7,58,더 이상 여기에 있을 필요는 없어.,You don't have to stay here any longer.,snd058_1_1_더 이상 여기에 있을 필요는 없어,,snd058_1_1_You don't have to stay here any longer,,,
+12,미드 영어회화,mid-unit7,7,58,그걸 비밀로 간직할 필요는 없어.,You don't have to keep it to yourself.,snd058_1_2_그걸 비밀로 간직할 필요는 없어,,snd058_1_2_You don't have to keep it to yourself,,,
+13,미드 영어회화,mid-unit7,7,58,거짓말을 하거나 속이거나 훔칠 필요는 없어.,You don't have to lie cheat or steal.,snd058_1_3_거짓말을 하거나 속이거나 훔칠 필요는 없어,,snd058_1_3_You don't have to lie cheat or steal,,,
+14,미드 영어회화,mid-unit7,7,58,진짜로 그럴 필요는 없어.,You don't have to mean it.,snd058_1_4_진짜로 그럴 필요는 없어,,snd058_1_4_You don't have to mean it,,,
+15,미드 영어회화,mid-unit7,7,58,쪼다처럼 굴 필요는 없어.,You don't have to be a jerk.,snd058_1_5_쪼다처럼 굴 필요는 없어,,snd058_1_5_You don't have to be a jerk,,,
+16,미드 영어회화,mid-unit7,7,59,어떤 넥타이를 맬지 결정해야만 해.,I have to decide which tie to wear.,snd059_1_1_어떤 넥타이를 맬지 결정해야만 해,,snd059_1_1_I have to decide which tie to wear,,,
+17,미드 영어회화,mid-unit7,7,59,어떤 게 중요한 건지 결정을 해야겠어.,I have to decide what's most important.,snd059_1_2_어떤 게 중요한 건지 결정을 해야겠어,,snd059_1_2_I have to decide what's most important,,,
+18,미드 영어회화,mid-unit7,7,59,얼마나 더 참을 수 있는지 결정해야 해.,I have to decide how much more I'll put up with.,snd059_1_3_얼마나 더 참을 수 있는지 결정해야 해,,snd059_1_3_I have to decide how much more I'll put up with,,,
+19,미드 영어회화,mid-unit7,7,59,누가 훔치고 있는지 알아내야만 해.,I have to decide who's been stealing.,snd059_1_4_누가 훔치고 있는지 알아내야만 해,,snd059_1_4_I have to decide who's been stealing,,,
+20,미드 영어회화,mid-unit7,7,59,내가 모든 사람을 대신해서 결정해야만 해.,I have to decide for everyone.,snd059_1_5_내가 모든 사람을 대신해서 결정해야만 해,,snd059_1_5_I have to decide for everyone,,,
+미-패U07-1(P3),13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit7,7,60,그냥 웃기만 하면 되는거야.,All you have to do is smile.,snd060_1_1_그냥 웃기만 하면 되는거야,,snd060_1_1_All you have to do is smile,,,
+2,미드 영어회화,mid-unit7,7,60,당신은 술 두어 잔만 내오면 되는 거야.,All you have to do is serve a couple drinks.,snd060_1_2_당신은 술 두어 잔만 내오면 되는 거야,,snd060_1_2_All you have to do is serve a couple drinks,,,
+3,미드 영어회화,mid-unit7,7,60,가게만 봐주면 되는 거야.,All you have to do is watch the store.,snd060_1_3_가게만 봐주면 되는 거야,,snd060_1_3_All you have to do is watch the store,,,
+4,미드 영어회화,mid-unit7,7,60,질문에 대답만 하면 되는 거야.,All you have to do is answer the question.,snd060_1_4_질문에 대답만 하면 되는 거야,,snd060_1_4_All you have to do is answer the question,,,
+5,미드 영어회화,mid-unit7,7,60,대화를 엿듣기만 하면 되는 거야.,All you have to do is listen in on the conversation.,snd060_1_5_대화를 엿듣기만 하면 되는 거야,,snd060_1_5_All you have to do is listen in on the conversation,,,
+6,미드 영어회화,mid-unit7,7,61,누군가를 시켜서 예약하게 할 거야.,I'm gonna have someone make a reservation.,snd061_1_1_누군가를 시켜서 예약하게 할 거야,,snd061_1_1_I'm gonna have someone make a reservation,,,
+7,미드 영어회화,mid-unit7,7,61,누군가에게 결혼식에서 축가를 불러달라고 할 거야.,I'm gonna have someone sing at the wedding.,snd061_1_2_누군가에게 결혼식에서 축가를 불러달라고 할 거야,,snd061_1_2_I'm gonna have someone sing at the wedding,,,
+8,미드 영어회화,mid-unit7,7,61,누군가에게 우리 집을 지켜 봐달라고 할 거야.,I'm gonna have someone watch our house.,snd061_1_3_누군가에게 우리 집을 지켜 봐달라고 할 거야,,snd061_1_3_I'm gonna have someone watch our house,,,
+9,미드 영어회화,mid-unit7,7,61,누굴 시켜서 엉망진창이 된 것을 치우라고 할 거야.,I'm gonna have someone clean up this mess.,snd061_1_4_누굴 시켜서 엉망진창이 된 것을 치우라고 할 거야,,snd061_1_4_I'm gonna have someone clean up this mess,,,
+10,미드 영어회화,mid-unit7,7,61,누군가에게 새로 하나 지어 달라고 할 거야.,I'm gonna have someone build a new one.,snd061_1_5_누군가에게 새로 하나 지어 달라고 할 거야,,snd061_1_5_I'm gonna have someone build a new one,,,
+11,미드 영어회화,mid-unit7,7,62,난 계속 네 생각을 하고 있어.,I've been thinking about you.,snd062_1_1_난 계속 네 생각을 하고 있어,,snd062_1_1_I've been thinking about you,,,
+12,미드 영어회화,mid-unit7,7,62,난 계속 기괴한 전화를 받고 있어.,I've been getting weird phone calls.,snd062_1_2_난 계속 기괴한 전화를 받고 있어,,snd062_1_2_I've been getting weird phone calls,,,
+13,미드 영어회화,mid-unit7,7,62,난 계속 이상적인 남자를 찾고 있어.,I've been looking for Mr. Right.,snd062_1_3_난 계속 이상적인 남자를 찾고 있어,,snd062_1_3_I've been looking for Mr. Right,,,
+14,미드 영어회화,mid-unit7,7,62,난 네 제안을 계속 재고하고 있어.,I've been reconsidering your proposal.,snd062_1_4_난 네 제안을 계속 재고하고 있어,,snd062_1_4_I've been reconsidering your proposal,,,
+15,미드 영어회화,mid-unit7,7,62,난 몇일 동안이나 너에게 말을 하려고 했어.,I've been trying to tell you for days.,snd062_1_5_난 몇일 동안이나 너에게 말을 하려고 했어,,snd062_1_5_I've been trying to tell you for days,,,
+16,미드 영어회화,mid-unit7,7,63,서명은 충분히 받아 놨어.,I've got enough signatures.,snd063_1_1_서명은 충분히 받아 놨어,,snd063_1_1_I've got enough signatures,,,
+17,미드 영어회화,mid-unit7,7,63,그걸 읽어볼 시간은 충분해.,I've got enough time to read it.,snd063_1_2_그걸 읽어볼 시간은 충분해,,snd063_1_2_I've got enough time to read it,,,
+18,미드 영어회화,mid-unit7,7,63,할 일은 충분히 있어.,I've got enough work to do.,snd063_1_3_할 일은 충분히 있어,,snd063_1_3_I've got enough work to do,,,
+19,미드 영어회화,mid-unit7,7,63,시작할 수 있는 정보는 충분히 갖고 있어.,I've got enough infomation to start.,snd063_1_4_시작할 수 있는 정보는 충분히 갖고 있어,,snd063_1_4_I've got enough infomation to start,,,
+20,미드 영어회화,mid-unit7,7,63,그 집을 살 수 있는 돈은 충분히 갖고 있어.,I've got enough money to buy the house.,snd063_1_5_그 집을 살 수 있는 돈은 충분히 갖고 있어,,snd063_1_5_I've got enough money to buy the house,,,
+미-패U07-1(P4),13,10
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit7/Pattern064,7,64,그 연극이 아주 좋다는 예기를 들었어.,I say I've heard that play is wonderful.,snd064_1_1_그 연극이 아주 좋다는 예기를 들었어,,snd064_1_1_I say I've heard that play is wonderful,,,
+2,미드 영어회화,mid-unit7/Pattern064,7,64,제리가 오토바이를 팔았다는 얘기를 들었어.,I say I've heard Jerry sold his motorcycle.,snd064_1_2_제리가 오토바이를 팔았다는 얘기를 들었어,,snd064_1_2_I say I've heard Jerry sold his motorcycle,,,
+3,미드 영어회화,mid-unit7/Pattern064,7,64,우리 반장이 조사를 받고 있다는 얘기를 들었어.,I say I've heard our chief is being investigated.,snd064_1_3_우리 반장이 조사를 받고 있다는 얘기를 들었어,,snd064_1_3_I say I've heard our chief is being investigated,,,
+4,미드 영어회화,mid-unit7/Pattern064,7,64,한심한 얘기를 너무나 많이 들었거든.,I say I've heard too many sad stories.,snd064_1_4_한심한 얘기를 너무나 많이 들었거든,,snd064_1_4_I say I've heard too many sad stories,,,
+5,미드 영어회화,mid-unit7/Pattern064,7,64,전에 그 얘기를 전부 다 들었어.,I say I've heard it all before.,snd064_1_5_전에 그 얘기를 전부 다 들었어,,snd064_1_5_I say I've heard it all before,,,
+6,미드 영어회화,mid-unit7/Pattern065,7,65,그렇게 아름다운 독창은 처음 들었어.,I've never heard a prettier solo.,snd065_1_1_그렇게 아름다운 독창은 처음 들었어,,snd065_1_1_I've never heard a prettier solo,,,
+7,미드 영어회화,mid-unit7/Pattern065,7,65,그 여자가 그렇게 말하는 건 처음 들었어.,I've never heard her talk like that before.,snd065_1_2_그 여자가 그렇게 말하는 건 처음 들었어,,snd065_1_2_I've never heard her talk like that before,,,
+8,미드 영어회화,mid-unit7/Pattern065,7,65,그렇게 감동적인 연설은 처음 들었어.,I've never heard a more moving speech.,snd065_1_3_그렇게 감동적인 연설은 처음 들었어,,snd065_1_3_I've never heard a more moving speech,,,
+9,미드 영어회화,mid-unit7/Pattern065,7,65,그렇게 열광적인 말은 처음 들었어.,I've never heard more enthusiasm.,snd065_1_4_그렇게 열광적인 말은 처음 들었어,,snd065_1_4_I've never heard more enthusiasm,,,
+10,미드 영어회화,mid-unit7/Pattern065,7,65,네가 그렇게 증오에 찬 말을 하는 건 처음 들었어.,I've never heard you say anything hateful.,snd065_1_5_네가 그렇게 증오에 찬 말을 하는 건 처음 들었어,,snd065_1_5_I've never heard you say anything hateful,,,
+미-패U07-2(P1),13,4
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit7,7,51,A : Do you think Dwight's up for promotion?(드와이트가 승진 대상에 들어 있다고 생각하는거야?),B : I have a sneaking suspicion.(남몰래 그런 의혹을 가지고 있었지.),snd051_2_1_1_Do you think Dwight's up for promotion-,0,snd051_2_1_2_I have a sneaking suspicion,1,,
+2,미드 영어회화,mid-unit7,7,51,A : I guess all that kissing up paid off.(그렇게 아부하더니 효과가 있었던 것 같더라고.),B : You know Michael he's sucker for kissing up.(마이클 있잖아 그 아저씨는 아부에는 사족을 못 쓴다니까.),snd051_2_1_3_I guess all that kissing up paid off,0,snd051_2_1_4_You know Michael he's a sucker for kissing up,1,,
+3,미드 영어회화,mid-unit7,7,51,I'm sorry your wedding was called off Jack.(자네 결혼식이 취소돼서 유감이야 잭.),I guess Marin wasn't the right on for me.(머린은 나에게는 맞지 않는 여자였던 것 같아.),snd051_2_2_1_I'm sorry your wedding was called off Jack,,snd051_2_2_2_I guess Marin wasn't the right on for me,,,
+4,미드 영어회화,mid-unit7,7,51,Do you think it's for the best?(오히려 잘됐다고 생각하니?),Propbably although I have a few regrets.(아마 그럴 거야 몇 가지 후회되는 점은 있지만.),snd051_2_2_3_Do you think it's for the best-,,snd051_2_2_4_Propbably although I have a few regrets,,,

@@ -100,8 +100,9 @@ namespace TTrainer {
 				StartCoroutine(LoadSequence());
 		}
 
-		public void UnloadTest() {
-			SceneManager.UnloadSceneAsync( sceneName );	
+		public void UnloadScene(string sceneLoaded) {
+			if(sceneLoaded.Length > 0)
+				SceneManager.UnloadSceneAsync( sceneLoaded );	
 		}
 
 		IEnumerator LoadSequence() {

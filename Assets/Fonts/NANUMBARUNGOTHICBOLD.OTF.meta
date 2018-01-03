@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7b6942f2483074c5a82a95bd4a0e38e2
+timeCreated: 1514664046
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: NanumBarunGothicOTF
+  fontNames:
+  - NanumBarunGothicOTF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: fonts-bundle
+  assetBundleVariant: 

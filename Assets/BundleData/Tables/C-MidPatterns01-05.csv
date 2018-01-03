@@ -1,0 +1,394 @@
+#미-패U01-1,13,60
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+#!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit1,1,1,너에게 이걸 사줄거야.,I'm gonna get you for this.,snd001_1_1_너에게 이걸 사줄거야,0,snd001_1_1_I'm gonna get you for this,1,,
+2,미드 영어회화,mid-unit1,1,1,여기서 나갈 꺼야.,I'm gonna get out of here.,snd001_1_2_여기서 나갈 거야,0,snd001_1_2_I'm gonna get out of here,1,,
+3,미드 영어회화,mid-unit1,1,1,그 여자에게 데이트 신청 할 거야.,I'm gonna ask her out.,snd001_1_3_그 여자에게 데이트 신청 할 거야,2,snd001_1_3_I'm gonna ask her out,1,,
+4,미드 영어회화,mid-unit1,1,1,너를 신고해야만 할 거야.,I'm gonna have to report you.,snd001_1_4_너를 신고해야만 할 거야,2,snd001_1_4_I'm gonna have to report you,1,,
+5,미드 영어회화,mid-unit1,1,1,그 남자를 포기 할 거야.,I'm gonna give up on him.*( give up on + 사람 ),snd001_1_5_그 남자를 포기 할 거야,2,snd001_1_5_I'm gonna give up on him,1,,
+6,미드 영어회화,mid-unit1,1,2,나는 겁먹지 않을 거야.,I'm not gonna be intimidated.,snd002_1_1_나는 겁먹지 않을 거야,1,snd002_1_1_I'm not gonna be intimidated,1,,
+7,미드 영어회화,mid-unit1,1,2,그렇게 돈을 많이 내지는 않을 거야.,I'm not gonna pay that much.,snd002_1_2_그렇게 돈을 많이 내지는 않을 거야,1,snd002_1_2_I'm not gonna pay that much,1,,
+8,미드 영어회화,mid-unit1,1,2,너한테 말하지 않을 거야.,I'm not gonna tell you.,snd002_1_3_너한테 말하지 않을 거야,1,snd002_1_3_I'm not gonna tell you,1,,
+9,미드 영어회화,mid-unit1,1,2,너에게 상처를 주지 않을 거야.,I'm not gonna hurt you.,snd002_1_4_너에게 상처를 주지 않을 거야,1,snd002_1_4_I'm not gonna hurt you,1,,
+10,미드 영어회화,mid-unit1,1,2,내 파트너를 버리지 않을 거야.,I'm not gonna abandon my partner.* abandon ( 버리다  떠나다  단념하다  내주다),snd002_1_5_내 파트너를 버리지 않을 거야,1,snd002_1_5_I'm not gonna abandon my partner,1,,
+11,미드 영어회화,mid-unit1,1,3,맹세코 보복을 할 거야.,I swear I'm gonna get even.* even은 평평하게 한다든가 짝이 맞는 짝수라든가 뭔가 공평하다는 뜻이 있다. 그래서 get even은 공평하게 하다. 즉 한 대 쳤으면 나도 한 대 쳐서 공평하게 '보복하다'라는 의미가 된다.,snd003_1_1_맹세코 보복을 할 거야,1,snd003_1_1_I swear I'm gonna get even,1,,
+12,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 언젠가는 여기를 뜰 거야.,I swear I'm gonna walk out of here one day.,snd003_1_2_무슨일이 있어도 언젠가는 여기를 뜰 거야,1,snd003_1_2_I swear I'm gonna walk out of here one day,1,,
+13,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 내 잘못에 대한 보상을 할게.,I swear I'm gonna make it up to you.* 애인의 생일이나 아내의 결혼기념일을 깜빡했다면  나중에 보상을 해줘야 하죠. 즉 '웬수'를 갚아야 한다고 할때 사용 합니다.,snd003_1_3_무슨일이 있어도 내 잘못에 대한 보상을 할게,,snd003_1_3_I swear I'm gonna make it up to you,,,
+14,미드 영어회화,mid-unit1,1,3,돈을 갚아 주겠다고 맹세할게.,I swear I'm gonna pay you back.,snd003_1_4_돈을 갚아 주겠다고 맹세할게,,snd003_1_4_I swear I'm gonna pay you back,,,
+15,미드 영어회화,mid-unit1,1,3,무슨일이 있어도 이 일은 떄려치울 거야.,I swear I'm gonna quit this job.,snd003_1_5_무슨일이 있어도 이 일은 떄려치울 거야,,snd003_1_5_I swear I'm gonna quit this job,,,
+16,미드 영어회화,mid-unit1,1,4,넌 결국 감방에서 썩게 될 거야.,You're gonna end up in jail.,snd004_1_1_넌 결국 감방에서 썩게 될 거야,,snd004_1_1_You're gonna end up in jail,,,
+17,미드 영어회화,mid-unit1,1,4,넌 엄청나게 재미를 볼거야.,You're gonna have the time of your life.,snd004_1_2_넌 엄청나게 재미를 볼거야,,snd004_1_2_You're gonna have the time of your life,,,
+18,미드 영어회화,mid-unit1,1,4,넌 이걸 후회 하게 될거야.,You're gonna regret this.,snd004_1_3_넌 이걸 후회 하게 될거야,,snd004_1_3_You're gonna regret this,,,
+19,미드 영어회화,mid-unit1,1,4,넌 네 생명을 위태롭게 할 거야.,You're gonna risk your life.,snd004_1_4_넌 네 생명을 위태롭게 할 거야,,snd004_1_4_You're gonna risk your life,,,
+20,미드 영어회화,mid-unit1,1,4,넌 일을 엉망진창으로 만들게 될 거야.,You're gonna make a mess of things.,snd004_1_5_넌 일을 엉망진창으로 만들게 될 거야,,snd004_1_5_You're gonna make a mess of things,,,
+21,미드 영어회화,mid-unit1,1,5,우린 그만두기로 했어.,We're gonna call it quits.,snd005_1_1_우린 그만두기로 했어,,snd005_1_1_We're gonna call it quits,,,
+22,미드 영어회화,mid-unit1,1,5,우린 같이 들어와 살거야.,We're gonna move in together.,snd005_1_2_우린 같이 들어와 살거야,,snd005_1_2_We're gonna move in together,,,
+23,미드 영어회화,mid-unit1,1,5,우린 사장한테 갈 거야.,We're gonna go to the boss.,snd005_1_3_우린 사장한테 갈 거야,,snd005_1_3_We're gonna go to the boss,,,
+24,미드 영어회화,mid-unit1,1,5,우린 찢어질 거야.,We're gonna split up.,snd005_1_4_우린 찢어질 거야,,snd005_1_4_We're gonna split up,,,
+25,미드 영어회화,mid-unit1,1,5,우린 그 놈을 간방에 넣어버릴 거야.,We're gonna put him away.,snd005_1_5_우린 그 놈을 간방에 넣어버릴 거야,,snd005_1_5_We're gonna put him away,,,
+26,미드 영어회화,mid-unit1,1,6,안됐지만 자네를 해고 할 수밖에 없네.,I'm afraid we're going to have to let you go.* <let + 사람 + go>는 언뜻 보면 사람을 가게 한다는 뜻으로 보이지만 사실은 그 사람을 집에 애를 보러 가게 한다는 뜻이랍니다. 즉 '해고한다'는 의미죠.,snd006_1_1_안됐지만 자네를 해고 할 수밖에 없네,,snd006_1_1_I'm afraid we're going to have to let you go,,,
+27,미드 영어회화,mid-unit1,1,6,안됐지만 우린 찢어지게 될거야.,I'm afraid we're going to split up.* <split up> 찢어진다,snd006_1_2_안됐지만 우린 찢어지게 될거야,,snd006_1_2_I'm afraid we're going to split up,,,
+28,미드 영어회화,mid-unit1,1,6,아무래도 이 건은 장부에서 떨어버려야 될 것 같아.,I'm afraid we're going to have to write this one off.* 외상 장부에서 떨어버리는 게 속이 편할때 장부에서 떨어버리는 것을 write off 라고 한답니다.,snd006_1_3_아무래도 이 건은 장부에서 떨어버려야 될 것 같아,,snd006_1_3_I'm afraid we're going to have to write this one off,,,
+29,미드 영어회화,mid-unit1,1,6,우린 돈을 모두 잃어버리게 될 것 같아서 유감이야.,I'm afraid we're going to lose all our money.,snd006_1_4_우린 돈을 모두 잃어버리게 될 것 같아서 유감이야,,snd006_1_4_I'm afraid we're going to lose all our money,,,
+30,미드 영어회화,mid-unit1,1,6,우린 목표를 달성하지 못하게 될 것 같아서 유감이야.,I'm afraid we're going to never reach our goal.,snd006_1_5_우린 목표를 달성하지 못하게 될 것 같아서 유감이야,,snd006_1_5_I'm afraid we're going to never reach our goal,,,
+31,미드 영어회화,mid-unit1,1,7,그 남잔 그 여자한테 인사도 하지 않을 거야.,He's not gonna give her the time of day.어떤 사람이 하는 짓이 하도 밥맛이라 꼴도 보기 싫어서 아는 체도 안 할 때가 가끔 있죠? 이럴 때 딱 맞는 표현이 <not give + 사람 + the time of day> 랍니다.,snd007_1_1_그 남잔 그 여자한테 인사도 하지 않을 거야,,snd007_1_1_He's not gonna give her the time of day,,,
+32,미드 영어회화,mid-unit1,1,7,그 남잔 더이상 하려고 하지 않을 거야.,He's not gonna try anymore.,snd007_1_2_그 남잔 더이상 하려고 하지 않을 거야,,snd007_1_2_He's not gonna try anymore,,,
+33,미드 영어회화,mid-unit1,1,7,그 남잔 굽히려고 하지 않을 거야,He's not gonna give in.* 강하게 주장하다가도 그만 굽히거나 자제력을 잃고 욕망에 굴복할 때는 give in 이라고 쓰면 됩니다.,snd007_1_3_그 남잔 굽히려고 하지 않을 거야,,snd007_1_3_He's not gonna give in,,,
+34,미드 영어회화,mid-unit1,1,7,그 남잔 내일이나 돼야 도착하게 될 거야.,He's not gonna make it until tomorrow.,snd007_1_4_그 남잔 내일이나 돼야 도착하게 될 거야,,snd007_1_4_He's not gonna make it until tomorrow,,,
+35,미드 영어회화,mid-unit1,1,7,그 남잔 화학 요법은 받으려고 하지 않을 거야.,He's not gonna have chemotherapy.,snd007_1_5_그 남잔 화학 요법은 받으려고 하지 않을 거야,,snd007_1_5_He's not gonna have chemotherapy,,,
+36,미드 영어회화,mid-unit1,1,8,그 여잔 그 남자와 절대로 데이트하려고 하지 않을 거야.,She's never gonna go out with him.*<ask out> 데이트 신청하다. *<go out>데이트 하다.,snd008_1_1_그 여잔 그 남자와 절대로 데이트하려고 하지 않을 거야,,snd008_1_1_She's never gonna go out with him,,,
+37,미드 영어회화,mid-unit1,1,8,그 여잔 이 사업에선 절대로 성공하지 못할 거야.,She's never gonna make it in this business.<make it> 두가지 숙어 ( '도착하다'  '성공하다'),snd008_1_2_그 여잔 이 사업에선 절대로 성공하지 못할 거야,,snd008_1_2_She's never gonna make it in this business,,,
+38,미드 영어회화,mid-unit1,1,8,그 여잔 그런 헛소리는 절대로 받아들이지 않을 거야.,She's never gonna take that crap.,snd008_1_3_그 여잔 그런 헛소리는 절대로 받아들이지 않을 거야,,snd008_1_3_She's never gonna take that crap,,,
+39,미드 영어회화,mid-unit1,1,8,그 여잔 절대로 조용히 있지는 않을 거야.,She's never gonna go quietly,snd008_1_4_그 여잔 절대로 조용히 있지는 않을 거야,,snd008_1_4_She's never gonna go quietly,,,
+40,미드 영어회화,mid-unit1,1,8,그 여잔 절대로 나를 이해하지 못할 거야.,She's never gonna understand me.,snd008_1_5_그 여잔 절대로 나를 이해하지 못할 거야,,snd008_1_5_She's never gonna understand me,,,
+41,미드 영어회화,mid-unit1,1,9,그건 피바다가 될 거야.,It's gonna be a bloodbath.* 유혈이 낭자한 상황을 우리는 '피바다'라고 하지만 영어로는 피로 목욕한다는 의미인 bloodbath라고 한다.,snd009_1_1_그건 피바다가 될 거야,,snd009_1_1_It's gonna be a bloodbath,,,
+42,미드 영어회화,mid-unit1,1,9,아마 오래 가지 못할 거야.,It's gonna be over soon.* be over는 '끝났다'는 숙어 표현 입니다.,snd009_1_2_아마 오래 가지 못할 거야,,snd009_1_2_It's gonna be over soon,,,
+43,미드 영어회화,mid-unit1,1,9,그게 그남자를 마지막으로 보는 떄가 될 거야.,It's gonna be the last time I see him.,snd009_1_3_그게 그남자를 마지막으로 보는 떄가 될 거야,,snd009_1_3_It's gonna be the last time I see him,,,
+44,미드 영어회화,mid-unit1,1,9,그건 엄청나게 재미있게 될 거야.,It's gonna be hilarious.,snd009_1_4_그건 엄청나게 재미있게 될 거야,,snd009_1_4_It's gonna be hilarious,,,
+45,미드 영어회화,mid-unit1,1,9,그건 장거리 운전이 될 거야.,It's gonna be a long drive.,snd009_1_5_그건 장거리 운전이 될 거야,,snd009_1_5_It's gonna be a long drive,,,
+46,미드 영어회화,mid-unit1,1,10,말썽이 있을 거야.,There's gonna be trouble.,snd010_1_1_말썽이 있을 거야,,snd010_1_1_There's gonna be trouble,,,
+47,미드 영어회화,mid-unit1,1,10,부검이 있을 거야.,There's gonna be an autopsy.,snd010_1_2_부검이 있을 거야,,snd010_1_2_There's gonna be an autopsy,,,
+48,미드 영어회화,mid-unit1,1,10,재판이 있을 거야.,There's gonna be a trial.,snd010_1_3_재판이 있을 거야,,snd010_1_3_There's gonna be a trial,,,
+49,미드 영어회화,mid-unit1,1,10,나중에 그걸 할 시간이 있을 거야.,There's gonna be time for that later.,snd010_1_4_나중에 그걸 할 시간이 있을 거야,,snd010_1_4_There's gonna be time for that later,,,
+50,미드 영어회화,mid-unit1,1,10,다른 기회가 있을 거야.,There's gonna be another opportunity.,snd010_1_5_다른 기회가 있을 거야,,snd010_1_5_There's gonna be another opportunity,,,
+51,미드 영어회화,mid-unit1,1,11,그래서 어떻게 몰래 들어갈 건데?,So how're you gonna sneak in?,snd011_1_1_그래서 어떻게 몰래 들어갈 건데-,,snd011_1_1_So how're you gonna sneak in-,,,
+52,미드 영어회화,mid-unit1,1,11,그래서 그 돈을 어떻게 갚을 건데?,So How're you gonna pay for it?,snd011_1_2_그래서 그 돈을 어떻게 갚을 건데-,,snd011_1_2_So How're you gonna pay for it-,,,
+53,미드 영어회화,mid-unit1,1,11,그래서 어떻게 받아낼 건데?,So How're you gonna get it?,snd011_1_3_그래서 어떻게 받아낼 건데-,,snd011_1_3_So How're you gonna get it-,,,
+54,미드 영어회화,mid-unit1,1,11,그래서 어떻게 탈옥 할 건데?,So How're you gonna escape?,snd011_1_4_그래서 어떻게 탈옥 할 건데-,,snd011_1_4_So How're you gonna escape-,,,
+55,미드 영어회화,mid-unit1,1,11,그래서 어떻게 살아갈 건데?,So How're you gonna go on with your life?* 아무리 고달프더라도 포기하지 말고 앞으로 나아가라는 의미의 표현이 go on with one's life 입니다.,snd011_1_5_그래서 어떻게 살아갈 건데-,,snd011_1_5_So How're you gonna go on with your life-,,,
+56,미드 영어회화,mid-unit1,1,12,자 이제 우리의 관계에 대해서 얘기해 볼까?,Are we gonna talk about our relationship?,snd012_1_1_자 이제 우리의 관계에 대해서 얘기해 볼까-,,snd012_1_1_Are we gonna talk about our relationship-,,,
+57,미드 영어회화,mid-unit1,1,12,자 이제 정말로 우리에게 필요한 것이 뭔지에 대해서 얘기해 볼까?,Are we gonna talk about our what we really need?,snd012_1_2_자 이제 정말로 우리에게 필요한 것이 뭔지에 대해서 얘기해 볼까-,,snd012_1_2_Are we gonna talk about our what we really need-,,,
+58,미드 영어회화,mid-unit1,1,12,이제 우리 그 평결에 대해서 얘기해 볼까?,Are we gonna talk about the verdict?,snd012_1_3_이제 우리 그 평결에 대해서 얘기해 볼까-,,snd012_1_3_Are we gonna talk about the verdict-,,,
+59,미드 영어회화,mid-unit1,1,12,자 이제 우리 당신이 바람을 피운 것에 대해서 얘기해 볼까?,Are we gonna talk about your affair?배우자 몰래 다른 남녀와 만나 정분을 나누는 것을 <have an affair with + 사람>으로 표현 합니다.*Department of General Affair 회사의 총무과표현.,snd012_1_4_자 이제 우리 당신이 바람을 피운 것에 대해서 얘기해 볼까-,,snd012_1_4_Are we gonna talk about your affair-,,,
+60,미드 영어회화,mid-unit1,1,12,자 이제 우리 당신이 어젯밤에 어디에 있었는지에 대해서 얘기해 볼까?,Are we gonna talk about where you were last night?,snd012_1_5_자 이제 우리 당신이 어젯밤에 어디에 있었는지에 대해서 얘기해 볼까-,,snd012_1_5_Are we gonna talk about where you were last night-,,,
+미-패U01-2,13,24
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit1,1,1,A : Where's Stabler?(스테이 블러는 어디 있지?),B : I haven't seen him since lunch.(점심시간 이후로는 보질 못 했는데.),snd001_2_1_1_Where's Stabler-,0,snd001_2_1_2_I haven't seen him since lunch,1,,
+2,미드 영어회화,mid-unit1,1,1,A : I'm gonna ask the Captain.( 반장한테 물어봐야 겠군. ),B : I wouldn't bother him right now.(나라면 지금 반장을 귀찮게 하지 않을 거야.),snd001_2_1_3_I'm gonna ask the Captain,0,snd001_2_1_4_I wouldn't bother him right now,1,,
+3,미드 영어회화,mid-unit1,1,1,A : How do you plan to contact your lawyer?(네 변호사에게는 어떻게 연락할 생각인데?),B : I'm gonna talk to the warden.(교도소장에게 말해볼 거야.),snd001_2_2_1_How do you plan to contact your lawyer-,,snd001_2_2_2_I'm gonna talk to the warden,1,,
+4,미드 영어회화,mid-unit1,1,1,A : Do you think he'll allow it?(소장이 허락 할까?),B : He has to at some point.(어떤 경우에는 허락해야만 할 걸.),snd001_2_2_3_Do you think he'll allow it-,,snd001_2_2_4_He has to at some point,1,,
+5,미드 영어회화,mid-unit1,1,2,A : Ask Ross if he's kissed Rachel yet.(로스한테 레이첼하고 키스했는지 물어봐.),B : I'm not gonna do it.(안 할 거야.),snd002_2_1_1_Ask Ross if he's kissed Rachel yet,,snd002_2_1_2_I'm not gonna do it,1,,
+6,미드 영어회화,mid-unit1,1,2,A : Oh come on.(아이 그러지 말고.),B : All right. but just this once.(알았어 하지만 이번 한 번만이다.),snd002_2_1_3_Oh come on,,snd002_2_1_4_All right but just this once,1,,
+7,미드 영어회화,mid-unit1,1,2,A : How long will it be until we're rescued?(우리가 구조되려면 얼마나 걸릴까?),B : Could be ten days could be ten years.(열흘이 걸릴 수도 있고 10년이 걸릴 수도 있지.),snd002_2_2_1_How long will it be until we're rescured-,,snd002_2_2_2_Could be ten days could be ten years,1,,
+8,미드 영어회화,mid-unit1,1,2,A : I'm not gonna survive this.(난 그렇게 오래 견디지 못 할 거야.),B : Sure you will this island is paradise.(물론 넌 견딜 거야 이 섬은 낙원이니까.),snd002_2_2_3_I'm not gonna survive this,,snd002_2_2_4_Sure you will this island is paradise,1,,
+9,미드 영어회화,mid-unit1,1,3,A : He think he's taking over the operation.(그 친구는 자기가 이 작전을 맡게 될 거라고 생각하고 있어.),B : I swear I'm gonna kill that guy!(무슨 일이 있어도 그 놈을 죽여 버릴 거야),snd003_2_1_1_He think he's taking over the operation,,snd003_2_1_2_I swear I'm gonna kill that guy!,1,,
+10,미드 영어회화,mid-unit1,1,3,A : Let's not go that far.(그렇게까지는 말하지 말자.),B : All right then I swear gonna get even.(알았어 그럼 반드시 보복은 할 거야.),snd003_2_1_3_Let's not go that far,,snd003_2_1_4_All right then I swear I'm gonna get even,1,,
+11,미드 영어회화,mid-unit1,1,3,A : I've never felt this way about a girl before.(전에는 여자에 대해서 이렇게 느낀 적이 없었어.),B : What do you mean?(무슨 의미야?),snd003_2_2_1_I've never felt this way about a girl before,,snd003_2_2_2_What do you mean-,1,,
+12,미드 영어회화,mid-unit1,1,3,A : I swear I'm gonna go crazy.(정말이지 미칠 것 같아.),B : Sounds like love to me.(사항에 빠진 것 같이 들리는데.),snd003_2_2_3_I swear I'm gonna go crazy,,snd003_2_2_4_Sounds like love to me,1,,
+13,미드 영어회화,mid-unit1,1,4,I'm not paying for protection anymore.* 이제는 보호료로 돈을 내지 않을 거야.,Not smart - they'll beat you to a pulp.* 그건 잘하는 짓이 아냐. 그 놈들은 너를 묵사발로 만들어 버린 거라고.,snd004_2_conv1-1,0,snd004_2_conv1-2,1,,
+14,미드 영어회화,mid-unit1,1,4,That won't be happening; I have a blade.* 그런 일은 일어나지 않을 거야. 난 칼을 갖고 있거든.,You're gonna cause a riot.* 엄청난 소동을 일으키게 될 걸.,snd004_2_conv1-3,0,snd004_2_conv1-4,1,,
+15,미드 영어회화,mid-unit1,1,4,I'm gonna make a run for it.* 난 탈옥할 거야.,When?* 언제?,snd004_2_conv2-1,0,snd004_2_conv2-2,,,
+16,미드 영어회화,mid-unit1,1,4,When Jack opens the door.* 잭이 문을 열면.,You're gonna risk your life.- 목숨을 거는 일이 될거야.,snd004_2_conv2-3,0,snd004_2_conv2-4,,,
+17,미드 영어회화,mid-unit1,1,5,I can't eat or sleep knowing he's still out there.그 놈이 아직도 잡히지 않고 돌아다닌다고 생각하니 밥도 안 들어가고 잠도 안와요.,We've got every officer hunting him down.결찰을 모두 풀어 그 놈을 찾고 있어요.,snd005_2_conv1-1,0,snd005_2_conv1-2,,,
+18,미드 영어회화,mid-unit1,1,5,What if you don't find him?결찰이 그놈을 찾아내지 못하면 어쩌죠?,Don't worry. We're gonna catch him.걱정 마세요. 우린 그 놈을 잡을 겁니다.,snd005_2_conv1-3,0,snd005_2_conv1-4,,,
+19,미드 영어회화,mid-unit1,1,5,Did Harrison get a statement from the witness?해리슨이 그 증인에게서 진술서를 받았나?,Yeah but it didn't tell us much.그래 하지만 거기에서 우리가 얻은 것은 많지 않아.,snd005_2_conv2-1,0,snd005_2_conv2-2,,,
+20,미드 영어회화,mid-unit1,1,5,We need more clues; this investigation is going nowhere.우리는 단서가 더 필요해. 이 사건 수사는 암초에 부딪혔거든.,Be patient. We're gonna solve this.조급하게 굴지 마. 우린 이 사건을 해결할 거야.,snd005_2_conv2-3,0,snd005_2_conv2-4,,,
+21,미드 영어회화,mid-unit1,1,6,Haven't you received a check from him?그 사람한테서 수표를 받지 못했어?,Not yet.아직 못 받았어.,snd006_2_conv1-1,0,snd006_2_conv1-2,,,
+22,미드 영어회화,mid-unit1,1,6,I'm afraid we're going to have to write this one off.아무래도 이번 건은 장부에서 떨어버려야 될 것 같아.,We can always take him to court.언제든지 그 사람을 고소할 수 있으니까.,snd006_2_conv1-3,0,snd006_2_conv1-4,,,
+23,미드 영어회화,mid-unit1,1,6,Is this where Shawn disappreard?여기가 숀이 사라진 장소에요?,Yes it's a complete mystery.맞아요 완전히 귀신이 곡할 노릇이죠.,snd006_2_conv2-1,0,snd006_2_conv2-2,,,
+24,미드 영어회화,mid-unit1,1,6,We'll find him. Tom.그 애를 찾게 될 거에요 팀.,I'm afraid we're going to fail.아무래도 우린 그렇게 못할 것 같아요.,snd006_2_conv2-3,0,snd006_2_conv2-4,,,
+미-패U02-1,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit2,2,13,이게 지겨워 지기 시작하는 걸.,I'm getting sick of this.Sick은 아프다 또는 토한다 의미가 있다. I'm going to be sick! 이라고 하면 '토할 것 같아!' 라는 뜻이죠. 그런데 (be sick of + (동)명사 )가 되면 무엇이 '지겹다'는 의미가 됩니다.,snd013_1_1_이게 지겨워지기 시작하는 걸,0,snd013_1_1_I'm getting sick of this,1,,
+2,미드 영어회화,mid-unit2,2,13,짜증이 나기 시작하는 걸.,I'm getting annoyed.,snd013_1_2_짜증이 나기 시작하는 걸,0,snd013_1_2_I'm getting annoyed,1,,
+3,미드 영어회화,mid-unit2,2,13,골치가 아파지기 시작하는 걸.,I'm getting a headache.,snd013_1_3_골치가 아파지기 시작하는 걸,,snd013_1_3_I'm getting a headache,,,
+4,미드 영어회화,mid-unit2,2,13,이게 느낌이 안 좋아지기 시작하는 걸.,I'm getting a bad feeling about this.,snd013_1_4_이게 느낌이 안 좋아지기 시작하는 걸,,snd013_1_4_I'm getting a bad feeling about this,,,
+5,미드 영어회화,mid-unit2,2,13,마누라한테 바가지를 긁히기 시작하고 있어.,I'm getting hassled by my wife.,snd013_1_5_마누라한테 바가지를 긁히기 시작하고 있어,,snd013_1_5_I'm getting hassled by my wife,,,
+6,미드 영어회화,mid-unit2,2,14,난 더이상 젊어지지도 않을 것고 말야.,I'm not getting any younger.,snd014_1_1_난 더이상 젊어지지도 않을 것고 말야,,snd014_1_1_I'm not getting any younger,,,
+7,미드 영어회화,mid-unit2,2,14,더이상 행복한 느낌이 들지도 않아,I'm not getting any happier.,snd014_1_2_더이상 행복한 느낌이 들지도 않아,,snd014_1_2_I'm not getting any happier,,,
+8,미드 영어회화,mid-unit2,2,14,따뜻하고 포근한 느낌은 들지 않아.,I'm not getting a warm fuzzy feeling.Fuzzy는 잔털이 보들보들하게 난 상태를 뜻하죠. 그래서 warm fuzzy는 한 덩어리로 쓰여서 따듯하고 아늑한 느낌을 주는 즉 '매우 편안하고 사람을 따듯하게 하는' 것을 가리키는 말로 사용 됩니다.,snd014_1_3_따뜻하고 포근한 느낌은 들지 않아,,snd014_1_3_I'm not getting a warm fuzzy feeling,,,
+9,미드 영어회화,mid-unit2,2,14,짜증이 나지도 않아.,I'm not getting upset.,snd014_1_4_짜증이 나지도 않아,,snd014_1_4_I'm not getting upset,,,
+10,미드 영어회화,mid-unit2,2,14,깊숙이 관여되어 있다는 느낌이 들지 않아.,I'm not getting involved.,snd014_1_5_깊숙이 관여되어 있다는 느낌이 들지 않아,,snd014_1_5_I'm not getting involved,,,
+11,미드 영어회화,mid-unit2,2,15,가서 커피를 한 잔 더 가지고 올게.,I'm gonna go get another cup of coffee.,snd015_1_1_가서 커피를 한 잔 더 가지고 올게,,snd015_1_1_I'm gonna go get another cup of coffee,,,
+12,미드 영어회화,mid-unit2,2,15,가서 증인을 데리고 올게.,I'm gonna go get the witness.,snd015_1_2_가서 증인을 데리고 올게,,snd015_1_2_I'm gonna go get the witness,,,
+13,미드 영어회화,mid-unit2,2,15,가서 개를 데리고 올게.,I'm gonna go get my dog.,snd015_1_3_가서 개를 데리고 올게,,snd015_1_3_I'm gonna go get my dog,,,
+14,미드 영어회화,mid-unit2,2,15,가서 비품을 가지고 올게.,I'm gonna go get some supplies.,snd015_1_4_가서 비품을 가지고 올게,,snd015_1_4_I'm gonna go get some supplies,,,
+15,미드 영어회화,mid-unit2,2,15,가서 다른 사람의 의견을 더 들어보겠어요.,I'm gonna go get a second opinion.,snd015_1_5_가서 다른 사람의 의견을 더 들어보겠어요,,snd015_1_5_I'm gonna go get a second opinion,,,
+16,미드 영어회화,mid-unit2,2,16,방금 유럽에서 돌아왔어.,I just got back from Europe.,snd016_1_1_방금 유럽에서 돌아왔어,,snd016_1_1_I just got back from Europe,,,
+17,미드 영어회화,mid-unit2,2,16,방금 회의에서 돌아왔어.,I just got back from the meeting.,snd016_1_2_방금 회의에서 돌아왔어,,snd016_1_2_I just got back from the meeting,,,
+18,미드 영어회화,mid-unit2,2,16,방금 데이트에서 돌아왔어.,I just got back from my date.,snd016_1_3_방금 데이트에서 돌아왔어,,snd016_1_3_I just got back from my date,,,
+19,미드 영어회화,mid-unit2,2,16,방금 여동생의 결혼식에서 돌아왔어.,I just got back from my sister's wedding.,snd016_1_4_방금 여동생의 결혼식에서 돌아왔어,,snd016_1_4_I just got back from my sister's wedding,,,
+20,미드 영어회화,mid-unit2,2,16,방금 자선 행사에서 돌아왔어.,I just got back from the charity event.,snd016_1_5_방금 자선 행사에서 돌아왔어,,snd016_1_5_I just got back from the charity event,,,
+미-패U03-1,13,100
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,17,좀 쉬고 싶어.,I wanna take some time off.,snd017_1_1_좀 쉬고 싶어,0,snd017_1_1_I wanna take some time off,1,,
+2,미드 영어회화,mid-unit3,3,17,아기를 갖고 싶어.,I wanna baby.,snd017_1_2_아기를 갖고 싶어,,snd017_1_2_I wanna baby,,,
+3,미드 영어회화,mid-unit3,3,17,내 사업을 하고 싶어.,I wanna be my own boss.,snd017_1_3_내 사업을 하고 싶어,,snd017_1_3_I wanna be my own boss,,,
+4,미드 영어회화,mid-unit3,3,17,내가 직접 그것을 보고 싶어.,I wanna see it for myself.,snd017_1_4_내가 직접 그것을 보고 싶어,,snd017_1_4_I wanna see it for myself,,,
+5,미드 영어회화,mid-unit3,3,17,취하고 싶어.,I wanna get drunk.,snd017_1_5_취하고 싶어,,snd017_1_5_I wanna get drunk,,,
+6,미드 영어회화,mid-unit3,3,18,그 남자에게 두 번 다시 기회를 주고 싶지 않아.,I don't wanna give him a second chance.,snd018_1_1_그 남자에게 두 번 다시 기회를 주고 싶지 않아,,snd018_1_1_I don't wanna give him a second chance,,,
+7,미드 영어회화,mid-unit3,3,18,네 여자 친구를 가로채고 싶지 않아.,I don't wanna steal your girlfriend.,snd018_1_2_네 여자 친구를 가로채고 싶지 않아,,snd018_1_2_I don't wanna steal your girlfriend,,,
+8,미드 영어회화,mid-unit3,3,18,다이어트를 하고 싶지 않아.,I don't wanna go on a diet.,snd018_1_3_다이어트를 하고 싶지 않아,,snd018_1_3_I don't wanna go on a diet,,,
+9,미드 영어회화,mid-unit3,3,18,정신과 의사한테 가고 싶지 않아.,I don't wanna see a psychiatrist.,snd018_1_4_정신과 의사한테 가고 싶지 않아,,snd018_1_4_I don't wanna see a psychiatrist,,,
+10,미드 영어회화,mid-unit3,3,18,그 수술을 받고 싶지 않아.,I don't wanna have the surgery.,snd018_1_5_그 수술을 받고 싶지 않아,,snd018_1_5_I don't wanna have the surgery,,,
+11,미드 영어회화,mid-unit3,3,19,네게 상처를 주는 것은 싫었어.,I never wanted to hurt your feelings.,snd019_1_1_네게 상처를 주는 것은 싫었어,,snd019_1_1_I never wanted to hurt your feelings,,,
+12,미드 영어회화,mid-unit3,3,19,네 일자리를 차지하는 것은 정말 싫었어.,I never wanted to have your job.,snd019_1_2_네 일자리를 차지하는 것은 정말 싫었어,,snd019_1_2_I never wanted to have your job,,,
+13,미드 영어회화,mid-unit3,3,19,난 애당초 헤어지는 것은 정말 싫었어.,I never wanted to break up in the first place.'애당초' in the first place 입니다. 그래서  I Should never have gone th the first place. 라고 하면 처음부터 뭔가가 잘못됐다는 표현입니다.,snd019_1_3_난 애당초 헤어지는 것은 정말 싫었어,,snd019_1_3_I never wanted to break up in the first place,,,
+14,미드 영어회화,mid-unit3,3,19,약속을 깨는 것은 정말 싫었어.,I never wanted to break my promise.,snd019_1_4_약속을 깨는 것은 정말 싫었어,,snd019_1_4_I never wanted to break my promise,,,
+15,미드 영어회화,mid-unit3,3,19,그 여자 목소리를 다시 듣는 것은 정말 싫었어.,I never wanted to hear her voice again.,snd019_1_5_그 여자 목소리를 다시 듣는 것은 정말 싫었어,,snd019_1_5_I never wanted to hear her voice again,,,
+16,미드 영어회화,mid-unit3,3,20,그냥 거기서 나오고 싶었을 뿐이야.,I just wanted to get out of there.,snd020_1_1_그냥 거기서 나오고 싶었을 뿐이야,,snd020_1_1_I just wanted to get out of there,,,
+17,미드 영어회화,mid-unit3,3,20,그냥 널 안심시키고 싶었을 뿐이야.,I just wanted to reassure you.,snd020_1_2_그냥 널 안심시키고 싶었을 뿐이야,,snd020_1_2_I just wanted to reassure you,,,
+18,미드 영어회화,mid-unit3,3,20,그냥 내 방식대로 하고 싶었을 뿐이야.,I just wanted to do it my way.,snd020_1_3_그냥 내 방식대로 하고 싶었을 뿐이야,,snd020_1_3_I just wanted to do it my way,,,
+19,미드 영어회화,mid-unit3,3,20,그냥 그 여자를 마지막으로 한 번 보고 싶었을 뿐이야.,I just wanted to see her one last time.,snd020_1_4_그냥 그 여자를 마지막으로 한 번 보고 싶었을 뿐이야,,snd020_1_4_I just wanted to see her one last time,,,
+20,미드 영어회화,mid-unit3,3,20,그냥 정신을 가다듬고 싶었을 뿐이야.,I just wanted to collect myself.중요한 회의를 앞두고는 정신을 가다듬을 필요가 있죠. 이럴 때는 collect oneself라는 표현이 어울립니다.,snd020_1_5_그냥 정신을 가다듬고 싶었을 뿐이야,,snd020_1_5_I just wanted to collect myself,,,
+21,미드 영어회화,mid-unit3,3,21,네 차를 빌릴 수 있는지 물어보고 싶었어.,I wanted to ask you if I can borrow your car.,snd021_1_1_네 차를 빌릴 수 있는지 물어보고 싶었어,,snd021_1_1_I wanted to ask you if I can borrow your car,,,
+22,미드 영어회화,mid-unit3,3,21,우리 아기를 봐줄 수 있는지 물어보고 싶었어.,I wanted to ask you if you could babysit.,snd021_1_2_우리 아기를 봐줄 수 있는지 물어보고 싶었어,,snd021_1_2_I wanted to ask you if you could babysit,,,
+23,미드 영어회화,mid-unit3,3,21,그 여자에게 어떻게 말을 하면 되는지 물어보고 싶었어.,I wanted to ask you how to talk to her.,snd021_1_3_그 여자에게 어떻게 말을 하면 되는지 물어보고 싶었어,,snd021_1_3_I wanted to ask you how to talk to her,,,
+24,미드 영어회화,mid-unit3,3,21,언제 준비가 되는지 물어보고 싶었어.,I wanted to ask you when you'll be ready.,snd021_1_4_언제 준비가 되는지 물어보고 싶었어,,snd021_1_4_I wanted to ask you when you'll be ready,,,
+25,미드 영어회화,mid-unit3,3,21,네 의견을 물어보고 싶었어.,I wanted to ask you for your opinion.,snd021_1_5_네 의견을 물어보고 싶었어,,snd021_1_5_I wanted to ask you for your opinion,,,
+26,미드 영어회화,mid-unit3,3,22,내가 생각이 깊지 못한 것에 대해 사과하고 싶었어.,I wanted to apologize for my insensitivity.,snd022_1_1_내가 생각이 깊지 못한 것에 대해 사과하고 싶었어,,snd022_1_1_I wanted to apologize for my insensitivity,,,
+27,미드 영어회화,mid-unit3,3,22,그 돈을 다 써버린 것에 대해 사과하고 싶었어.,I wanted to apologize for spending all the money.,snd022_1_2_그 돈을 다 써버린 것에 대해 사과하고 싶었어,,snd022_1_2_I wanted to apologize for spending all the money,,,
+28,미드 영어회화,mid-unit3,3,22,그걸 비밀로 한 것에 대해 사과하고 싶었어.,I wanted to apologize for keeping it a secret.,snd022_1_3_그걸 비밀로 한 것에 대해 사과하고 싶었어,,snd022_1_3_I wanted to apologize for keeping it a secret,,,
+29,미드 영어회화,mid-unit3,3,22,내가 말을 듣지 않은 것에 대해 사과하고 싶었어.,I wanted to apologize for refusing to listen.,snd022_1_4_내가 말을 듣지 않은 것에 대해 사과하고 싶었어,,snd022_1_4_I wanted to apologize for refusing to listen,,,
+30,미드 영어회화,mid-unit3,3,22,네 아파트를 온통 어지러 놓은 것에 대해 사과하고 싶었어.,I wanted to apologize for messing up your apartment.,snd022_1_5_네 아파트를 온통 어지러 놓은 것에 대해 사과하고 싶었어,,snd022_1_5_I wanted to apologize for messing up your apartment,,,
+31,미드 영어회화,mid-unit3,3,23,그걸 전부 나한테 말해줬으면 좋겠어.,I want you to tell me all about it.,snd023_1_1_그걸 전부 나한테 말해줬으면 좋겠어,,snd023_1_1_I want you to tell me all about it,,,
+32,미드 영어회화,mid-unit3,3,23,내 말을 끝까지 들어줬으면 좋겠어.,I want you to hear me out.,snd023_1_2_내 말을 끝까지 들어줬으면 좋겠어,,snd023_1_2_I want you to hear me out,,,
+33,미드 영어회화,mid-unit3,3,23,진정했으면 좋겠어요.,I want you to slow down.,snd023_1_3_진정했으면 좋겠어요,,snd023_1_3_I want you to slow down,,,
+34,미드 영어회화,mid-unit3,3,23,술을 끊었으면 좋겠어.,I want you to stop drinking.,snd023_1_4_술을 끊었으면 좋겠어,,snd023_1_4_I want you to stop drinking,,,
+35,미드 영어회화,mid-unit3,3,23,취소 했으면 좋겠어.,I want you to call it off.,snd023_1_5_취소 했으면 좋겠어,,snd023_1_5_I want you to call it off,,,
+36,미드 영어회화,mid-unit3,3,24,네가 그걸 그 남자에게 말하지 말길 바랐어.,I didn't want you to tell him that.,snd024_1_1_네가 그걸 그 남자에게 말하지 말길 바랐어,,snd024_1_1_I didn't want you to tell him that,,,
+37,미드 영어회화,mid-unit3,3,24,네가 그 사진을 보는 걸 바라지 않았어.,I didn't want you to see the photo.,snd024_1_2_네가 그 사진을 보는 걸 바라지 않았어,,snd024_1_2_I didn't want you to see the photo,,,
+38,미드 영어회화,mid-unit3,3,24,네가 소외감을 느끼는 걸 바라지 않았어.,I didn't want you to feel left out.Leave out이란 무억을 뺀다는 뜻이니까 feel 다음에 leave out의 과거 분사형인 left out을 붙이면 '소외감을 느낀다'는 표현이 됩니다.,snd024_1_3_네가 소외감을 느끼는 걸 바라지 않았어,,snd024_1_3_I didn't want you to feel left out,,,
+39,미드 영어회화,mid-unit3,3,24,네가 그걸 감정적으로 받아들이는 걸 바라지 않았어.,I didn't want you to take it personally.상대방에게 그냥 단순히 사무적으로 하는 말인데도 이상하게 받아들일 우려가 있다면 Don’t take it personally. 라고 하는것이 좋습니다. 즉 '개인적인 감정을 갖고 그 말을 받아들이지 말라'는 뜻이죠.,snd024_1_4_네가 그걸 감정적으로 받아들이는 걸 바라지 않았어,,snd024_1_4_I didn't want you to take it personally,,,
+40,미드 영어회화,mid-unit3,3,24,네가 규칙을 어기는 것을 바라지 않았어.,I didn't want you to break the rules.,snd024_1_5_네가 규칙을 어기는 것을 바라지 않았어,,snd024_1_5_I didn't want you to break the rules,,,
+41,미드 영어회화,mid-unit3,3,25,나더러 직장을 때려치우라고요?,You want me to quit my job?,snd025_1_1_나더러 직장을 때려치우라고요-,,snd025_1_1_You want me to quit my job-,,,
+42,미드 영어회화,mid-unit3,3,25,나더러 아무 일도 없었던 척 하라고요?,You want me to pretend nothing happened?,snd025_1_2_나더러 아무 일도 없었던 척 하라고요-,,snd025_1_2_You want me to pretend nothing happened-,,,
+43,미드 영어회화,mid-unit3,3,25,내가 사과를 하라고요?,You want me to say I'm sorry?,snd025_1_3_내가 사과를 하라고요-,,snd025_1_3_You want me to say I'm sorry-,,,
+44,미드 영어회화,mid-unit3,3,25,내 정체를 밝히라고요?,You want me to reveal my identity?,snd025_1_4_내 정체를 밝히라고요-,,snd025_1_4_You want me to reveal my identity-,,,
+45,미드 영어회화,mid-unit3,3,25,내가 책임을 맡으라고요?,You want me to take charge?,snd025_1_5_내가 책임을 맡으라고요-,,snd025_1_5_You want me to take charge-,,,
+46,미드 영어회화,mid-unit3,3,26,그 여자는 내가 아이들을 봐주기를 바랐어.,She wanted me to take the kids.,snd026_1_1_그 여자는 내가 아이들을 봐주기를 바랐어,,snd026_1_1_She wanted me to take the kids,,,
+47,미드 영어회화,mid-unit3,3,26,그 여자는 내가 자기 근무시간을 대신해 주기를 바랐어.,She wanted me to cover her shift.,snd026_1_2_그 여자는 내가 자기 근무시간을 대신해 주기를 바랐어,,snd026_1_2_She wanted me to cover her shift,,,
+48,미드 영어회화,mid-unit3,3,26,그 여자는 내가 자기를 구출해 주기를 바랐어.,She wanted me to rescure her.,snd026_1_3_그 여자는 내가 자기를 구출해 주기를 바랐어,,snd026_1_3_She wanted me to rescure her,,,
+49,미드 영어회화,mid-unit3,3,26,그 여자는 내가 너와 상의해 주기를 바랐어.,She wanted me to consult with you.,snd026_1_4_그 여자는 내가 너와 상의해 주기를 바랐어,,snd026_1_4_She wanted me to consult with you,,,
+50,미드 영어회화,mid-unit3,3,26,그 여자는 내가 그 남자를 무시해 주기를 바랐어.,She wanted me to ignore him.,snd026_1_5_그 여자는 내가 그 남자를 무시해 주기를 바랐어,,snd026_1_5_She wanted me to ignore him,,,
+51,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 성공하고 싶어 했는데.,She wanted so much to succeed.,snd027_1_1_그 여자는 정말로 성공하고 싶어 했는데,,snd027_1_1_She wanted so much to succeed,,,
+52,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 새로 시작하고 싶어 했는데.,She wanted so much to start over.,snd027_1_2_그 여자는 정말로 새로 시작하고 싶어 했는데,,snd027_1_2_She wanted so much to start over,,,
+53,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 아기를 갖고 싶어 했지.,She wanted so much to have a baby.,snd027_1_3_그 여자는 정말로 아기를 갖고 싶어 했지,,snd027_1_3_She wanted so much to have a baby,,,
+54,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 내 계획을 망쳐놓고 싶어 했는데.,She wanted so much to ruin my plans.,snd027_1_4_그 여자는 정말로 내 계획을 망쳐놓고 싶어 했는데,,snd027_1_4_She wanted so much to ruin my plans,,,
+55,미드 영어회화,mid-unit3,3,27,그 여자는 그게 사살이 아니라는 말을 정말로 듣고 싶어 했는데.,She wanted so much to hear that it wasn't true.,snd027_1_5_그 여자는 그게 사살이 아니라는 말을 정말로 듣고 싶어 했는데,,snd027_1_5_She wanted so much to hear that it wasn't true,,,
+56,미드 영어회화,mid-unit3,3,28,등을 두드려줄까?,You want a pat on the back?,snd028_1_1_등을 두드려줄까-,,snd028_1_1_You want a pat on the back-,,,
+57,미드 영어회화,mid-unit3,3,28,기회를 한번 더 줄까?,You want a second chance?,snd028_1_2_기회를 한번 더 줄까-,,snd028_1_2_You want a second chance-,,,
+58,미드 영어회화,mid-unit3,3,28,아파트를 따로 얻기를 바라니?,You want a separate apartment?,snd028_1_3_아파트를 따로 얻기를 바라니-,,snd028_1_3_You want a separate apartment-,,,
+59,미드 영어회화,mid-unit3,3,28,좀더 좋은 조건을 바라니?,You want a better deal?,snd028_1_4_좀더 좋은 조건을 바라니-,,snd028_1_4_You want a better deal-,,,
+60,미드 영어회화,mid-unit3,3,28,완벽한 짝을 바라니?,You want a perfect mate?,snd028_1_5_완벽한 짝을 바라니-,,snd028_1_5_You want a perfect mate-,,,
+61,미드 영어회화,mid-unit3,3,29,피자 주문하기를 바라니?,You wanna order pizza?,snd029_1_1_피자 주문하기를 바라니-,,snd029_1_1_You wanna order pizza-,,,
+62,미드 영어회화,mid-unit3,3,29,싸우고 싶니?,You wanna fight?,snd029_1_2_싸우고 싶니-,,snd029_1_2_You wanna fight-,,,
+63,미드 영어회화,mid-unit3,3,29,센트럴 파크에서 볼까?,You wanna meet at Central Park?,snd029_1_3_센트럴 파크에서 볼까-,,snd029_1_3_You wanna meet at Central Park-,,,
+64,미드 영어회화,mid-unit3,3,29,그말을 취소 하고 싶니?,You wanna take it back?,snd029_1_4_그말을 취소 하고 싶니-,,snd029_1_4_You wanna take it back-,,,
+65,미드 영어회화,mid-unit3,3,29,교도소장을 만나기를 바라니?,You wanna meet with the warden?,snd029_1_5_교도소장을 만나기를 바라니-,,snd029_1_5_You wanna meet with the warden-,,,
+66,미드 영어회화,mid-unit3,3,30,오늘밤에는 어디 가서 먹고 싶니?,Where do you wanna eat tonight?,snd030_1_1_오늘밤에는 어디 가서 먹고 싶니-,,snd030_1_1_Where do you wanna eat tonight-,,,
+67,미드 영어회화,mid-unit3,3,30,아이들을 어디로 데려가고 싶니?,Where do you wanna take the kids?,snd030_1_2_아이들을 어디로 데려가고 싶니-,,snd030_1_2_Where do you wanna take the kids-,,,
+68,미드 영어회화,mid-unit3,3,30,어디로 이사가고 싶니?,Where do you wanna move to?,snd030_1_3_어디로 이사가고 싶니-,,snd030_1_3_Where do you wanna move to-,,,
+69,미드 영어회화,mid-unit3,3,30,휴가때 어디로 가고 싶니?,Where do you wanna go on vacation?,snd030_1_4_휴가때 어디로 가고 싶니-,,snd030_1_4_Where do you wanna go on vacation-,,,
+70,미드 영어회화,mid-unit3,3,30,어느 학교에 다니고 싶니?,Where do you wanna go to school?,snd030_1_5_어느 학교에 다니고 싶니-,,snd030_1_5_Where do you wanna go to school-,,,
+71,미드 영어회화,mid-unit3,3,31,왜 독약을 먹고 자살하려고 하니?,Why do you want to poison yourself?,snd031_1_1_왜 독약을 먹고 자살하려고 하니-,,snd031_1_1_Why do you want to poison yourself-,,,
+72,미드 영어회화,mid-unit3,3,31,왜 이제와서 포기하려고 하니?,Why do you want give up now?,snd031_1_2_왜 이제와서 포기하려고 하니-,,snd031_1_2_Why do you want give up now-,,,
+73,미드 영어회화,mid-unit3,3,31,왜 보복하고 싶어 하니?,Why do you want to get event?,snd031_1_3_왜 보복하고 싶어 하니-,,snd031_1_3_Why do you want to get event-,,,
+74,미드 영어회화,mid-unit3,3,31,왜 내 물건을 망가뜨리려고 하나?,Why do you want to destory my things?,snd031_1_4_왜 내 물건을 망가뜨리려고 하나-,,snd031_1_4_Why do you want to destory my things-,,,
+75,미드 영어회화,mid-unit3,3,31,왜 그런 위험을 감수 하려고 하니?,Why do you want to take such risks?,snd031_1_5_왜 그런 위험을 감수 하려고 하니-,,snd031_1_5_Why do you want to take such risks-,,,
+76,미드 영어회화,mid-unit3,3,32,누가 넌 댄스파티에 데려갔으면 좋겠니?,Who do you want to take you to the dance?Dance는 물론 춤을 뜻하지만 그 말 자체에 '댄스파티(dance party)'란 의미가 있습니다.,snd032_1_1_누가 넌 댄스파티에 데려갔으면 좋겠니-,,snd032_1_1_Who do you want to take you to the dance-,,,
+77,미드 영어회화,mid-unit3,3,32,누가 상점을 운영했으면 좋겠니?,Who do you want to run the store?,snd032_1_2_누가 상점을 운영했으면 좋겠니-,,snd032_1_2_Who do you want to run the store-,,,
+78,미드 영어회화,mid-unit3,3,32,누구랑 밤을 보내고 싶니?,Who do you want to spend the night with?,snd032_1_3_누구랑 밤을 보내고 싶니-,,snd032_1_3_Who do you want to spend the night with-,,,
+79,미드 영어회화,mid-unit3,3,32,누가 널 보석으로 빼주었으면 좋겠니?,Who do you want to bail you out of jail?,snd032_1_4_누가 널 보석으로 빼주었으면 좋겠니-,,snd032_1_4_Who do you want to bail you out of jail-,,,
+80,미드 영어회화,mid-unit3,3,32,누가 돈을 관리하기를 바라니?,Who do you want handling the money?,snd032_1_5_누가 돈을 관리하기를 바라니-,,snd032_1_5_Who do you want handling the money-,,,
+81,미드 영어회화,mid-unit3,3,33,너만 좋다면 니 얘기를 좋게 말해줄 수도 있어,If you want I could put in a good word for you.,snd033_1_1_너만 좋다면 니 얘기를 좋게 말해줄 수도 있어,,snd033_1_1_If you want I could put in a good word for you,,,
+82,미드 영어회화,mid-unit3,3,33,너만 좋다면 내 까만 드레스를 빌려 줄 수도 있어.,If you want I could loan you my black dress.,snd033_1_2_너만 좋다면 내 까만 드레스를 빌려 줄 수도 있어,,snd033_1_2_If you want I could loan you my black dress,,,
+83,미드 영어회화,mid-unit3,3,33,니가 좋다면 난 그냥 집에 있을 수 있어.,If you want I could stay home instead.,snd033_1_3_니가 좋다면 난 그냥 집에 있을 수 있어,,snd033_1_3_If you want I could stay home instead,,,
+84,미드 영어회화,mid-unit3,3,33,네가 그렇게 하고 싶다면 영화는 니가 고를 수도 있어.,If you want I could let you choose the movie.,snd033_1_4_네가 그렇게 하고 싶다면 영화는 니가 고를 수도 있어,,snd033_1_4_If you want I could let you choose the movie,,,
+85,미드 영어회화,mid-unit3,3,33,네가 바란다면 내가 직접 보여줄 수 도 있어.,If you want I could show you myself.,snd033_1_5_네가 바란다면 내가 직접 보여줄 수 도 있어,,snd033_1_5_If you want I could show you myself,,,
+86,미드 영어회화,mid-unit3,3,34,지금 떠나면 후회하게 될 거야.,If you wanna leave now you're gonna regret it.,snd034_1_1_지금 떠나면 후회하게 될 거야,,snd034_1_1_If you wanna leave now you're gonna regret it,,,
+87,미드 영어회화,mid-unit3,3,34,탈옥하고 싶다면 계획을 잘 세워야 될 거야.,If you wanna escape you're gonna need a good plan.,snd034_1_2_탈옥하고 싶다면 계획을 잘 세워야 될 거야,,snd034_1_2_If you wanna escape you're gonna need a good plan,,,
+88,미드 영어회화,mid-unit3,3,34,내 친구가 되고 싶다면 참을성이 있어야지.,If you wanna be my friend you're gonna need patience.,snd034_1_3_내 친구가 되고 싶다면 참을성이 있어야지,,snd034_1_3_If you wanna be my friend you're gonna need patience,,,
+89,미드 영어회화,mid-unit3,3,34,돈을 많이 벌고 싶다면 열심히 일해야 할 거야.,If you wanna make big money you're gonna have to work hard.,snd034_1_4_돈을 많이 벌고 싶다면 열심히 일해야 할 거야,,snd034_1_4_If you wanna make big money you're gonna have to work hard,,,
+90,미드 영어회화,mid-unit3,3,34,여자를 꼬시고 싶으면 샤워를 해야 할 거야.,If you wanna attract women you're gonna have to shower.,snd034_1_5_여자를 꼬시고 싶으면 샤워를 해야 할 거야,,snd034_1_5_If you wanna attract women you're gonna have to shower,,,
+91,미드 영어회화,mid-unit3,3,35,내가 더 열심히 해주기를 바란다면 나를 도와야 해.,If you want me to try harder you better support me.,snd035_1_1_내가 더 열심히 해주기를 바란다면 나를 도와야 해,,snd035_1_1_If you want me to try harder you better support me,,,
+92,미드 영어회화,mid-unit3,3,35,내가 이기기를 바란다면 나를 비난하는 걸 그만두어야 해.,If you want me to win you better stop criticizing me.,snd035_1_2_내가 이기기를 바란다면 나를 비난하는 걸 그만두어야 해,,snd035_1_2_If you want me to win you better stop criticizing me,,,
+93,미드 영어회화,mid-unit3,3,35,내가 훔쳐 주기를 바란다면 나눠가질 준비를 해야 해.,If you want me to steal for you you better be prepared to share.,snd035_1_3_내가 훔쳐 주기를 바란다면 나눠가질 준비를 해야 해,,snd035_1_3_If you want me to steal for you you better be prepared to share,,,
+94,미드 영어회화,mid-unit3,3,35,내가 스페인어를 가르쳐주기를 바란다면 주의를 기울여야 해.,If you want me to teach you Spanish you better pay attention.,snd035_1_4_내가 스페인어를 가르쳐주기를 바란다면 주의를 기울여야 해,,snd035_1_4_If you want me to teach you Spanish you better pay attention,,,
+95,미드 영어회화,mid-unit3,3,35,내가 니 얘기를 믿기를 바란다면 그걸 증명해야 해.,If you want me to believe you you better be able to prove it.,snd035_1_5_내가 니 얘기를 믿기를 바란다면 그걸 증명해야 해,,snd035_1_5_If you want me to believe you you better be able to prove it,,,
+96,미드 영어회화,mid-unit3,3,36,난 절대로 그 남자와는 자고 싶지 않아.,Last thing I want to do is sleep with him.,snd036_1_1_난 절대로 그 남자와는 자고 싶지 않아,,snd036_1_1_Last thing I want to do is sleep with him,,,
+97,미드 영어회화,mid-unit3,3,36,난 절대로 모두 다시 시작하고 싶지는 않아.,Last thing I want to do is start all over again.,snd036_1_2_난 절대로 모두 다시 시작하고 싶지는 않아,,snd036_1_2_Last thing I want to do is start all over again,,,
+98,미드 영어회화,mid-unit3,3,36,난 절대로 평생 도망다니며 살고 싶지는 않아.,Last thing I want to do is run for the rest of my life.,snd036_1_3_난 절대로 평생 도망다니며 살고 싶지는 않아,,snd036_1_3_Last thing I want to do is run for the rest of my life,,,
+99,미드 영어회화,mid-unit3,3,36,난 절대로 참견하고 싶지는 않아.,Last thing I want to do is butt in.,snd036_1_4_난 절대로 참견하고 싶지는 않아,,snd036_1_4_Last thing I want to do is butt in,,,
+100,미드 영어회화,mid-unit3,3,36,난 절대로 소문을 퍼뜨리고 싶지 않아.,Last thing I want to do is spread gossip.,snd036_1_5_난 절대로 소문을 퍼뜨리고 싶지 않아,,snd036_1_5_Last thing I want to do is spread gossip,,,
+미-패U03-1-Part1,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,17,좀 쉬고 싶어.,I wanna take some time off.,snd017_1_1_좀 쉬고 싶어,0,snd017_1_1_I wanna take some time off,1,,
+2,미드 영어회화,mid-unit3,3,17,아기를 갖고 싶어.,I wanna baby.,snd017_1_2_아기를 갖고 싶어,,snd017_1_2_I wanna baby,,,
+3,미드 영어회화,mid-unit3,3,17,내 사업을 하고 싶어.,I wanna be my own boss.,snd017_1_3_내 사업을 하고 싶어,,snd017_1_3_I wanna be my own boss,,,
+4,미드 영어회화,mid-unit3,3,17,내가 직접 그것을 보고 싶어.,I wanna see it for myself.,snd017_1_4_내가 직접 그것을 보고 싶어,,snd017_1_4_I wanna see it for myself,,,
+5,미드 영어회화,mid-unit3,3,17,취하고 싶어.,I wanna get drunk.,snd017_1_5_취하고 싶어,,snd017_1_5_I wanna get drunk,,,
+6,미드 영어회화,mid-unit3,3,18,그 남자에게 두 번 다시 기회를 주고 싶지 않아.,I don't wanna give him a second chance.,snd018_1_1_그 남자에게 두 번 다시 기회를 주고 싶지 않아,,snd018_1_1_I don't wanna give him a second chance,,,
+7,미드 영어회화,mid-unit3,3,18,네 여자 친구를 가로채고 싶지 않아.,I don't wanna steal your girlfriend.,snd018_1_2_네 여자 친구를 가로채고 싶지 않아,,snd018_1_2_I don't wanna steal your girlfriend,,,
+8,미드 영어회화,mid-unit3,3,18,다이어트를 하고 싶지 않아.,I don't wanna go on a diet.,snd018_1_3_다이어트를 하고 싶지 않아,,snd018_1_3_I don't wanna go on a diet,,,
+9,미드 영어회화,mid-unit3,3,18,정신과 의사한테 가고 싶지 않아.,I don't wanna see a psychiatrist.,snd018_1_4_정신과 의사한테 가고 싶지 않아,,snd018_1_4_I don't wanna see a psychiatrist,,,
+10,미드 영어회화,mid-unit3,3,18,그 수술을 받고 싶지 않아.,I don't wanna have the surgery.,snd018_1_5_그 수술을 받고 싶지 않아,,snd018_1_5_I don't wanna have the surgery,,,
+11,미드 영어회화,mid-unit3,3,19,네게 상처를 주는 것은 싫었어.,I never wanted to hurt your feelings.,snd019_1_1_네게 상처를 주는 것은 싫었어,,snd019_1_1_I never wanted to hurt your feelings,,,
+12,미드 영어회화,mid-unit3,3,19,네 일자리를 차지하는 것은 정말 싫었어.,I never wanted to have your job.,snd019_1_2_네 일자리를 차지하는 것은 정말 싫었어,,snd019_1_2_I never wanted to have your job,,,
+13,미드 영어회화,mid-unit3,3,19,난 애당초 헤어지는 것은 정말 싫었어.,I never wanted to break up in the first place.'애당초' in the first place 입니다. 그래서  I Should never have gone th the first place. 라고 하면 처음부터 뭔가가 잘못됐다는 표현입니다.,snd019_1_3_난 애당초 헤어지는 것은 정말 싫었어,,snd019_1_3_I never wanted to break up in the first place,,,
+14,미드 영어회화,mid-unit3,3,19,약속을 깨는 것은 정말 싫었어.,I never wanted to break my promise.,snd019_1_4_약속을 깨는 것은 정말 싫었어,,snd019_1_4_I never wanted to break my promise,,,
+15,미드 영어회화,mid-unit3,3,19,그 여자 목소리를 다시 듣는 것은 정말 싫었어.,I never wanted to hear her voice again.,snd019_1_5_그 여자 목소리를 다시 듣는 것은 정말 싫었어,,snd019_1_5_I never wanted to hear her voice again,,,
+16,미드 영어회화,mid-unit3,3,20,그냥 거기서 나오고 싶었을 뿐이야.,I just wanted to get out of there.,snd020_1_1_그냥 거기서 나오고 싶었을 뿐이야,,snd020_1_1_I just wanted to get out of there,,,
+17,미드 영어회화,mid-unit3,3,20,그냥 널 안심시키고 싶었을 뿐이야.,I just wanted to reassure you.,snd020_1_2_그냥 널 안심시키고 싶었을 뿐이야,,snd020_1_2_I just wanted to reassure you,,,
+18,미드 영어회화,mid-unit3,3,20,그냥 내 방식대로 하고 싶었을 뿐이야.,I just wanted to do it my way.,snd020_1_3_그냥 내 방식대로 하고 싶었을 뿐이야,,snd020_1_3_I just wanted to do it my way,,,
+19,미드 영어회화,mid-unit3,3,20,그냥 그 여자를 마지막으로 한 번 보고 싶었을 뿐이야.,I just wanted to see her one last time.,snd020_1_4_그냥 그 여자를 마지막으로 한 번 보고 싶었을 뿐이야,,snd020_1_4_I just wanted to see her one last time,,,
+20,미드 영어회화,mid-unit3,3,20,그냥 정신을 가다듬고 싶었을 뿐이야.,I just wanted to collect myself.중요한 회의를 앞두고는 정신을 가다듬을 필요가 있죠. 이럴 때는 collect oneself라는 표현이 어울립니다.,snd020_1_5_그냥 정신을 가다듬고 싶었을 뿐이야,,snd020_1_5_I just wanted to collect myself,,,
+미-패U03-1-Part2,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,21,네 차를 빌릴 수 있는지 물어보고 싶었어.,I wanted to ask you if I can borrow your car.,snd021_1_1_네 차를 빌릴 수 있는지 물어보고 싶었어,,snd021_1_1_I wanted to ask you if I can borrow your car,,,
+2,미드 영어회화,mid-unit3,3,21,우리 아기를 봐줄 수 있는지 물어보고 싶었어.,I wanted to ask you if you could babysit.,snd021_1_2_우리 아기를 봐줄 수 있는지 물어보고 싶었어,,snd021_1_2_I wanted to ask you if you could babysit,,,
+3,미드 영어회화,mid-unit3,3,21,그 여자에게 어떻게 말을 하면 되는지 물어보고 싶었어.,I wanted to ask you how to talk to her.,snd021_1_3_그 여자에게 어떻게 말을 하면 되는지 물어보고 싶었어,,snd021_1_3_I wanted to ask you how to talk to her,,,
+4,미드 영어회화,mid-unit3,3,21,언제 준비가 되는지 물어보고 싶었어.,I wanted to ask you when you'll be ready.,snd021_1_4_언제 준비가 되는지 물어보고 싶었어,,snd021_1_4_I wanted to ask you when you'll be ready,,,
+5,미드 영어회화,mid-unit3,3,21,네 의견을 물어보고 싶었어.,I wanted to ask you for your opinion.,snd021_1_5_네 의견을 물어보고 싶었어,,snd021_1_5_I wanted to ask you for your opinion,,,
+6,미드 영어회화,mid-unit3,3,22,내가 생각이 깊지 못한 것에 대해 사과하고 싶었어.,I wanted to apologize for my insensitivity.,snd022_1_1_내가 생각이 깊지 못한 것에 대해 사과하고 싶었어,,snd022_1_1_I wanted to apologize for my insensitivity,,,
+7,미드 영어회화,mid-unit3,3,22,그 돈을 다 써버린 것에 대해 사과하고 싶었어.,I wanted to apologize for spending all the money.,snd022_1_2_그 돈을 다 써버린 것에 대해 사과하고 싶었어,,snd022_1_2_I wanted to apologize for spending all the money,,,
+8,미드 영어회화,mid-unit3,3,22,그걸 비밀로 한 것에 대해 사과하고 싶었어.,I wanted to apologize for keeping it a secret.,snd022_1_3_그걸 비밀로 한 것에 대해 사과하고 싶었어,,snd022_1_3_I wanted to apologize for keeping it a secret,,,
+9,미드 영어회화,mid-unit3,3,22,내가 말을 듣지 않은 것에 대해 사과하고 싶었어.,I wanted to apologize for refusing to listen.,snd022_1_4_내가 말을 듣지 않은 것에 대해 사과하고 싶었어,,snd022_1_4_I wanted to apologize for refusing to listen,,,
+10,미드 영어회화,mid-unit3,3,22,네 아파트를 온통 어지러 놓은 것에 대해 사과하고 싶었어.,I wanted to apologize for messing up your apartment.,snd022_1_5_네 아파트를 온통 어지러 놓은 것에 대해 사과하고 싶었어,,snd022_1_5_I wanted to apologize for messing up your apartment,,,
+11,미드 영어회화,mid-unit3,3,23,그걸 전부 나한테 말해줬으면 좋겠어.,I want you to tell me all about it.,snd023_1_1_그걸 전부 나한테 말해줬으면 좋겠어,,snd023_1_1_I want you to tell me all about it,,,
+12,미드 영어회화,mid-unit3,3,23,내 말을 끝까지 들어줬으면 좋겠어.,I want you to hear me out.,snd023_1_2_내 말을 끝까지 들어줬으면 좋겠어,,snd023_1_2_I want you to hear me out,,,
+13,미드 영어회화,mid-unit3,3,23,진정했으면 좋겠어요.,I want you to slow down.,snd023_1_3_진정했으면 좋겠어요,,snd023_1_3_I want you to slow down,,,
+14,미드 영어회화,mid-unit3,3,23,술을 끊었으면 좋겠어.,I want you to stop drinking.,snd023_1_4_술을 끊었으면 좋겠어,,snd023_1_4_I want you to stop drinking,,,
+15,미드 영어회화,mid-unit3,3,23,취소 했으면 좋겠어.,I want you to call it off.,snd023_1_5_취소 했으면 좋겠어,,snd023_1_5_I want you to call it off,,,
+16,미드 영어회화,mid-unit3,3,24,네가 그걸 그 남자에게 말하지 말길 바랐어.,I didn't want you to tell him that.,snd024_1_1_네가 그걸 그 남자에게 말하지 말길 바랐어,,snd024_1_1_I didn't want you to tell him that,,,
+17,미드 영어회화,mid-unit3,3,24,네가 그 사진을 보는 걸 바라지 않았어.,I didn't want you to see the photo.,snd024_1_2_네가 그 사진을 보는 걸 바라지 않았어,,snd024_1_2_I didn't want you to see the photo,,,
+18,미드 영어회화,mid-unit3,3,24,네가 소외감을 느끼는 걸 바라지 않았어.,I didn't want you to feel left out.Leave out이란 무억을 뺀다는 뜻이니까 feel 다음에 leave out의 과거 분사형인 left out을 붙이면 '소외감을 느낀다'는 표현이 됩니다.,snd024_1_3_네가 소외감을 느끼는 걸 바라지 않았어,,snd024_1_3_I didn't want you to feel left out,,,
+19,미드 영어회화,mid-unit3,3,24,네가 그걸 감정적으로 받아들이는 걸 바라지 않았어.,I didn't want you to take it personally.상대방에게 그냥 단순히 사무적으로 하는 말인데도 이상하게 받아들일 우려가 있다면 Don’t take it personally. 라고 하는것이 좋습니다. 즉 '개인적인 감정을 갖고 그 말을 받아들이지 말라'는 뜻이죠.,snd024_1_4_네가 그걸 감정적으로 받아들이는 걸 바라지 않았어,,snd024_1_4_I didn't want you to take it personally,,,
+20,미드 영어회화,mid-unit3,3,24,네가 규칙을 어기는 것을 바라지 않았어.,I didn't want you to break the rules.,snd024_1_5_네가 규칙을 어기는 것을 바라지 않았어,,snd024_1_5_I didn't want you to break the rules,,,
+미-패U03-1-Part3,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,25,나더러 직장을 때려치우라고요?,You want me to quit my job?,snd025_1_1_나더러 직장을 때려치우라고요-,,snd025_1_1_You want me to quit my job-,,,
+2,미드 영어회화,mid-unit3,3,25,나더러 아무 일도 없었던 척 하라고요?,You want me to pretend nothing happened?,snd025_1_2_나더러 아무 일도 없었던 척 하라고요-,,snd025_1_2_You want me to pretend nothing happened-,,,
+3,미드 영어회화,mid-unit3,3,25,내가 사과를 하라고요?,You want me to say I'm sorry?,snd025_1_3_내가 사과를 하라고요-,,snd025_1_3_You want me to say I'm sorry-,,,
+4,미드 영어회화,mid-unit3,3,25,내 정체를 밝히라고요?,You want me to reveal my identity?,snd025_1_4_내 정체를 밝히라고요-,,snd025_1_4_You want me to reveal my identity-,,,
+5,미드 영어회화,mid-unit3,3,25,내가 책임을 맡으라고요?,You want me to take charge?,snd025_1_5_내가 책임을 맡으라고요-,,snd025_1_5_You want me to take charge-,,,
+6,미드 영어회화,mid-unit3,3,26,그 여자는 내가 아이들을 봐주기를 바랐어.,She wanted me to take the kids.,snd026_1_1_그 여자는 내가 아이들을 봐주기를 바랐어,,snd026_1_1_She wanted me to take the kids,,,
+7,미드 영어회화,mid-unit3,3,26,그 여자는 내가 자기 근무시간을 대신해 주기를 바랐어.,She wanted me to cover her shift.,snd026_1_2_그 여자는 내가 자기 근무시간을 대신해 주기를 바랐어,,snd026_1_2_She wanted me to cover her shift,,,
+8,미드 영어회화,mid-unit3,3,26,그 여자는 내가 자기를 구출해 주기를 바랐어.,She wanted me to rescure her.,snd026_1_3_그 여자는 내가 자기를 구출해 주기를 바랐어,,snd026_1_3_She wanted me to rescure her,,,
+9,미드 영어회화,mid-unit3,3,26,그 여자는 내가 너와 상의해 주기를 바랐어.,She wanted me to consult with you.,snd026_1_4_그 여자는 내가 너와 상의해 주기를 바랐어,,snd026_1_4_She wanted me to consult with you,,,
+10,미드 영어회화,mid-unit3,3,26,그 여자는 내가 그 남자를 무시해 주기를 바랐어.,She wanted me to ignore him.,snd026_1_5_그 여자는 내가 그 남자를 무시해 주기를 바랐어,,snd026_1_5_She wanted me to ignore him,,,
+11,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 성공하고 싶어 했는데.,She wanted so much to succeed.,snd027_1_1_그 여자는 정말로 성공하고 싶어 했는데,,snd027_1_1_She wanted so much to succeed,,,
+12,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 새로 시작하고 싶어 했는데.,She wanted so much to start over.,snd027_1_2_그 여자는 정말로 새로 시작하고 싶어 했는데,,snd027_1_2_She wanted so much to start over,,,
+13,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 아기를 갖고 싶어 했지.,She wanted so much to have a baby.,snd027_1_3_그 여자는 정말로 아기를 갖고 싶어 했지,,snd027_1_3_She wanted so much to have a baby,,,
+14,미드 영어회화,mid-unit3,3,27,그 여자는 정말로 내 계획을 망쳐놓고 싶어 했는데.,She wanted so much to ruin my plans.,snd027_1_4_그 여자는 정말로 내 계획을 망쳐놓고 싶어 했는데,,snd027_1_4_She wanted so much to ruin my plans,,,
+15,미드 영어회화,mid-unit3,3,27,그 여자는 그게 사살이 아니라는 말을 정말로 듣고 싶어 했는데.,She wanted so much to hear that it wasn't true.,snd027_1_5_그 여자는 그게 사살이 아니라는 말을 정말로 듣고 싶어 했는데,,snd027_1_5_She wanted so much to hear that it wasn't true,,,
+16,미드 영어회화,mid-unit3,3,28,등을 두드려줄까?,You want a pat on the back?,snd028_1_1_등을 두드려줄까-,,snd028_1_1_You want a pat on the back-,,,
+17,미드 영어회화,mid-unit3,3,28,기회를 한번 더 줄까?,You want a second chance?,snd028_1_2_기회를 한번 더 줄까-,,snd028_1_2_You want a second chance-,,,
+18,미드 영어회화,mid-unit3,3,28,아파트를 따로 얻기를 바라니?,You want a separate apartment?,snd028_1_3_아파트를 따로 얻기를 바라니-,,snd028_1_3_You want a separate apartment-,,,
+19,미드 영어회화,mid-unit3,3,28,좀더 좋은 조건을 바라니?,You want a better deal?,snd028_1_4_좀더 좋은 조건을 바라니-,,snd028_1_4_You want a better deal-,,,
+20,미드 영어회화,mid-unit3,3,28,완벽한 짝을 바라니?,You want a perfect mate?,snd028_1_5_완벽한 짝을 바라니-,,snd028_1_5_You want a perfect mate-,,,
+미-패U03-1-Part4,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,29,피자 주문하기를 바라니?,You wanna order pizza?,snd029_1_1_피자 주문하기를 바라니-,,snd029_1_1_You wanna order pizza-,,,
+2,미드 영어회화,mid-unit3,3,29,싸우고 싶니?,You wanna fight?,snd029_1_2_싸우고 싶니-,,snd029_1_2_You wanna fight-,,,
+3,미드 영어회화,mid-unit3,3,29,센트럴 파크에서 볼까?,You wanna meet at Central Park?,snd029_1_3_센트럴 파크에서 볼까-,,snd029_1_3_You wanna meet at Central Park-,,,
+4,미드 영어회화,mid-unit3,3,29,그말을 취소 하고 싶니?,You wanna take it back?,snd029_1_4_그말을 취소 하고 싶니-,,snd029_1_4_You wanna take it back-,,,
+5,미드 영어회화,mid-unit3,3,29,교도소장을 만나기를 바라니?,You wanna meet with the warden?,snd029_1_5_교도소장을 만나기를 바라니-,,snd029_1_5_You wanna meet with the warden-,,,
+6,미드 영어회화,mid-unit3,3,30,오늘밤에는 어디 가서 먹고 싶니?,Where do you wanna eat tonight?,snd030_1_1_오늘밤에는 어디 가서 먹고 싶니-,,snd030_1_1_Where do you wanna eat tonight-,,,
+7,미드 영어회화,mid-unit3,3,30,아이들을 어디로 데려가고 싶니?,Where do you wanna take the kids?,snd030_1_2_아이들을 어디로 데려가고 싶니-,,snd030_1_2_Where do you wanna take the kids-,,,
+8,미드 영어회화,mid-unit3,3,30,어디로 이사가고 싶니?,Where do you wanna move to?,snd030_1_3_어디로 이사가고 싶니-,,snd030_1_3_Where do you wanna move to-,,,
+9,미드 영어회화,mid-unit3,3,30,휴가때 어디로 가고 싶니?,Where do you wanna go on vacation?,snd030_1_4_휴가때 어디로 가고 싶니-,,snd030_1_4_Where do you wanna go on vacation-,,,
+10,미드 영어회화,mid-unit3,3,30,어느 학교에 다니고 싶니?,Where do you wanna go to school?,snd030_1_5_어느 학교에 다니고 싶니-,,snd030_1_5_Where do you wanna go to school-,,,
+11,미드 영어회화,mid-unit3,3,31,왜 독약을 먹고 자살하려고 하니?,Why do you want to poison yourself?,snd031_1_1_왜 독약을 먹고 자살하려고 하니-,,snd031_1_1_Why do you want to poison yourself-,,,
+12,미드 영어회화,mid-unit3,3,31,왜 이제와서 포기하려고 하니?,Why do you want give up now?,snd031_1_2_왜 이제와서 포기하려고 하니-,,snd031_1_2_Why do you want give up now-,,,
+13,미드 영어회화,mid-unit3,3,31,왜 보복하고 싶어 하니?,Why do you want to get event?,snd031_1_3_왜 보복하고 싶어 하니-,,snd031_1_3_Why do you want to get event-,,,
+14,미드 영어회화,mid-unit3,3,31,왜 내 물건을 망가뜨리려고 하나?,Why do you want to destory my things?,snd031_1_4_왜 내 물건을 망가뜨리려고 하나-,,snd031_1_4_Why do you want to destory my things-,,,
+15,미드 영어회화,mid-unit3,3,31,왜 그런 위험을 감수 하려고 하니?,Why do you want to take such risks?,snd031_1_5_왜 그런 위험을 감수 하려고 하니-,,snd031_1_5_Why do you want to take such risks-,,,
+16,미드 영어회화,mid-unit3,3,32,누가 넌 댄스파티에 데려갔으면 좋겠니?,Who do you want to take you to the dance?Dance는 물론 춤을 뜻하지만 그 말 자체에 '댄스파티(dance party)'란 의미가 있습니다.,snd032_1_1_누가 넌 댄스파티에 데려갔으면 좋겠니-,,snd032_1_1_Who do you want to take you to the dance-,,,
+17,미드 영어회화,mid-unit3,3,32,누가 상점을 운영했으면 좋겠니?,Who do you want to run the store?,snd032_1_2_누가 상점을 운영했으면 좋겠니-,,snd032_1_2_Who do you want to run the store-,,,
+18,미드 영어회화,mid-unit3,3,32,누구랑 밤을 보내고 싶니?,Who do you want to spend the night with?,snd032_1_3_누구랑 밤을 보내고 싶니-,,snd032_1_3_Who do you want to spend the night with-,,,
+19,미드 영어회화,mid-unit3,3,32,누가 널 보석으로 빼주었으면 좋겠니?,Who do you want to bail you out of jail?,snd032_1_4_누가 널 보석으로 빼주었으면 좋겠니-,,snd032_1_4_Who do you want to bail you out of jail-,,,
+20,미드 영어회화,mid-unit3,3,32,누가 돈을 관리하기를 바라니?,Who do you want handling the money?,snd032_1_5_누가 돈을 관리하기를 바라니-,,snd032_1_5_Who do you want handling the money-,,,
+미-패U03-1-Part5,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit3,3,33,너만 좋다면 니 얘기를 좋게 말해줄 수도 있어,If you want I could put in a good word for you.,snd033_1_1_너만 좋다면 니 얘기를 좋게 말해줄 수도 있어,,snd033_1_1_If you want I could put in a good word for you,,,
+2,미드 영어회화,mid-unit3,3,33,너만 좋다면 내 까만 드레스를 빌려 줄 수도 있어.,If you want I could loan you my black dress.,snd033_1_2_너만 좋다면 내 까만 드레스를 빌려 줄 수도 있어,,snd033_1_2_If you want I could loan you my black dress,,,
+3,미드 영어회화,mid-unit3,3,33,니가 좋다면 난 그냥 집에 있을 수 있어.,If you want I could stay home instead.,snd033_1_3_니가 좋다면 난 그냥 집에 있을 수 있어,,snd033_1_3_If you want I could stay home instead,,,
+4,미드 영어회화,mid-unit3,3,33,네가 그렇게 하고 싶다면 영화는 니가 고를 수도 있어.,If you want I could let you choose the movie.,snd033_1_4_네가 그렇게 하고 싶다면 영화는 니가 고를 수도 있어,,snd033_1_4_If you want I could let you choose the movie,,,
+5,미드 영어회화,mid-unit3,3,33,네가 바란다면 내가 직접 보여줄 수 도 있어.,If you want I could show you myself.,snd033_1_5_네가 바란다면 내가 직접 보여줄 수 도 있어,,snd033_1_5_If you want I could show you myself,,,
+6,미드 영어회화,mid-unit3,3,34,지금 떠나면 후회하게 될 거야.,If you wanna leave now you're gonna regret it.,snd034_1_1_지금 떠나면 후회하게 될 거야,,snd034_1_1_If you wanna leave now you're gonna regret it,,,
+7,미드 영어회화,mid-unit3,3,34,탈옥하고 싶다면 계획을 잘 세워야 될 거야.,If you wanna escape you're gonna need a good plan.,snd034_1_2_탈옥하고 싶다면 계획을 잘 세워야 될 거야,,snd034_1_2_If you wanna escape you're gonna need a good plan,,,
+8,미드 영어회화,mid-unit3,3,34,내 친구가 되고 싶다면 참을성이 있어야지.,If you wanna be my friend you're gonna need patience.,snd034_1_3_내 친구가 되고 싶다면 참을성이 있어야지,,snd034_1_3_If you wanna be my friend you're gonna need patience,,,
+9,미드 영어회화,mid-unit3,3,34,돈을 많이 벌고 싶다면 열심히 일해야 할 거야.,If you wanna make big money you're gonna have to work hard.,snd034_1_4_돈을 많이 벌고 싶다면 열심히 일해야 할 거야,,snd034_1_4_If you wanna make big money you're gonna have to work hard,,,
+10,미드 영어회화,mid-unit3,3,34,여자를 꼬시고 싶으면 샤워를 해야 할 거야.,If you wanna attract women you're gonna have to shower.,snd034_1_5_여자를 꼬시고 싶으면 샤워를 해야 할 거야,,snd034_1_5_If you wanna attract women you're gonna have to shower,,,
+11,미드 영어회화,mid-unit3,3,35,내가 더 열심히 해주기를 바란다면 나를 도와야 해.,If you want me to try harder you better support me.,snd035_1_1_내가 더 열심히 해주기를 바란다면 나를 도와야 해,,snd035_1_1_If you want me to try harder you better support me,,,
+12,미드 영어회화,mid-unit3,3,35,내가 이기기를 바란다면 나를 비난하는 걸 그만두어야 해.,If you want me to win you better stop criticizing me.,snd035_1_2_내가 이기기를 바란다면 나를 비난하는 걸 그만두어야 해,,snd035_1_2_If you want me to win you better stop criticizing me,,,
+13,미드 영어회화,mid-unit3,3,35,내가 훔쳐 주기를 바란다면 나눠가질 준비를 해야 해.,If you want me to steal for you you better be prepared to share.,snd035_1_3_내가 훔쳐 주기를 바란다면 나눠가질 준비를 해야 해,,snd035_1_3_If you want me to steal for you you better be prepared to share,,,
+14,미드 영어회화,mid-unit3,3,35,내가 스페인어를 가르쳐주기를 바란다면 주의를 기울여야 해.,If you want me to teach you Spanish you better pay attention.,snd035_1_4_내가 스페인어를 가르쳐주기를 바란다면 주의를 기울여야 해,,snd035_1_4_If you want me to teach you Spanish you better pay attention,,,
+15,미드 영어회화,mid-unit3,3,35,내가 니 얘기를 믿기를 바란다면 그걸 증명해야 해.,If you want me to believe you you better be able to prove it.,snd035_1_5_내가 니 얘기를 믿기를 바란다면 그걸 증명해야 해,,snd035_1_5_If you want me to believe you you better be able to prove it,,,
+16,미드 영어회화,mid-unit3,3,36,난 절대로 그 남자와는 자고 싶지 않아.,Last thing I want to do is sleep with him.,snd036_1_1_난 절대로 그 남자와는 자고 싶지 않아,,snd036_1_1_Last thing I want to do is sleep with him,,,
+17,미드 영어회화,mid-unit3,3,36,난 절대로 모두 다시 시작하고 싶지는 않아.,Last thing I want to do is start all over again.,snd036_1_2_난 절대로 모두 다시 시작하고 싶지는 않아,,snd036_1_2_Last thing I want to do is start all over again,,,
+18,미드 영어회화,mid-unit3,3,36,난 절대로 평생 도망다니며 살고 싶지는 않아.,Last thing I want to do is run for the rest of my life.,snd036_1_3_난 절대로 평생 도망다니며 살고 싶지는 않아,,snd036_1_3_Last thing I want to do is run for the rest of my life,,,
+19,미드 영어회화,mid-unit3,3,36,난 절대로 참견하고 싶지는 않아.,Last thing I want to do is butt in.,snd036_1_4_난 절대로 참견하고 싶지는 않아,,snd036_1_4_Last thing I want to do is butt in,,,
+20,미드 영어회화,mid-unit3,3,36,난 절대로 소문을 퍼뜨리고 싶지 않아.,Last thing I want to do is spread gossip.,snd036_1_5_난 절대로 소문을 퍼뜨리고 싶지 않아,,snd036_1_5_Last thing I want to do is spread gossip,,,
+미-패U04-1,13,30
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit4,4,37,난 잠을 좀 자야 해.,I need to get some sleep.,snd037_1_1_난 잠을 좀 자야 해,0,snd037_1_1_I need to get some sleep,1,,
+2,미드 영어회화,mid-unit4,4,37,어디 해변에나 좀 가야겠어.,I need to be on a beach somewhere.,snd037_1_2_어디 해변에나 좀 가야겠어,,snd037_1_2_I need to be on a beach somewhere,,,
+3,미드 영어회화,mid-unit4,4,37,그 남자가 이것을 헤쳐 나아가는 것을 도와줘야겠어.,I need to help him through this.,snd037_1_3_그 남자가 이것을 헤쳐 나아가는 것을 도와줘야겠어,,snd037_1_3_I need to help him through this,,,
+4,미드 영어회화,mid-unit4,4,37,신선한 공기를 마실 필요가 있어.,I need to get some fresh air.,snd037_1_4_신선한 공기를 마실 필요가 있어,,snd037_1_4_I need to get some fresh air,,,
+5,미드 영어회화,mid-unit4,4,37,난 외출을 더 할 필요가 있어.,I need to get out more.,snd037_1_5_난 외출을 더 할 필요가 있어,,snd037_1_5_I need to get out more,,,
+6,미드 영어회화,mid-unit4,4,38,우선 이걸 끝내기만 하면 돼.,I just need to finish this first.,snd038_1_1_우선 이걸 끝내기만 하면 돼,,snd038_1_1_I just need to finish this first,,,
+7,미드 영어회화,mid-unit4,4,38,질문만 제대로 하면 돼.,I just need to ask the right question.,snd038_1_2_질문만 제대로 하면 돼,,snd038_1_2_I just need to ask the right question,,,
+8,미드 영어회화,mid-unit4,4,38,그 꿈을 포기하기만 하면 돼.,I just need to give up that dream.,snd038_1_3_그 꿈을 포기하기만 하면 돼,,snd038_1_3_I just need to give up that dream,,,
+9,미드 영어회화,mid-unit4,4,38,그 여자를 설득 시키기만 하면 돼.,I just need to convince her.,snd038_1_4_그 여자를 설득 시키기만 하면 돼,,snd038_1_4_I just need to convince her,,,
+10,미드 영어회화,mid-unit4,4,38,네 목소리를 듣기만 하면 돼.,I just need to hear your voice.,snd038_1_5_네 목소리를 듣기만 하면 돼,,snd038_1_5_I just need to hear your voice,,,
+11,미드 영어회화,mid-unit4,4,39,네 말을 들을 필요가 없어.,I don't need to listen to you.,snd039_1_1_네 말을 들을 필요가 없어,,snd039_1_1_I don't need to listen to you,,,
+12,미드 영어회화,mid-unit4,4,39,경찰에 말할 필요가 없어.,I don't need to talk to the police.,snd039_1_2_경찰에 말할 필요가 없어,,snd039_1_2_I don't need to talk to the police,,,
+13,미드 영어회화,mid-unit4,4,39,담배를 끊을 필요가 없어.,I don't need to quit smoking.,snd039_1_3_담배를 끊을 필요가 없어,,snd039_1_3_I don't need to quit smoking,,,
+14,미드 영어회화,mid-unit4,4,39,이 말을 너한테서 들을 필요가 없어.,I don't need to take this from you.,snd039_1_4_이 말을 너한테서 들을 필요가 없어,,snd039_1_4_I don't need to take this from you,,,
+15,미드 영어회화,mid-unit4,4,39,너한테 말해줄 필요가 없어.,I don't need to tell you anything.,snd039_1_5_너한테 말해줄 필요가 없어,,snd039_1_5_I don't need to tell you anything,,,
+16,미드 영어회화,mid-unit4,4,40,나에게 칭찬해줄 필요는 없어.,You don't need to compliment me.,snd040_1_1_나에게 칭찬해줄 필요는 없어,,snd040_1_1_You don't need to compliment me,,,
+17,미드 영어회화,mid-unit4,4,40,넌 그남자의 모욕적인 말을 참을 필요가 없는 거야.,You don't need to put up with his insults.,snd040_1_2_넌 그남자의 모욕적인 말을 참을 필요가 없는 거야,,snd040_1_2_You don't need to put up with his insults,,,
+18,미드 영어회화,mid-unit4,4,40,넌 화장을 할 필요가 없어.,You don't need to wear makeup.,snd040_1_3_넌 화장을 할 필요가 없어,,snd040_1_3_You don't need to wear makeup,,,
+19,미드 영어회화,mid-unit4,4,40,넌 운동을 할 필요가 없어.,You don't need to work out.,snd040_1_4_넌 운동을 할 필요가 없어,,snd040_1_4_You don't need to work out,,,
+20,미드 영어회화,mid-unit4,4,40,약속을 할 필요는 없어.,You don't need to make any promises.,snd040_1_5_약속을 할 필요는 없어,,snd040_1_5_You don't need to make any promises,,,
+21,미드 영어회화,mid-unit4,4,41,그래도 우리는 당신의 승인이 필요해요.,We still need your approval.,snd041_1_1_그래도 우리는 당신의 승인이 필요해요,,snd041_1_1_We still need your approval,,,
+22,미드 영어회화,mid-unit4,4,41,그래도 우리는 도움이 필요해.,We still need a hand.,snd041_1_2_그래도 우리는 도움이 필요해,,snd041_1_2_We still need a hand,,,
+23,미드 영어회화,mid-unit4,4,41,그래도 우리는 얘기를 해야 할 필요가 있어.,We still need to talk.,snd041_1_3_그래도 우리는 얘기를 해야 할 필요가 있어,,snd041_1_3_We still need to talk,,,
+24,미드 영어회화,mid-unit4,4,41,그래도 우리는 가봐야 해.,We still need to show up.,snd041_1_4_그래도 우리는 가봐야 해,,snd041_1_4_We still need to show up,,,
+25,미드 영어회화,mid-unit4,4,41,그래도 우리는 스킨쉽이 필요해.,We still need physical contact.,snd041_1_5_그래도 우리는 스킨쉽이 필요해,,snd041_1_5_We still need physical contact,,,
+26,미드 영어회화,mid-unit4,4,42,나는 5달러만 있으면 돼.,All I need is five dollars.,snd042_1_1_나는 5달러만 있으면 돼,,snd042_1_1_All I need is five dollars,,,
+27,미드 영어회화,mid-unit4,4,42,내게 필요한 건 그 여자 주소뿐이야.,All I need is her address.,snd042_1_2_내게 필요한 건 그 여자 주소뿐이야,,snd042_1_2_All I need is her address,,,
+28,미드 영어회화,mid-unit4,4,42,내게 필요한 건 네가 5분만 시간을 내주면 되는 거야.,All I need is your attention for five minutes.,snd042_1_3_내게 필요한 건 네가 5분만 시간을 내주면 되는 거야,,snd042_1_3_All I need is your attention for five minutes,,,
+29,미드 영어회화,mid-unit4,4,42,내게 필요한 건 그 남자를 한 번만 더 보는 것뿐이야.,All I need is to see him one more time.,snd042_1_4_내게 필요한 건 그 남자를 한 번만 더 보는 것뿐이야,,snd042_1_4_All I need is to see him one more time,,,
+30,미드 영어회화,mid-unit4,4,42,내게 필요한 건 어쩌다 등을 한 번 두드려 주는 것뿐이야.,All I need is a pat on the back once in a while.,snd042_1_5_내게 필요한 건 어쩌다 등을 한 번 두드려 주는 것뿐이야,,snd042_1_5_All I need is a pat on the back once in a while,,,
+미-패U05-1,13,20
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit5,5,43,난 오페라 구경을 가는 걸 좋아하거든.,I like to get to the opera.,snd043_1_1_난 오페라 구경을 가는 걸 좋아하거든,,snd043_1_1_I like to get to the opera,1,,
+2,미드 영어회화,mid-unit5,5,43,난 제시간에 버스 정류장에 가는 걸 좋아하거든.,I like to get to the bus station on time.,snd043_1_2_난 제시간에 버스 정류장에 가는 걸 좋아하거든,,snd043_1_2_I like to get to the bus station on time,,,
+3,미드 영어회화,mid-unit5,5,43,난 일찍 출근하는 걸 좋아하거든.,I like to get to work early.,snd043_1_3_난 일찍 출근하는 걸 좋아하거든,,snd043_1_3_I like to get to work early,,,
+4,미드 영어회화,mid-unit5,5,43,난 일요일에는 공원에 가는 걸 좋아하거든.,I like to get to the park on Sundays.,snd043_1_4_난 일요일에는 공원에 가는 걸 좋아하거든,,snd043_1_4_I like to get to the park on Sundays,,,
+5,미드 영어회화,mid-unit5,5,43,난 빨리 요점을 말하는걸 좋아하거든.,I like to get to the point.,snd043_1_5_난 빨리 요점을 말하는걸 좋아하거든,,snd043_1_5_I like to get to the point,,,
+6,미드 영어회화,mid-unit5,5,44,네게 할 말이 있어.,I'd like to tell you something.,snd044_1_1_네게 할 말이 있어,,snd044_1_1_I'd like to tell you something,,,
+7,미드 영어회화,mid-unit5,5,44,내가 한 게 아니라는 것을 고백하고 싶어.,I'd like to confess that it wasn't me.,snd044_1_2_내가 한 게 아니라는 것을 고백하고 싶어,,snd044_1_2_I'd like to confess that it wasn't me,,,
+8,미드 영어회화,mid-unit5,5,44,내 눈으로 직접 보고 싶어.,I'd like to see if for myself.,snd044_1_3_내 눈으로 직접 보고 싶어,,snd044_1_3_I'd like to see if for myself,,,
+9,미드 영어회화,mid-unit5,5,44,널 다시 만나고 싶어.,I'd like to see you again.,snd044_1_4_널 다시 만나고 싶어,,snd044_1_4_I'd like to see you again,,,
+10,미드 영어회화,mid-unit5,5,44,네게 저녁을 사고 싶어.,I'd like to buy you dinner.,snd044_1_5_네게 저녁을 사고 싶어,,snd044_1_5_I'd like to buy you dinner,,,
+11,미드 영어회화,mid-unit5,5,45,자고 가고 싶니?,Would you like to stay over?,snd045_1_1_자고 가고 싶니-,,snd045_1_1_Would you like to stay over-,,,
+12,미드 영어회화,mid-unit5,5,45,제 얘기를 들어 보시겠어요?,Would you like to hear my side of the story?,snd045_1_2_제 얘기를 들어 보시겠어요-,,snd045_1_2_Would you like to hear my side of the story-,,,
+13,미드 영어회화,mid-unit5,5,45,나에게 조언을 좀 해 주시겠어요?,Would you like to give me a little advice?,snd045_1_3_나에게 조언을 좀 해 주시겠어요-,,snd045_1_3_Would you like to give me a little advice-,,,
+14,미드 영어회화,mid-unit5,5,45,이 수프를 맛보겠니?,Would you like to try the soup?,snd045_1_4_이 수프를 맛보겠니-,,snd045_1_4_Would you like to try the soup-,,,
+15,미드 영어회화,mid-unit5,5,45,자네가 한번 해보겠나?,Would you like to give it a shot?,snd045_1_5_자네가 한번 해보겠나-,,snd045_1_5_Would you like to give it a shot-,,,
+16,미드 영어회화,mid-unit5,5,46,네가 그 남자 입장이라면 어떻겠니?,How would you like to be in his shoes?,snd046_1_1_네가 그 남자 입장이라면 어떻겠니-,,snd046_1_1_How would you like to be in his shoes-,,,
+17,미드 영어회화,mid-unit5,5,46,네가 모든 것을 잃는다면 어떻겠니?,How would you like to lose everything?,snd046_1_2_네가 모든 것을 잃는다면 어떻겠니-,,snd046_1_2_How would you like to lose everything-,,,
+18,미드 영어회화,mid-unit5,5,46,네가 평생 감옥에서 썩는다면 어떻겠니?,How would you like to go to prison for life?,snd046_1_3_네가 평생 감옥에서 썩는다면 어떻겠니-,,snd046_1_3_How would you like to go to prison for life-,,,
+19,미드 영어회화,mid-unit5,5,46,네가 따돌림을 받는다면 어떻겠니?,How would you like to be left out?,snd046_1_4_네가 따돌림을 받는다면 어떻겠니-,,snd046_1_4_How would you like to be left out-,,,
+20,미드 영어회화,mid-unit5,5,46,너라면 면도를 하지 않는 의사를 어떻게 생각하겠니?,How would you like a doctor who dosen't shave?,snd046_1_5_너라면 면도를 하지 않는 의사를 어떻게 생각하겠니-,,snd046_1_5_How would you like a doctor who dosen't shave-,,,
+미-패U05-2,13,4
+index,Category,Path,Unit,Lesson,Sentence,Translate,Question_File,Question_During,Answer1_File,Answer1_During,Answer2_File,Answer2_During
+!int,!String,!String,!Int,!Int,!String,!String,!String,!Float,!String,!Float,!String,!Float
+1,미드 영어회화,mid-unit5,5,43,A : How long have you been here Donaghy?(더네이 자네 여기 온지 얼마나 됐나?),B : Since 5:30.(5시 30분 부터.),snd043_2_1_1_How long have you been Donaghy-,0,snd043_2_1_2_Since 5_30,1,,
+2,미드 영어회화,mid-unit5,5,43,A : You've gotta be kidding!( 농담이지!. ),B : I like to get to work early.(난 일찍 출근하는 걸 좋아하거든.),snd043_2_1_3_You've gotta be kidding!,0,snd043_2_1_4_I'd like to get to work early,1,,
+3,미드 영어회화,mid-unit5,5,43,A : Dunder Mifflin's profits have been steadily declining.(던디 미플린의 이익이 계속 하락하고 있군.),B : Let me explain that.(제가 설명 드릴게요.),snd043_2_2_1_Dunder Mifflin's profits have been steadily declining,,snd043_2_2_2_Let me explain that,1,,
+4,미드 영어회화,mid-unit5,5,43,A : I like to get to the point. You're being let go.(난 빨리 요점을 말하는 걸 좋아하거든. 자넨 해고야.),B : What?!(뭐라고요?!),snd043_2_2_3_I like to get to the point. you're being let go,,snd043_2_2_4_What-,1,,

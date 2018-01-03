@@ -3,6 +3,7 @@
  using System.IO;
  using System.Linq;
  using System.Collections;
+ using UnityEditor.SceneManagement;
  
  [ExecuteInEditMode]
  public class PlayFromScene : EditorWindow {
@@ -26,7 +27,7 @@
      void Update() {
          if ( !EditorApplication.isPlaying ) {
              if ( null==waitScene && !string.IsNullOrEmpty(lastScene) ) {
-                 EditorApplication.OpenScene(lastScene);
+                 EditorSceneManager.OpenScene(lastScene);
                  lastScene = null;
              }
          }
@@ -49,7 +50,7 @@
              lastScene = EditorApplication.currentScene;
              waitScene = scenes[targetScene].path;
              EditorApplication.SaveCurrentSceneIfUserWantsTo();
-             EditorApplication.OpenScene(waitScene);
+             EditorSceneManager.OpenScene(waitScene);
          }
      }
  

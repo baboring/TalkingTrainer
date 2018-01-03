@@ -14,7 +14,7 @@ MonoBehaviour:
   uid: 0
   Title: "\uBBF8\uB4DC\uD328\uD134 233"
   Description: "'\uBBF8\uB4DC' \uC601\uC5B4\uD68C\uD654 \uD575\uC2EC\uD328\uD134 233"
-  bundle: scene-bundle-cdata002
+  bundle: cdata002-scene-bundle
   sceneName: scene-cdata002
   downloadUrl: 
   version: 0

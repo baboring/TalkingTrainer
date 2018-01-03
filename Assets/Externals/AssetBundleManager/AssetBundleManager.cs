@@ -420,7 +420,7 @@ namespace AssetBundles
 						continue;
 					}
 				
-					//Debug.Log("Downloading " + keyValue.Key + " is done at frame " + Time.frameCount);
+					Debug.Log("Downloading " + keyValue.Key + " is done at frame " + Time.frameCount);
 					m_LoadedAssetBundles.Add(keyValue.Key, new LoadedAssetBundle(download.assetBundle) );
 					keysToRemove.Add(keyValue.Key);
 				}

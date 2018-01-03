@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MenuItems {
 
-	[MenuItem("Tools/Clear PlayerPrefs")]
+	[MenuItem("Tool/Clear PlayerPrefs")]
     private static void NewMenuOption()
     {
         PlayerPrefs.DeleteAll();

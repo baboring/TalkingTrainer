@@ -14,9 +14,9 @@ namespace TTrainer {
 		[SerializeField]
 		protected Image imgLogo;
 		[SerializeField]
-		protected TextMeshProUGUI displayTitle;
+		protected Text displayTitle;
 		[SerializeField]
-		protected TextMeshProUGUI displayDesc;
+		protected Text displayDesc;
 
 		[SerializeField]
 		protected Button buttonDownload;
@@ -40,35 +40,12 @@ namespace TTrainer {
 		}
 
 		public void Download(Button button) {
-			if(!button.interactable)
-				return;
-			button.interactable = false;
-			StartCoroutine(downloadContent(button));
+			Main.instance.Download(button, info);
 		}
 
 		public void Enter(Button button) {
-			if(!button.interactable)
-				return;
-			button.interactable = false;
-			StartCoroutine(enterContent(button));
+			Main.instance.Enter(button, info);
 		}
-
-		IEnumerator downloadContent(Button button) {
-			// Load variant level which depends on variants.
-			yield return StartCoroutine(AssetLoader.instance.InitializeLevelAsync (info.bundle, info.sceneName, true) );
-
-			yield return null;
-			button.interactable = true;
-		}
-
-		IEnumerator enterContent(Button button) {
-			// Load variant level which depends on variants.
-			yield return StartCoroutine(AssetLoader.instance.InitializeLevelAsync (info.bundle, info.sceneName, true) );
-
-			yield return null;
-			button.interactable = true;
-		}
-
 		public void Prime(ContentData info) {
 			if(null == info)
 				return;
