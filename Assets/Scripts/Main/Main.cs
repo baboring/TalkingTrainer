@@ -24,15 +24,6 @@ namespace TTrainer {
 			}
 		}
 		
-		// Update is called once per frame
-		void Update () {
-			
-		}
-
-		public void StartGame() {
-			Debug.Log("StartGame");
-			AssetLoader.instance.LoadTest();
-		}
 		public void UnloadScene() {
 			ContentsManager.instance.mainManu.SetActive(true);
 			AssetLoader.instance.UnloadScene(lastSceneBundle);

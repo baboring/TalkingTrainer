@@ -64,11 +64,15 @@ namespace TTrainer {
 		void ListupStudyBoards(InfoLessonData lesson) {
 			prefabStudyBoard.gameObject.SetActive(false);
 			objContentViewSnap.transform.Clear();
+			currentLession = null;
 			foreach(var info in lesson.lstStudyBoard) {
 				var go = GameObject.Instantiate(prefabStudyBoard.gameObject,objContentViewSnap);
 				go.SetActive(true);
 				var controller = go.GetComponent<UIStudyBoard>();
 				controller.Prime(config.tableBundleName,info);
+
+				if(currentLession == null)
+					currentLession = controller;
 			}
 		}
 		
@@ -114,6 +118,16 @@ namespace TTrainer {
 			}
 		}
 		
+		AudioSource audioSource = null;
+		UIStudyBoard currentLession = null;
+		public void OnPlay(string type) {
+			if(null == audioSource) {
+				audioSource = gameObject.AddComponent<AudioSource>();
+				audioSource.playOnAwake = false;
+			}
+			if(currentLession != null)
+				audioSource.PlayOneShot((type == "Top")? currentLession.soundTop : currentLession.soundBottom);
+		}
 
 		/// -------------------------------------
 		public enum eEntityState {

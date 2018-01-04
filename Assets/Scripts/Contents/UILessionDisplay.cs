@@ -21,6 +21,7 @@ namespace TTrainer {
 			get;
 		}
 
+
 		public void Prime(string bundleName, InfoLessonData info) {
 			if(null == info)
 				return;
@@ -39,7 +40,7 @@ namespace TTrainer {
 
 			if(info.lstStudyBoard == default(InfoStudyBoardData[])) {
 				StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(bundleName, info.SheetName,(bundleLoaded)=>{
-					var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>());
+					var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>(),false);
 					info.lstStudyBoard = lstBoard.ToArray();
 					Debug.Log("Load asset " + info.SheetName);
 					funcUpdateTotal(info.lstStudyBoard.Length);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using System.ComponentModel;
 
 public static class TransformExtention {
      public static Transform Clear(this Transform transform)
@@ -13,3 +14,13 @@ public static class TransformExtention {
          return transform;
      }
  }
+
+ 
+public class IosCompat
+{
+    private static Int32Converter i32 = new Int32Converter();
+    private static Int64Converter i64 = new Int64Converter();
+    private static BooleanConverter booleanConv = new BooleanConverter();
+    private static StringConverter stringConv = new StringConverter();
+    private static SingleConverter singleConv = new SingleConverter();
+}

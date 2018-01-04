@@ -31,7 +31,7 @@ namespace TTrainer {
 		public void LoadAsyncLessionList(AssetInfo info) {
 
 			StartCoroutine(LoadAssetBundle(info,(request)=>{
-				_lstLesson = R.CsvUtil.LoadObjects<InfoLessonData>(request.GetAsset<TextAsset>());
+				_lstLesson = R.CsvUtil.LoadObjects<InfoLessonData>(request.GetAsset<TextAsset>(),false);
 				info.isLoaded = true;
 				Debug.Log("Load csv - ContantsTable");
 			}));
@@ -93,12 +93,11 @@ namespace TTrainer {
 		public int Lesson;
 		public string Sentence;
 		public string Translate;
+		public string Notes;
 		public string Question_File;
 		public float Question_During;
-		public string Answer1_File;
-		public float Answer1_During;
-		public string Answer2_File;
-		public float Answer2_During;
+		public string Answer_File;
+		public float Answer_During;
 		
 	}
 }

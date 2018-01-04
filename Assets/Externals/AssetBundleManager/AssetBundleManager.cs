@@ -149,7 +149,7 @@ namespace AssetBundles
 			if (url == null || url.Length == 0)
 			{
 				Debug.LogError("Development Server URL could not be found.");
-				//AssetBundleManager.SetSourceAssetBundleURL("http://localhost:7888/" + UnityHelper.GetPlatformName() + "/");
+				AssetBundleManager.SetSourceAssetBundleURL("http://localhost:7888/" + Utility.GetPlatformName() + "/");
 			}
 			else
 			{
@@ -191,6 +191,7 @@ namespace AssetBundles
 	
 		static public AssetBundleLoadManifestOperation Initialize ()
 		{
+			Log(LogType.Info,"Initialize");
 			return Initialize(Utility.GetPlatformName());
 		}
 			
@@ -482,7 +483,7 @@ namespace AssetBundles
 		// Load level from the given assetBundle.
 		static public AssetBundleLoadOperation LoadLevelAsync (string assetBundleName, string levelName, bool isAdditive)
 		{
-			Log(LogType.Info, "Loading " + levelName + " from " + assetBundleName + " bundle");
+			Log(LogType.Info, "Loading '" + levelName + "' from '" + assetBundleName + "' bundle");
 	
 			AssetBundleLoadOperation operation = null;
 	#if UNITY_EDITOR

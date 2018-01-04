@@ -16,6 +16,16 @@ namespace TTrainer {
 			private set;
 			get;
 		}
+
+		public AudioClip soundTop {
+			private set;
+			get;
+		}
+		public AudioClip soundBottom {
+			private set;
+			get;
+		}
+	
 		// Use this for initialization
 		void Start () {
 			
@@ -37,13 +47,13 @@ namespace TTrainer {
 			if(null != txtBottom)
 				txtBottom.text = info.Translate;
 
-			// StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(bundleName, info.SheetName,(bundleLoaded)=>{
-			// 	var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>());
-			// 	info.lstLession = lstBoard.ToArray();
-			// 	Debug.Log("Load csv - lessionUnitTable");
-			// 	if(null != displayDesc)
-			// 		displayDesc.text = string.Format("Total : {0}",info.lstLession.Length);
-			// })));
+			ResourceManager.instance.StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo("cdata002-sound-mid-unit1-bundle", info.Question_File,(bundleLoaded)=>{
+				soundTop = bundleLoaded.GetAsset<AudioClip>();
+			})));				
+			ResourceManager.instance.StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo("cdata002-sound-mid-unit1-bundle", info.Answer_File,(bundleLoaded)=>{
+				soundBottom = bundleLoaded.GetAsset<AudioClip>();
+			})));				
+				
 		}		
 	}
 }
