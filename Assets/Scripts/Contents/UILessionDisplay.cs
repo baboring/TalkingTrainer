@@ -39,7 +39,8 @@ namespace TTrainer {
 			});
 
 			if(info.lstStudyBoard == default(InfoStudyBoardData[])) {
-				StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(bundleName, info.SheetName,(bundleLoaded)=>{
+				StartCoroutine(ResourceManager.instance.LoadAssetBundle(
+					new AssetInfo(bundleName, info.SheetName,typeof(TextAsset), (bundleLoaded)=>{
 					var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>(),false);
 					info.lstStudyBoard = lstBoard.ToArray();
 					Debug.Log("Load asset " + info.SheetName);

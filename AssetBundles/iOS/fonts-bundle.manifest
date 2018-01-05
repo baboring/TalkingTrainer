@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 913757104
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92111c834397b515e348ae4bce333d24
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 496146d07f73b94411523f6792fc9ce5
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Fonts/fontMatrialClamp.mat
+- Assets/Fonts/NANUMBARUNGOTHICBOLD.OTF
+- "Assets/Fonts/\uC0C1\uC6A9\uD55C\uAE002350\uC790.txt"
+- Assets/Fonts/NanumGothic.ttf
+Dependencies: []

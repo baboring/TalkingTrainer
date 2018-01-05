@@ -1,0 +1,105 @@
+ManifestFileVersion: 0
+CRC: 2800066035
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f8c8ae1e600d8155a16ae0c718c2f8e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_1_She's
+  never gonna go out with him.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_3_It's
+  gonna be the last time I see him.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_1_Are
+  we gonna talk about our relationship-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_4_He's
+  not gonna make it until tomorrow.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_1_He's
+  not gonna give her the time of day.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_4_She's
+  never gonna go quietly.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_4_It's
+  gonna be hilarious.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_4_There's
+  gonna be time for that later.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_5_It's
+  gonna be a long drive.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_5_He's
+  not gonna have chemotherapy.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_5_Are
+  we gonna talk about where you were last night-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_1_There's
+  gonna be trouble.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_2_He's
+  not gonna try anymore.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_1_So,
+  how're you gonna sneak in-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_2_It's
+  gonna be over soon.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_2_So,
+  How're you gonna pay for it-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_5_There's
+  gonna be another opportunity.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_4_Are
+  we gonna talk about your affair-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_2_She's
+  never gonna make it in this business.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_2_Are
+  we gonna talk about our what we really need-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_3_So,
+  How're you gonna get it-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_2_There's
+  gonna be an autopsy.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_1_It's
+  gonna be a bloodbath.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd012_1_3_Are
+  we gonna talk about the verdict-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_5_So,
+  How're you gonna go on with your life-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd009_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd007_1_3_He's
+  not gonna give in.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_5_She's
+  never gonna understand me.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd008_1_3_She's
+  never gonna take that crap.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd011_1_4_So,
+  How're you gonna escape-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part2/snd010_1_3_There's
+  gonna be a trial.wav
+Dependencies: []

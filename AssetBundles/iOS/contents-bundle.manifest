@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 4167006029
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49a30f5665aa1facf0a8d968abefd3ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71d223f75a8d9a473c787e0d591cb90f
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: ffeffac7a067344d582aaf81fd51e047, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Contents/InfoList/CData001_ilbbangbbang.asset
+- Assets/BundleData/Contents/InfoList/CData002_EnglishPattern233.asset
+Dependencies:
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/icon-bundle

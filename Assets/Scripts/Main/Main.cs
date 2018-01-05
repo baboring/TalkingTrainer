@@ -16,7 +16,7 @@ namespace TTrainer {
 		// Use this for initialization
 		IEnumerator Start () {
 			if(null != config) {
-				AssetInfo assetInfo = new AssetInfo(config.tableBundleName, config.tableAssetName);
+				AssetInfo assetInfo = new AssetInfo(config.tableBundleName, config.tableAssetName,typeof(object));
 				//Resources.instance.LoadAsyncLessionList(assetInfo);
 
 				if(!assetInfo.isLoaded)

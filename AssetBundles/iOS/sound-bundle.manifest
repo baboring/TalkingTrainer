@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1719641372
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 43c18b500cb3cf03827891bc216f49b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Sounds/Acquire_Gold.wav
+- Assets/BundleData/Sounds/Click.WAV
+Dependencies: []

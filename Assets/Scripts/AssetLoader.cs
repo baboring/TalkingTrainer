@@ -10,28 +10,17 @@ namespace TTrainer {
 
 	public class AssetLoader : SingletonMono<AssetLoader> {
 
-		public const string AssetBundlesOutputPath = "/AssetBundles/";
-
-		public string sceneAssetBundle;
-		public string sceneName;
-
-		
-		public string assetBundleName;
-		public string assetName;
-
 		// Use this for initialization
 
 		bool isInitilizaed = false;
-		IEnumerator Start ()
-		{
+		IEnumerator Start () {
 			Debug.Log("start LoadAssets");
 			yield return StartCoroutine(Initialize());
 			
 		}
 
 		// Initialize the downloading url and AssetBundleManifest object.
-		protected IEnumerator Initialize()
-		{
+		protected IEnumerator Initialize() {
 			// Don't destroy this gameObject as we depend on it to run the loading script.
 			DontDestroyOnLoad(gameObject);
 
@@ -42,9 +31,11 @@ namespace TTrainer {
 			AssetBundleManager.SetDevelopmentAssetBundleServer ();
 			#else
 			// Use the following code if AssetBundles are embedded in the project for example via StreamingAssets folder etc:
-			AssetBundleManager.SetSourceAssetBundleURL(Application.dataPath + "/");
+			//AssetBundleManager.SetSourceAssetBundleURL(Application.dataPath + "/");
 			// Or customize the URL based on your deployment or configuration
-			//AssetBundleManager.SetSourceAssetBundleURL("http://www.MyWebsite/MyAssetBundles");
+			TextAsset urlFile = Resources.Load("AssetBundleServerURL") as TextAsset;
+			string url = (urlFile != null) ? urlFile.text.Trim() : "http://www.MyWebsite/MyAssetBundles";
+			AssetBundleManager.SetSourceAssetBundleURL(url);
 			#endif
 
 			// Initialize AssetBundleManifest which loads the AssetBundleManifest object.
@@ -72,49 +63,10 @@ namespace TTrainer {
 			Debug.Log("Finished loading scene " + levelName + " in " + elapsedTime + " seconds" );
 		}
 
-		protected IEnumerator InstantiateGameObjectAsync (string assetBundleName, string assetName)
-		{
-			// This is simply to get the elapsed time for this phase of AssetLoading.
-			float startTime = Time.realtimeSinceStartup;
-
-			// Load asset from assetBundle.
-			AssetBundleLoadAssetOperation request = AssetBundleManager.LoadAssetAsync(assetBundleName, assetName, typeof(GameObject) );
-			if (request == null)
-				yield break;
-			yield return StartCoroutine(request);
-
-			// Get the asset.
-			GameObject prefab = request.GetAsset<GameObject> ();
-
-			if (prefab != null)
-				GameObject.Instantiate(prefab);
-			
-			// Calculate and display the elapsed time.
-			float elapsedTime = Time.realtimeSinceStartup - startTime;
-			Debug.Log(assetName + (prefab == null ? " was not" : " was")+ " loaded successfully in " + elapsedTime + " seconds" );
-		}
-
-		bool isLoading = false;
-		public void LoadTest() {
-			if(!isLoading)
-				StartCoroutine(LoadSequence());
-		}
-
 		public void UnloadScene(string sceneLoaded) {
 			if(sceneLoaded.Length > 0)
 				SceneManager.UnloadSceneAsync( sceneLoaded );	
 		}
 
-		IEnumerator LoadSequence() {
-			isLoading = true;
-			if(!isInitilizaed)
-				yield return null;
-			// Load variant level which depends on variants.
-			yield return StartCoroutine(InitializeLevelAsync (sceneAssetBundle,sceneName, true) );
-			
-			// Load asset.
-			yield return StartCoroutine(InstantiateGameObjectAsync (assetBundleName, assetName) );
-			isLoading = false;
-		}
 	}
 }

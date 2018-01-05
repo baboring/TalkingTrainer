@@ -35,11 +35,11 @@ namespace TTrainer {
 
 		// Use this for initialization
 		IEnumerator Start () {
-			
 			prefabDisplayItem.gameObject.SetActive(false);
 			prefabStudyBoard.gameObject.SetActive(false);
 
-			yield return StartCoroutine(ResourceManager.instance.LoadAssetBundle(new AssetInfo(config.tableBundleName, config.tableAssetName,(bundleLoaded)=>{
+			yield return StartCoroutine(ResourceManager.instance.LoadAssetBundle(
+				new AssetInfo(config.tableBundleName, config.tableAssetName, typeof(TextAsset), (bundleLoaded)=>{
 				_lstUnits = R.CsvUtil.LoadObjects<InfoLessonData>(bundleLoaded.GetAsset<TextAsset>());
 				Debug.Log("Load asset " + config.tableAssetName);
 			})));
@@ -118,15 +118,11 @@ namespace TTrainer {
 			}
 		}
 		
-		AudioSource audioSource = null;
 		UIStudyBoard currentLession = null;
 		public void OnPlay(string type) {
-			if(null == audioSource) {
-				audioSource = gameObject.AddComponent<AudioSource>();
-				audioSource.playOnAwake = false;
-			}
-			if(currentLession != null)
-				audioSource.PlayOneShot((type == "Top")? currentLession.soundTop : currentLession.soundBottom);
+
+			if(currentLession != null) 
+				currentLession.PlaySound(type);
 		}
 
 		/// -------------------------------------

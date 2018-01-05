@@ -1,0 +1,153 @@
+ManifestFileVersion: 0
+CRC: 2872288031
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a993a801b9c1dcf5aaee5c8b3c1c39ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_2_4_He
+  has to at some point.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_4_I'm
+  not gonna hurt you.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_1_2_I
+  swear I'm gonna kill that guy!.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_2_I'm
+  afraid we're going to split up.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_2_3_I
+  swear I'm gonna go crazy.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_1_I
+  swear I'm gonna get even.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_3_I'm
+  afraid we're going to have to write this one off.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_1_I'm
+  afraid we're going to have to let you go.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_5_I'm
+  gonna give up on him.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_2_4_Sure
+  you will, this island is paradise.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_2_I'm
+  not gonna pay that much.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_1_We're
+  gonna call it quits.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_4_We're
+  gonna split up.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_3_I'm
+  gonna ask her out.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_5_You're
+  gonna make a mess of things.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_1_4_I
+  wouldn't bother him right now.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_1_4_All
+  right, but just this once.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_1_3_I'm
+  gonna ask the Captain.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_2_We're
+  gonna move in together.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_3_I'm
+  not gonna tell you.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_5_We're
+  gonna put him away.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_5_I'm
+  not gonna abandon my partner.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_1_2_I
+  haven't seen him since lunch.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_4_I'm
+  afraid we're going to lose all our money.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_1_4_All
+  right, then I swear I'm gonna get even.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_1_2_I'm
+  not gonna do it.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_2_2_What
+  do you mean-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_5_I'm
+  afraid we're going to never reach our goal.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_2_3_I'm
+  not gonna survive this.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_2_I
+  swear I'm gonna walk out of here one day.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_3_You're
+  gonna regret this.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_2_1_I've
+  never felt this way about a girl before.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_5_I
+  swear I'm gonna quit this job.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_1_1_Ask
+  Ross if he's kissed Rachel yet.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_1_I'm
+  gonna get you for this.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_1_1_Where's
+  Stabler-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_1_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_4_I'm
+  gonna have to report you.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_1_You're
+  gonna end up in jail.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_3_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_4_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_1_3_Oh,
+  come on.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_3_I
+  swear I'm gonna make it up to you.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_4_You're
+  gonna risk your life.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_2_2_I'm
+  gonna talk to the warden.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_2_4_Sounds
+  like love to me.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_2_1_How
+  do you plan to contact your lawyer-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_1_I'm
+  not gonna be intimidated.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_2_2_Could
+  be ten days, could be ten years.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_2_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd006_1_5_Question.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd004_1_2_You're
+  gonna have the time of your life.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd005_1_3_We're
+  gonna go to the boss.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_2_2_1_How
+  long will it be until we're rescured-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_1_4_I
+  swear I'm gonna pay you back.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_1_2_I'm
+  gonna get out of here.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_1_3_Let's
+  not go that far.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd003_2_1_1_He
+  think he's taking over the operation.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd001_2_2_3_Do
+  you think he'll allow it-.wav
+- Assets/BundleData/Contents/CData002-Pattern233/Sounds/mid-unit1-pattern_part1/snd002_1_1_Question.wav
+Dependencies: []

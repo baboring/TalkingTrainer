@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 1522174831
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 11b1b6b818b5a8852c80f2ebcf039e68
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/BundleData/Images/UISkinFrames/Window_01_HighClass.png
+- Assets/BundleData/Images/UISkinFrames/Gauge_A.png
+- Assets/BundleData/Images/UISkinFrames/Item_Cover.png
+- Assets/BundleData/Images/UISkinFrames/InnerBox_02.png
+- Assets/BundleData/Images/UISkinFrames/InnerBox_01_HighClass.png
+- Assets/BundleData/Images/UISkinFrames/InnerBox_01.png
+- Assets/BundleData/Images/UISkinFrames/Button_02_HighClass.png
+- Assets/BundleData/Images/UISkinFrames/Window_02.png
+- Assets/BundleData/Images/UISkinFrames/Button_01.png
+- Assets/BundleData/Images/UISkinFrames/Button_03.png
+- Assets/BundleData/Images/UISkinFrames/Window_06.png
+- Assets/BundleData/Images/UISkinFrames/Button_Yellow.png
+- Assets/BundleData/Images/UISkinFrames/Message_Bg.png
+- Assets/BundleData/Images/UISkinFrames/NameBg.png
+- Assets/BundleData/Images/UISkinFrames/Check X.png
+- Assets/BundleData/Images/UISkinFrames/SelectBox.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_thin.png
+- Assets/BundleData/Images/UISkinFrames/Window_04.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_A_HighClass.png
+- Assets/BundleData/Images/UISkinFrames/Button_Box_A.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_B.png
+- Assets/BundleData/Images/UISkinFrames/shopitem_blue_bg.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_B_Light.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_A.png
+- Assets/BundleData/Images/UISkinFrames/Button_03_light.png
+- Assets/BundleData/Images/UISkinFrames/Window_07.png
+- Assets/BundleData/Images/UISkinFrames/LobbyButten_Box_A.png
+- Assets/BundleData/Images/UISkinFrames/InnerBox_03.png
+- Assets/BundleData/Images/UISkinFrames/box_rightangle.png
+- Assets/BundleData/Images/UISkinFrames/Button_04.png
+- Assets/BundleData/Images/UISkinFrames/Top_Menu_Button_A.png
+- Assets/BundleData/Images/UISkinFrames/Menu_Box_C.png
+- Assets/BundleData/Images/UISkinFrames/Text_Box_D.png
+- Assets/BundleData/Images/UISkinFrames/Title_Libbon.png
+- Assets/BundleData/Images/UISkinFrames/Title_Libbon_High.png
+- Assets/BundleData/Images/UISkinFrames/InnerBox_03_HighClass.png
+- Assets/BundleData/Images/UISkinFrames/Button_02.png
+- Assets/BundleData/Images/UISkinFrames/CheckBox.png
+- Assets/BundleData/Images/UISkinFrames/Button_06_.png
+- Assets/BundleData/Images/UISkinFrames/Text_Box_B.png
+- Assets/BundleData/Images/UISkinFrames/Button_05.png
+- Assets/BundleData/Images/UISkinFrames/Gauge_Bar.png
+- Assets/BundleData/Images/UISkinFrames/Button_06.png
+- Assets/BundleData/Images/UISkinFrames/Window_01.png
+- Assets/BundleData/Images/UISkinFrames/Stat_Effect.png
+- Assets/BundleData/Images/UISkinFrames/shopitem_purple_bg.png
+- Assets/BundleData/Images/UISkinFrames/Bright_Wing.png
+- Assets/BundleData/Images/UISkinFrames/Top_Menu_Button_B.png
+- Assets/BundleData/Images/UISkinFrames/Top_Tab_Cover.png
+- Assets/BundleData/Images/UISkinFrames/Dark_Wing.png
+- Assets/BundleData/Images/UISkinFrames/Layout_Coin_Box_yellow.png
+- Assets/BundleData/Images/UISkinFrames/menu_back.png
+- Assets/BundleData/Images/UISkinFrames/Window_01_alpha.png
+- Assets/BundleData/Images/UISkinFrames/Button_07.png
+- Assets/BundleData/Images/UISkinFrames/Button_A.png
+- Assets/BundleData/Images/UISkinFrames/Window_05.png
+- Assets/BundleData/Images/UISkinFrames/Button_B.png
+- Assets/BundleData/Images/UISkinFrames/Message_Loading.png
+- Assets/BundleData/Images/UISkinFrames/Window_06_alpha.png
+- Assets/BundleData/Images/UISkinFrames/Window_03.png
+Dependencies: []

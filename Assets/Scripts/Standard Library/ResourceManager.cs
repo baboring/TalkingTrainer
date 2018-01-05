@@ -38,7 +38,7 @@ namespace TTrainer {
 		}
 
 		public IEnumerator LoadAssetBundle(AssetInfo info,System.Action<AssetBundleLoadAssetOperation> callback = null) {
-			AssetBundleLoadAssetOperation request = AssetBundleManager.LoadAssetAsync(info.bundleName, info.assetName, typeof(TextAsset) );
+			AssetBundleLoadAssetOperation request = AssetBundleManager.LoadAssetAsync(info.bundleName, info.assetName, info.assetType );
 			if (request == null)
 				yield break;
 			yield return StartCoroutine(request);
@@ -55,12 +55,15 @@ namespace TTrainer {
 		public string bundleName;
 		public string assetName;
 		public bool isLoaded = false;
+
+		public System.Type assetType;
 		public System.Action<AssetBundleLoadAssetOperation> calldone = null;
 
-		public AssetInfo(string bundleName, string assetName, System.Action<AssetBundleLoadAssetOperation> calldone = null) {
+		public AssetInfo(string bundleName, string assetName, System.Type assetType,System.Action<AssetBundleLoadAssetOperation> calldone = null) {
 			this.bundleName = bundleName;
 			this.assetName = assetName;
 			this.calldone = calldone;
+			this.assetType = assetType;
 			isLoaded = false;
 		}
 	}
@@ -98,6 +101,7 @@ namespace TTrainer {
 		public float Question_During;
 		public string Answer_File;
 		public float Answer_During;
+		public string AssetBundle;
 		
 	}
 }

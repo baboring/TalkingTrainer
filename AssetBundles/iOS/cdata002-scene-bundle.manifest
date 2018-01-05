@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3335839330
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: feb66d27280340de58ff90e84631e61f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
+HashAppended: 0
+ClassTypes: []
+Assets:
+- Assets/BundleData/Contents/CData002-Pattern233/scene-cdata002.unity
+Dependencies:
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/icon-bundle
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/sound-bundle
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/contents-bundle
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/fonts-bundle
+- /Users/benjamin/workspace/_Unity3d/TalkingTrainer/AssetBundles/iOS/ui-skin-frames

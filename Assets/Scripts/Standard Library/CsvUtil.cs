@@ -126,7 +126,8 @@ namespace R {
 			string line;
 			while((line = rdr.ReadLine()) != null) {
 				// Ignore optional header lines
-				if (line.StartsWith("#") || line.StartsWith("!"))
+				string[] mark = {"#","!"};
+				if (line.StartsWithAny(mark))
 					continue;
 
 				string[] vals = EnumerateCsvLine(line).ToArray();
