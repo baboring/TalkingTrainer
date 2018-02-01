@@ -4,6 +4,9 @@ using UnityEditor;
 using System.Collections.Generic;
 using System.Reflection;
 
+namespace UnityEditor {
+
+
 // A dockable, context-sensitive search bar. Select a GameObject in the
 // hierarchy to search its components and PlayMaker FSMs by name.
 public class ComponentSearchBar : EditorWindow
@@ -290,4 +293,6 @@ public class ComponentSearchPostProcessor : UnityEditor.AssetModificationProcess
 		
 		return paths;
 	}
+}
+
 }
