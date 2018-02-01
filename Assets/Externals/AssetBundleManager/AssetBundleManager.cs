@@ -21,18 +21,23 @@ using System.Collections.Generic;
 
 namespace AssetBundles
 {	
+	using Common.Utilities;
 	// Loaded assetBundle contains the references count which can be used to unload dependent assetBundles automatically.
-	public class LoadedAssetBundle
-	{
+	public class LoadAssetBundleInfo {
+		public string assetBundleName;
+		public bool isManifestBundle;
+
+		public WWW download;
 		public AssetBundle m_AssetBundle;
 		public int m_ReferencedCount;
 		
-		public LoadedAssetBundle(AssetBundle assetBundle)
-		{
-			m_AssetBundle = assetBundle;
-			m_ReferencedCount = 1;
+
+		public LoadAssetBundleInfo(string bundleName, bool isManifest = false) {
+			assetBundleName = bundleName;
+			isManifestBundle = isManifest;
 		}
-	}
+	}	
+
 	
 	// Class takes care of loading assetBundle and its dependencies automatically, loading variants automatically.
 	public class AssetBundleManager : MonoBehaviour
@@ -49,8 +54,8 @@ namespace AssetBundles
 		const string kSimulateAssetBundles = "SimulateAssetBundles";
 	#endif
 	
-		static Dictionary<string, LoadedAssetBundle> m_LoadedAssetBundles = new Dictionary<string, LoadedAssetBundle> ();
-		static Dictionary<string, WWW> m_DownloadingWWWs = new Dictionary<string, WWW> ();
+		static Dictionary<string, LoadAssetBundleInfo> m_LoadedAssetBundles = new Dictionary<string, LoadAssetBundleInfo> ();
+		static Dictionary<string, LoadAssetBundleInfo> m_DownloadingWWWs = new Dictionary<string, LoadAssetBundleInfo> ();
 		static Dictionary<string, string> m_DownloadingErrors = new Dictionary<string, string> ();
 		static List<AssetBundleLoadOperation> m_InProgressOperations = new List<AssetBundleLoadOperation> ();
 		static Dictionary<string, string[]> m_Dependencies = new Dictionary<string, string[]> ();
@@ -74,6 +79,15 @@ namespace AssetBundles
 			get { return m_ActiveVariants; }
 			set { m_ActiveVariants = value; }
 		}
+
+		public static int InProgressCount {
+			get { return m_InProgressOperations.Count; }
+		}
+		public static int DownloadingCount {
+			get { return m_DownloadingWWWs.Count; }
+		}
+
+		
 	
 		// AssetBundleManifest object which can be used to load the dependecies and check suitable assetBundle variants.
 		public static AssetBundleManifest AssetBundleManifestObject
@@ -84,9 +98,9 @@ namespace AssetBundles
 		private static void Log(LogType logType, string text)
 		{
 			if (logType == LogType.Error)
-				Debug.LogError("[AssetBundleManager] " + text);
+				Logger.LogError("[AssetBundleManager] " + text);
 			else if (m_LogMode == LogMode.All)
-				Debug.Log("[AssetBundleManager] " + text);
+				Logger.Debug("[AssetBundleManager] " + text);
 		}
 	
 	#if UNITY_EDITOR
@@ -148,7 +162,7 @@ namespace AssetBundles
 			string url = (urlFile != null) ? urlFile.text.Trim() : null;
 			if (url == null || url.Length == 0)
 			{
-				Debug.LogError("Development Server URL could not be found.");
+				Log(LogType.Error,"Development Server URL could not be found.");
 				AssetBundleManager.SetSourceAssetBundleURL("http://localhost:7888/" + Utility.GetPlatformName() + "/");
 			}
 			else
@@ -158,12 +172,12 @@ namespace AssetBundles
 		}
 		
 		// Get loaded AssetBundle, only return vaild object when all the dependencies are downloaded successfully.
-		static public LoadedAssetBundle GetLoadedAssetBundle (string assetBundleName, out string error)
+		static public LoadAssetBundleInfo GetLoadedAssetBundle (string assetBundleName, out string error)
 		{
 			if (m_DownloadingErrors.TryGetValue(assetBundleName, out error) )
 				return null;
 		
-			LoadedAssetBundle bundle = null;
+			LoadAssetBundleInfo bundle = null;
 			m_LoadedAssetBundles.TryGetValue(assetBundleName, out bundle);
 			if (bundle == null)
 				return null;
@@ -180,7 +194,7 @@ namespace AssetBundles
 					return bundle;
 	
 				// Wait all the dependent assetBundles being loaded.
-				LoadedAssetBundle dependentBundle;
+				LoadAssetBundleInfo dependentBundle;
 				m_LoadedAssetBundles.TryGetValue(dependency, out dependentBundle);
 				if (dependentBundle == null)
 					return null;
@@ -194,7 +208,6 @@ namespace AssetBundles
 			Log(LogType.Info,"Initialize");
 			return Initialize(Utility.GetPlatformName());
 		}
-			
 	
 		// Load AssetBundleManifest.
 		static public AssetBundleLoadManifestOperation Initialize (string manifestAssetBundleName)
@@ -211,17 +224,19 @@ namespace AssetBundles
 			if (SimulateAssetBundleInEditor)
 				return null;
 	#endif
+
+			VersionManager.local = VersionManager.LoadLocalVersion();
 	
-			LoadAssetBundle(manifestAssetBundleName, true);
+			_loadAssetBundle(new LoadAssetBundleInfo(manifestAssetBundleName, true));
 			var operation = new AssetBundleLoadManifestOperation (manifestAssetBundleName, "AssetBundleManifest", typeof(AssetBundleManifest));
 			m_InProgressOperations.Add (operation);
 			return operation;
 		}
 		
 		// Load AssetBundle and its dependencies.
-		static protected void LoadAssetBundle(string assetBundleName, bool isLoadingAssetBundleManifest = false)
+		static protected void _loadAssetBundle(LoadAssetBundleInfo info)
 		{
-			Log(LogType.Info, "Loading Asset Bundle " + (isLoadingAssetBundleManifest ? "Manifest: " : ": ") + assetBundleName);
+			Log(LogType.Info, "Attempt to Load Asset Bundle " + info.assetBundleName + (info.isManifestBundle? "[Manifest]":""));
 	
 	#if UNITY_EDITOR
 			// If we're in Editor simulation mode, we don't have to really load the assetBundle and its dependencies.
@@ -229,21 +244,21 @@ namespace AssetBundles
 				return;
 	#endif
 	
-			if (!isLoadingAssetBundleManifest)
+			if (!info.isManifestBundle)
 			{
 				if (m_AssetBundleManifest == null)
 				{
-					Debug.LogError("Please initialize AssetBundleManifest by calling AssetBundleManager.Initialize()");
+					Log(LogType.Error,"Please initialize AssetBundleManifest by calling AssetBundleManager.Initialize()");
 					return;
 				}
 			}
 	
 			// Check if the assetBundle has already been processed.
-			bool isAlreadyProcessed = LoadAssetBundleInternal(assetBundleName, isLoadingAssetBundleManifest);
+			bool isAlreadyProcessed = _loadAssetBundleInternal(info);
 	
 			// Load dependencies.
-			if (!isAlreadyProcessed && !isLoadingAssetBundleManifest)
-				LoadDependencies(assetBundleName);
+			if (!isAlreadyProcessed && !info.isManifestBundle)
+				_loadDependencies(info.assetBundleName);
 		}
 		
 		// Remaps the asset bundle name to the best fitting asset bundle variant.
@@ -277,7 +292,7 @@ namespace AssetBundles
 			
 			if (bestFit == int.MaxValue-1)
 			{
-				Debug.LogWarning("Ambigious asset bundle variant chosen because there was no matching active variant: " + bundlesWithVariant[bestFitIndex]);
+				Log(LogType.Warning,"Ambigious asset bundle variant chosen because there was no matching active variant: " + bundlesWithVariant[bestFitIndex]);
 			}
 			
 			if (bestFitIndex != -1)
@@ -291,11 +306,11 @@ namespace AssetBundles
 		}
 	
 		// Where we actuall call WWW to download the assetBundle.
-		static protected bool LoadAssetBundleInternal (string assetBundleName, bool isLoadingAssetBundleManifest)
+		static protected bool _loadAssetBundleInternal (LoadAssetBundleInfo info)
 		{
 			// Already loaded.
-			LoadedAssetBundle bundle = null;
-			m_LoadedAssetBundles.TryGetValue(assetBundleName, out bundle);
+			LoadAssetBundleInfo bundle = null;
+			m_LoadedAssetBundles.TryGetValue(info.assetBundleName, out bundle);
 			if (bundle != null)
 			{
 				bundle.m_ReferencedCount++;
@@ -305,29 +320,33 @@ namespace AssetBundles
 			// @TODO: Do we need to consider the referenced count of WWWs?
 			// In the demo, we never have duplicate WWWs as we wait LoadAssetAsync()/LoadLevelAsync() to be finished before calling another LoadAssetAsync()/LoadLevelAsync().
 			// But in the real case, users can call LoadAssetAsync()/LoadLevelAsync() several times then wait them to be finished which might have duplicate WWWs.
-			if (m_DownloadingWWWs.ContainsKey(assetBundleName) )
+			if (m_DownloadingWWWs.ContainsKey(info.assetBundleName) )
 				return true;
 	
-			WWW download = null;
-			string url = m_BaseDownloadingURL + assetBundleName;
+			string url = m_BaseDownloadingURL + info.assetBundleName;
 		
+			//Log(LogType.Info,"[ Start Download ] : " + url);
+			
 			// For manifest assetbundle, always download it as we don't have hash for it.
-			if (isLoadingAssetBundleManifest)
-				download = new WWW(url);
+			if (info.isManifestBundle)
+				info.download = new WWW(url);
 			else
-				download = WWW.LoadFromCacheOrDownload(url, m_AssetBundleManifest.GetAssetBundleHash(assetBundleName), 0); 
+				info.download = WWW.LoadFromCacheOrDownload(url, m_AssetBundleManifest.GetAssetBundleHash(info.assetBundleName), 0); 
 	
-			m_DownloadingWWWs.Add(assetBundleName, download);
+			m_DownloadingWWWs.Add(info.assetBundleName, info);
+
+			Log(LogType.Info,"[ Downloading ] : " + DownloadingCount);
 	
 			return false;
 		}
 	
 		// Where we get all the dependencies and load them all.
-		static protected void LoadDependencies(string assetBundleName)
+		static protected void _loadDependencies(string assetBundleName)
 		{
+			Log(LogType.Info,"-- Load dependencies from " + assetBundleName);
 			if (m_AssetBundleManifest == null)
 			{
-				Debug.LogError("Please initialize AssetBundleManifest by calling AssetBundleManager.Initialize()");
+				Log(LogType.Error,"Please initialize AssetBundleManifest by calling AssetBundleManager.Initialize()");
 				return;
 			}
 	
@@ -335,15 +354,19 @@ namespace AssetBundles
 			string[] dependencies = m_AssetBundleManifest.GetAllDependencies(assetBundleName);
 			if (dependencies.Length == 0)
 				return;
+
+			if (m_Dependencies.ContainsKey(assetBundleName)){
+				Log(LogType.Error,"Already has dependency bundle : " + assetBundleName);
+				return;
+			}
 			
-			Debug.Log("-- Load dependencies " + assetBundleName);
 			for (int i=0;i<dependencies.Length;i++)
 				dependencies[i] = RemapVariantName (dependencies[i]);
 				
 			// Record and load all dependencies.
 			m_Dependencies.Add(assetBundleName, dependencies);
 			for (int i=0;i<dependencies.Length;i++)
-				LoadAssetBundleInternal(dependencies[i], false);
+				_loadAssetBundleInternal(new LoadAssetBundleInfo(dependencies[i]));
 		}
 	
 		// Unload assetbundle and its dependencies.
@@ -355,15 +378,15 @@ namespace AssetBundles
 				return;
 	#endif
 	
-			//Debug.Log(m_LoadedAssetBundles.Count + " assetbundle(s) in memory before unloading " + assetBundleName);
+			//Log(LogType.Info,m_LoadedAssetBundles.Count + " assetbundle(s) in memory before unloading " + assetBundleName);
 	
-			UnloadAssetBundleInternal(assetBundleName);
-			UnloadDependencies(assetBundleName);
+			_unloadAssetBundleInternal(assetBundleName);
+			_unloadDependencies(assetBundleName);
 	
-			//Debug.Log(m_LoadedAssetBundles.Count + " assetbundle(s) in memory after unloading " + assetBundleName);
+			//Log(LogType.Info,m_LoadedAssetBundles.Count + " assetbundle(s) in memory after unloading " + assetBundleName);
 		}
 	
-		static protected void UnloadDependencies(string assetBundleName)
+		static protected void _unloadDependencies(string assetBundleName)
 		{
 			string[] dependencies = null;
 			if (!m_Dependencies.TryGetValue(assetBundleName, out dependencies) )
@@ -372,16 +395,16 @@ namespace AssetBundles
 			// Loop dependencies.
 			foreach(var dependency in dependencies)
 			{
-				UnloadAssetBundleInternal(dependency);
+				_unloadAssetBundleInternal(dependency);
 			}
 	
 			m_Dependencies.Remove(assetBundleName);
 		}
 	
-		static protected void UnloadAssetBundleInternal(string assetBundleName)
+		static protected void _unloadAssetBundleInternal(string assetBundleName)
 		{
 			string error;
-			LoadedAssetBundle bundle = GetLoadedAssetBundle(assetBundleName, out error);
+			LoadAssetBundleInfo bundle = GetLoadedAssetBundle(assetBundleName, out error);
 			if (bundle == null)
 				return;
 	
@@ -400,7 +423,7 @@ namespace AssetBundles
 			var keysToRemove = new List<string>();
 			foreach (var keyValue in m_DownloadingWWWs)
 			{
-				WWW download = keyValue.Value;
+				WWW download = keyValue.Value.download;
 	
 				// If downloading fails.
 				if (download.error != null && download.error.Length > 0)
@@ -421,8 +444,16 @@ namespace AssetBundles
 						continue;
 					}
 				
-					Debug.Log("Downloading " + keyValue.Key + " is done at frame " + Time.frameCount);
-					m_LoadedAssetBundles.Add(keyValue.Key, new LoadedAssetBundle(download.assetBundle) );
+					Log(LogType.Info, "[ done download ] " + keyValue.Key + " is done at frame " + Time.frameCount);
+					if(!VersionManager.local.IsExist(download.url)) {
+						VersionManager.local.bundles.Add(new VersionManager.BundleInfo() {
+							url = download.url,
+							size = download.bytesDownloaded
+						});
+						VersionManager.UpdateVersionConfig(VersionManager.local);
+					}
+					keyValue.Value.m_AssetBundle = download.assetBundle;
+					m_LoadedAssetBundles.Add(keyValue.Key, keyValue.Value );
 					keysToRemove.Add(keyValue.Key);
 				}
 			}
@@ -430,7 +461,7 @@ namespace AssetBundles
 			// Remove the finished WWWs.
 			foreach( var key in keysToRemove)
 			{
-				WWW download = m_DownloadingWWWs[key];
+				WWW download = m_DownloadingWWWs[key].download;
 				m_DownloadingWWWs.Remove(key);
 				download.Dispose();
 			}
@@ -439,9 +470,7 @@ namespace AssetBundles
 			for (int i=0;i<m_InProgressOperations.Count;)
 			{
 				if (!m_InProgressOperations[i].Update())
-				{
 					m_InProgressOperations.RemoveAt(i);
-				}
 				else
 					i++;
 			}
@@ -450,7 +479,7 @@ namespace AssetBundles
 		// Load asset from the given assetBundle.
 		static public AssetBundleLoadAssetOperation LoadAssetAsync (string assetBundleName, string assetName, System.Type type)
 		{
-			Log(LogType.Info, "Loading " + assetName + " from " + assetBundleName + " bundle");
+			Log(LogType.Info, "Load Asset (" + assetName + ") from " + assetBundleName);
 	
 			AssetBundleLoadAssetOperation operation = null;
 	#if UNITY_EDITOR
@@ -459,7 +488,7 @@ namespace AssetBundles
 				string[] assetPaths = AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName(assetBundleName, assetName);
 				if (assetPaths.Length == 0)
 				{
-					Debug.LogError("There is no asset with name \"" + assetName + "\" in " + assetBundleName);
+					Log(LogType.Error, "There is no asset with name \"" + assetName + "\" in " + assetBundleName);
 					return null;
 				}
 	
@@ -470,8 +499,8 @@ namespace AssetBundles
 			else
 	#endif
 			{
-				assetBundleName = RemapVariantName (assetBundleName);
-				LoadAssetBundle (assetBundleName);
+				assetBundleName = RemapVariantName(assetBundleName);
+				_loadAssetBundle(new LoadAssetBundleInfo(assetBundleName));
 				operation = new AssetBundleLoadAssetOperationFull (assetBundleName, assetName, type);
 	
 				m_InProgressOperations.Add (operation);
@@ -483,7 +512,7 @@ namespace AssetBundles
 		// Load level from the given assetBundle.
 		static public AssetBundleLoadOperation LoadLevelAsync (string assetBundleName, string levelName, bool isAdditive)
 		{
-			Log(LogType.Info, "Loading '" + levelName + "' from '" + assetBundleName + "' bundle");
+			Log(LogType.Info, "Load level ('" + levelName + "') from " + assetBundleName);
 	
 			AssetBundleLoadOperation operation = null;
 	#if UNITY_EDITOR
@@ -495,7 +524,7 @@ namespace AssetBundles
 	#endif
 			{
 				assetBundleName = RemapVariantName(assetBundleName);
-				LoadAssetBundle (assetBundleName);
+				_loadAssetBundle(new LoadAssetBundleInfo(assetBundleName));
 				operation = new AssetBundleLoadLevelOperation (assetBundleName, levelName, isAdditive);
 	
 				m_InProgressOperations.Add (operation);

@@ -2392,6 +2392,7 @@ MonoBehaviour:
   config: {fileID: 11400000, guid: fdcb8c51344f143f9bb0bd8e3a737dde, type: 2}
   objListup: {fileID: 1951224177}
   objPlay: {fileID: 628894677}
+  displayTitle: {fileID: 926370427}
   objContentViewListup: {fileID: 1730699549}
   objContentViewSnap: {fileID: 1791362195}
   prefabDisplayItem: {fileID: 1213663653}
