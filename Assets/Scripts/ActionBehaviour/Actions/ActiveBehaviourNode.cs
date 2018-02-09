@@ -12,13 +12,21 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class ObjectActiveNode : ActionNode {
+	public class ActiveBehaviourNode : ActionNode {
 
 		[SerializeField]
 		protected GameObject[] objects;
-		protected override void OnStart() {
+
+		protected override ActionState OnUpdate() {
+
+			// parent update
+			ActionState result = base.OnUpdate();
+			if(result != ActionState.Success)
+				return result;
+			
 			for( int i=0;i < objects.Length; ++i )
 				objects[i].SetActive(true);
+			return ActionState.Success;
 		}
 	}
 

@@ -18,20 +18,25 @@ namespace ActionBehaviour {
 
 		private int index = 0;
 
-		protected override void OnStart() {
+		protected override void OnReady() {
 			index = 0;
 		}
 
-		public override ActionState Run() {
-			// run parent
-			ActionState result = base.Run();
+		protected override ActionState OnUpdate() {
 
-			// default result
+			// parent update
+			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
 
 			while(index < childNodes.Length) {
-				result = childNodes[index].Run();
+
+				// exception infinite loop
+				Debug.Assert(childNodes[index] != this,"child node is ownself!! " + this.name);
+				if(childNodes[index] == this)
+					return ActionState.Error;
+
+				result = childNodes[index].Execute();
 				if(ActionState.Success != result)
 					return result;
 				++index;

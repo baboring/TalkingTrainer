@@ -11,13 +11,30 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
+	using Common.Utilities;
+
 	public class ActionNode : BaseNode {
 
-		[SerializeField]
-		public string tag;
+		public enum LogMode { All, JustErrors };
+		static LogMode m_LogMode = LogMode.All;
+	
 
-		protected override void OnStart() {
-			
+		[SerializeField]
+		public string label;
+
+		protected override ActionState OnUpdate() {
+			if(label.Length > 0)
+				Log(LogType.Log, label);
+			return ActionState.Success;
 		}
+
+		private static void Log(LogType logType, string text)
+		{
+			if (logType == LogType.Error)
+				Logger.LogError("[ActionNode] " + text);
+			else if (m_LogMode == LogMode.All)
+				Logger.Debug("[ActionNode] " + text);
+		}
+		
 	}
 }

@@ -27,16 +27,24 @@ namespace ActionBehaviour {
 		// state
 		protected ActionState state = ActionState.None;
 
+		protected virtual void OnReady() {}
 		// ready
-		protected abstract void OnStart();
+		protected abstract ActionState OnUpdate();
 
 		// default core function
-		public virtual ActionState Run() {
-			if(ActionState.None == state){
+		public virtual ActionState Execute() {
+
+			// start up 
+			if(ActionState.None == state) {
 				state = ActionState.Ready;
-				OnStart();
+				OnReady();
 			}
-			return ActionState.Success;
+
+			// update 
+			if(ActionState.Running == state || ActionState.Ready == state) 
+				state = OnUpdate();
+
+			return state;
 		}
 	}
 
