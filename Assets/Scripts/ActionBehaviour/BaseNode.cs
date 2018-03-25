@@ -8,12 +8,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 namespace ActionBehaviour {
 
 	public enum ActionState {
 		None = 0,
-		Ready,
 		Success,
 		Fail,
 		Running,
@@ -27,25 +27,41 @@ namespace ActionBehaviour {
 		// state
 		protected ActionState state = ActionState.None;
 
-		protected virtual void OnReady() {}
+        protected virtual void OnReset() { state = ActionState.None; }
+
 		// ready
-		protected abstract ActionState OnUpdate();
+		public abstract ActionState OnUpdate();
 
 		// default core function
 		public virtual ActionState Execute() {
 
 			// start up 
-			if(ActionState.None == state) {
-				state = ActionState.Ready;
-				OnReady();
-			}
+            OnReset();
 
 			// update 
-			if(ActionState.Running == state || ActionState.Ready == state) 
+            if(ActionState.Running == state || ActionState.None == state) 
 				state = OnUpdate();
 
 			return state;
 		}
 	}
+
+	#if UNITY_EDITOR
+	[CustomEditor(typeof(BaseNode), true)]
+	[CanEditMultipleObjects]
+	public class BaseNodeEditor : Editor
+	{
+		public override void OnInspectorGUI()
+		{
+			DrawDefaultInspector();
+			
+			BaseNode myScript = (BaseNode)target;
+			if(GUILayout.Button("Execute"))
+			{
+				myScript.Execute();
+			}
+		}
+	}
+	#endif	
 
 }

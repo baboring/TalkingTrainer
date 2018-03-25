@@ -1,6 +1,7 @@
-﻿/* *************************************************
+﻿
+/* *************************************************
 *  Created:  2018-1-28 20:15:39
-*  File:     ObjectEnableNode.cs
+*  File:     LogNode.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -10,10 +11,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ActionBehaviour {
-	public class EnableBehaviourNode : ActionNode {
+
+	public class LogNode : ActionNode {
 
 		[SerializeField]
-		protected ActionNode[] targets;
+		protected string logString;
 
         public override ActionState OnUpdate() {
 
@@ -21,11 +23,10 @@ namespace ActionBehaviour {
 			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
-
-			for( int i=0;i < targets.Length; ++i )
-				targets[i].enabled = true;
-
+			if(logString.Length > 0)
+				Debug.Log(logString);
 			return ActionState.Success;
+
 		}
 	}
 

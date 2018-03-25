@@ -16,11 +16,11 @@ namespace ActionBehaviour {
 		[SerializeField]
 		protected ActionNode Node;
 
-		void Start() {
+		void OnEnable() {
 			Execute();
 		}
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();

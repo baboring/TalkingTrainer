@@ -32,16 +32,22 @@ namespace ActionBehaviour {
 				base.Execute();
 		}
 
-		// Use this for initialization
-		IEnumerator ExecuteNode() {
+        // called by outside
+        public void RunController()
+        {
 
-			while(Node != null && Node.Execute() == ActionState.Running)
-				yield return null;
-			yield return null;
-		}
+            base.Execute();
+        }
+
+        protected override void OnReset()
+        {
+            base.OnReset();
+            Debug.Assert(Node != null, "Node is null");
+        }
+
 
 		// On Update
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();
@@ -52,18 +58,13 @@ namespace ActionBehaviour {
 			Debug.Assert(Node != this,"Node is owner");
 			if(Node == this || Node == null)
 				return ActionState.Error;
-			
-			// run 
-			StartCoroutine(ExecuteNode());
+
+            // run 
+            Node.Execute();
 
 			return ActionState.Success;
 		}
 
-		// called by outside
-		public void RunController() {
-
-			base.Execute();
-		}
 		
 	}
 }

@@ -22,7 +22,7 @@ namespace ActionBehaviour {
 		[SerializeField]
 		public string label;
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 			if(label.Length > 0)
 				Log(LogType.Log, label);
 			return ActionState.Success;

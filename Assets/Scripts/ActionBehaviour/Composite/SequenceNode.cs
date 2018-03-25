@@ -17,34 +17,67 @@ namespace ActionBehaviour {
 		protected ActionNode[] childNodes;
 
 		private int index = 0;
+        Coroutine working = null;
 
-		protected override void OnReady() {
-			index = 0;
+		protected override void OnReset() {
+            
+            base.OnReset();
+
+            if(null != working)
+                StopCoroutine(CoUpdateSequence());
+            
+            working = null;
+            index = 0;
 		}
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
-			// parent update
-			ActionState result = base.OnUpdate();
-			if(result != ActionState.Success)
-				return result;
+            ActionState result = base.OnUpdate();
+            if (result != ActionState.Success)
+                return result;
 
-			while(index < childNodes.Length) {
+            state = this.UpdateSequence();
+            if(ActionState.Running == state) {
+                working = StartCoroutine(CoUpdateSequence());
+            }
 
-				// exception infinite loop
-				Debug.Assert(childNodes[index] != this,"child node is ownself!! " + this.name);
-				if(childNodes[index] == this)
-					return ActionState.Error;
-
-				result = childNodes[index].Execute();
-				if(ActionState.Success != result)
-					return result;
-				++index;
-			}
-
-			return ActionState.Success;
+            return state;
 		}
+
+        IEnumerator CoUpdateSequence()
+        {
+
+            // performs to update Sequence
+            while (index < childNodes.Length)
+            {
+                state = this.UpdateSequence();
+                if (ActionState.Running != state)
+                    break;
+                yield return null;
+            }
+            working = null;
+        }
+
+        ActionState UpdateSequence() {
+            
+            ActionState result = ActionState.Success;
+            while (index < childNodes.Length)
+            {
+                // exception infinite loop
+                Debug.Assert(childNodes[index] != this, "child node is ownself!! " + this.name);
+                if (childNodes[index] == this)
+                    return ActionState.Error;
+
+                result = childNodes[index].OnUpdate();
+                if (ActionState.Success != result)
+                    return result;
+                ++index;
+            }
+
+            return result;
+        }
 
 	}
+
 
 }

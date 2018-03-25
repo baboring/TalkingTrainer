@@ -16,7 +16,7 @@ namespace ActionBehaviour {
 		[SerializeField]
 		protected ActionNode[] targets;
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();

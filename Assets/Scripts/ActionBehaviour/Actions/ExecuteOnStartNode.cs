@@ -20,7 +20,7 @@ namespace ActionBehaviour {
 			Execute();
 		}
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();

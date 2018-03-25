@@ -1,6 +1,7 @@
-﻿/* *************************************************
+﻿
+/* *************************************************
 *  Created:  2018-1-28 20:15:39
-*  File:     ObjectEnableNode.cs
+*  File:     WaitNode.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -10,22 +11,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ActionBehaviour {
-	public class EnableBehaviourNode : ActionNode {
+
+	public class WaitNode : ActionNode {
 
 		[SerializeField]
-		protected ActionNode[] targets;
+		protected float delay;
+		private float elapsedTime;
 
+		protected override void OnReset() {
+            base.OnReset();
+			elapsedTime = 0;
+		}
         public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
+			
+			if(elapsedTime >= delay)
+				return ActionState.Success;
 
-			for( int i=0;i < targets.Length; ++i )
-				targets[i].enabled = true;
+			elapsedTime += Time.deltaTime;
 
-			return ActionState.Success;
+			return ActionState.Running;
 		}
 	}
 

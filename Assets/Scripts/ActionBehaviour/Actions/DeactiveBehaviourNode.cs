@@ -17,7 +17,7 @@ namespace ActionBehaviour {
 		[SerializeField]
 		protected GameObject[] objects;
 
-		protected override ActionState OnUpdate() {
+        public override ActionState OnUpdate() {
 
 			// parent update
 			ActionState result = base.OnUpdate();
