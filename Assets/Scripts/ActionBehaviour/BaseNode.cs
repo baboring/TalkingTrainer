@@ -29,6 +29,8 @@ namespace ActionBehaviour {
 
         protected virtual void OnReset() { state = ActionState.None; }
 
+        public void Reset() { OnReset(); }
+
 		// ready
 		public abstract ActionState OnUpdate();
 

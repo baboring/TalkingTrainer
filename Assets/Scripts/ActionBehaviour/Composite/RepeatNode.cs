@@ -1,6 +1,6 @@
 ﻿/* *************************************************
 *  Created:  2018-1-28 19:46:46
-*  File:     SequenceNode.cs
+*  File:     RepeatNode.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -11,14 +11,19 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class SequenceNode : ActionNode {
+	public class RepeatNode : ActionNode {
 
+        [SerializeField]
+        protected int loop = 1;
+        
 		[SerializeField]
 		protected ActionNode[] childNodes;
 
 		private int m_index = 0;
+		private int m_count = 0;
         Coroutine m_working = null;
 
+        // Reset Action
 		protected override void OnReset() {
             
             base.OnReset();
@@ -26,8 +31,9 @@ namespace ActionBehaviour {
             if(null != m_working)
                 StopCoroutine(CoUpdateSequence());
             
-            m_working = null;
             m_index = 0;
+            m_count = 0;
+            m_working = null;
 
             // reset children
             ResetChildren();
@@ -35,7 +41,6 @@ namespace ActionBehaviour {
 
         // reset children
         protected void ResetChildren() {
-
             if(childNodes != null && childNodes.Length > 0) {
                 foreach (var node in childNodes)
                     if (node != null)
@@ -43,7 +48,7 @@ namespace ActionBehaviour {
             }
         }
 
-
+        // Run Action
         public override ActionState OnUpdate() {
 
             if(null == m_working) {
@@ -51,6 +56,10 @@ namespace ActionBehaviour {
                 if (result != ActionState.Success)
                     return result;
             }
+
+            // no more tasks
+            if(loop < 1)
+                return ActionState.Success;
 
             state = this.UpdateSequence();
             if(ActionState.Running == state) {
@@ -60,9 +69,8 @@ namespace ActionBehaviour {
             return state;
 		}
 
-        // Coroutine for updating sequence multi
+        // coroutine for updating
         IEnumerator CoUpdateSequence() {
-
             // performs to update Sequence
             while (m_index < childNodes.Length)
             {
@@ -74,21 +82,31 @@ namespace ActionBehaviour {
             m_working = null;
         }
 
-        // inner update sequnce
+        // inner update sequence
         ActionState UpdateSequence() {
             
             ActionState result = ActionState.Success;
-            while (m_index < childNodes.Length)
-            {
-                // exception infinite loop
-                Debug.Assert(childNodes[m_index] != this, "child node is ownself!! " + this.name);
-                if (childNodes[m_index] == this)
-                    return ActionState.Error;
 
-                result = childNodes[m_index].OnUpdate();
-                if (ActionState.Success != result)
-                    return result;
-                ++m_index;
+            while(m_count < loop) {
+                // processing sequence step by step
+                while (m_index < childNodes.Length) {
+                    // exception infinite loop
+                    Debug.Assert(childNodes[m_index] != this, "child node is ownself!! " + this.name);
+                    if (childNodes[m_index] == this)
+                        return ActionState.Error;
+
+                    result = childNodes[m_index].OnUpdate();
+                    if (ActionState.Success != result)
+                        return result;
+                    ++m_index;
+                }
+
+                // reset children
+                ResetChildren();
+
+                // check loop count
+                m_count++;
+                m_index = 0;
             }
 
             return result;

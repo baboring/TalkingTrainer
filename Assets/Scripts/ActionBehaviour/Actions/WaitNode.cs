@@ -15,26 +15,41 @@ namespace ActionBehaviour {
 	public class WaitNode : ActionNode {
 
 		[SerializeField]
-		protected float delay;
-		private float elapsedTime;
+		protected float second;
+
+        Coroutine m_working = null;
 
 		protected override void OnReset() {
             base.OnReset();
-			elapsedTime = 0;
+            if (null != m_working)
+                StopCoroutine(CoUpdateSequence());
+            m_working = null;
 		}
+
+        // coroutine for updating
+        IEnumerator CoUpdateSequence()
+        {
+            yield return new WaitForSeconds(second);
+
+            state = ActionState.Success;
+            m_working = null;
+        }
+
+        // Update node
         public override ActionState OnUpdate() {
 
 			// parent update
-			ActionState result = base.OnUpdate();
-			if(result != ActionState.Success)
-				return result;
-			
-			if(elapsedTime >= delay)
-				return ActionState.Success;
+            if(null == m_working && state != ActionState.Success) {
+                ActionState result = base.OnUpdate();
+                if (result != ActionState.Success)
+                    return result;
 
-			elapsedTime += Time.deltaTime;
+                state = ActionState.Running;
+                m_working = StartCoroutine(CoUpdateSequence());
+            }
 
-			return ActionState.Running;
+
+            return state;
 		}
 	}
 
