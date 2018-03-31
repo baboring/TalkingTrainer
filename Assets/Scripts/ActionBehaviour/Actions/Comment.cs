@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class LogNode : ActionNode {
+	public class Comment : ActionNode {
 
 		[SerializeField]
 		protected string logString;

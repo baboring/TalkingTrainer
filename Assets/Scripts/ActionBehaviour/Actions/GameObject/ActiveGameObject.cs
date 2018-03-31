@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class ActiveBehaviourNode : ActionNode {
+	public class ActiveGameObject : ActionNode {
 
 		[SerializeField]
 		protected GameObject[] objects;
