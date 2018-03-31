@@ -1,7 +1,6 @@
-﻿
-/* *************************************************
-*  Created:  2018-1-28 20:15:39
-*  File:     ObjectDeactiveNode.cs
+﻿/* *************************************************
+*  Created:  2018-1-28 19:46:32
+*  File:     ExecuteOnEvent.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -12,12 +11,10 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-    using NaughtyAttributes;
-
-	public class InactiveGameObject : ActionNode {
+	public class Execute : ActionNode {
 
 		[SerializeField]
-		protected GameObject[] objects;
+		protected ActionNode Node;
 
         public override ActionState OnUpdate() {
 
@@ -25,14 +22,12 @@ namespace ActionBehaviour {
 			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
+			
+			if(Node == null || Node == this)
+				return ActionState.Error;
 
-			for( int i=0;i < objects.Length; ++i )
-				objects[i].SetActive(false);
-
-			return ActionState.Success;
+			return Node.Execute();;
 		}
 		
-		
 	}
-
 }

@@ -11,8 +11,11 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 	
-	public class DisableBehaviourNode : ActionNode {
+    using NaughtyAttributes;
 
+	public class DisableMonoBehaviour : ActionNode {
+
+        [ReorderableList]
 		[SerializeField]
 		protected ActionNode[] targets;
 

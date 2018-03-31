@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace TTrainer {
+namespace Common.Utilities {
 
 	public enum ColorType
 	{
@@ -22,7 +22,8 @@ namespace TTrainer {
 		cyan,
 		magenta,
 	}
-	static public class Utility
+	
+	static public class Facade
 	{
 		// setting layer number.
 		static public void SetLayerRecursively(GameObject _object, System.Int32 _layer)

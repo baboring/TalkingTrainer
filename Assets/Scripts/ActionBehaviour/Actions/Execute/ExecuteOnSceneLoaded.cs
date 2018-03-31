@@ -12,7 +12,7 @@ namespace ActionBehaviour {
 
     using Common.Utilities;
 
-    public class ExecuteOnSceneLoaded : ActionNode {
+    public class ExecuteOnSceneLoaded : Execute {
 
         // called first
         void OnEnable()

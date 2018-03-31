@@ -5,9 +5,11 @@
 *  Purpose:  []
 ****************************************************/
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace ActionBehaviour {
 
@@ -42,7 +44,7 @@ namespace ActionBehaviour {
         protected override void OnReset()
         {
             base.OnReset();
-            Debug.Assert(Node != null, "Node is null");
+            Debug.Assert(Node != null, "Node is null:" + label);
         }
 
 
@@ -54,8 +56,8 @@ namespace ActionBehaviour {
 			if(result != ActionState.Success)
 				return result;
 
-			Debug.Assert(Node != null,"Node is null");
-			Debug.Assert(Node != this,"Node is owner");
+            Debug.Assert(Node != null,"Node is null:" + label);
+            Debug.Assert(Node != this,"Node is owner:" + label);
 			if(Node == this || Node == null)
 				return ActionState.Error;
 
@@ -67,4 +69,22 @@ namespace ActionBehaviour {
 
 		
 	}
+
+#if UNITY_EDITOR
+    [CustomEditor(typeof(ActionController), true)]
+    [CanEditMultipleObjects]
+    public class NodeActionControllerEditor : Editor
+    {
+      public override void OnInspectorGUI()
+      {
+          DrawDefaultInspector();
+
+            ActionController myScript = (ActionController)target;
+            if(GUILayout.Button("Execute"))
+            {
+                myScript.Execute();
+            }
+      }
+    }
+#endif
 }

@@ -9,20 +9,20 @@ namespace Common {
 		object Value {get;}
 	}
 
-	public class Variable : IVariable
+	public class 	Variable : IVariable
 	{
 		public System.Type Type {get; private set;}
 		public object Value { get; set; }
 
-		public Variable(System.Type type, object value) {
+		public Variable(System.Type type, object value = null) {
 			Type = type;
-			Value = value;
+			Value = (value == null)? type.GetDefault() : value;
 		}
 
 		public T GetValue<T>() {
 			if(typeof(T) == this.Type)
 				return (T)Value;
-			return default(T);
+			throw new System.ArgumentException("Type Missmatch or undefined !!");
 		}
 
 		public bool SetValue<T>(T val) {

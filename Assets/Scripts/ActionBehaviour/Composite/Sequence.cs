@@ -11,8 +11,11 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class SequenceNode : ActionNode {
+    using NaughtyAttributes;
 
+	public class Sequence : ActionNode {
+
+        [ReorderableList]
 		[SerializeField]
 		protected ActionNode[] childNodes;
 

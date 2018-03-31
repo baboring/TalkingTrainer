@@ -5,10 +5,7 @@
 *  Purpose:  []
 ****************************************************/
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 
 namespace ActionBehaviour {
 
@@ -47,23 +44,4 @@ namespace ActionBehaviour {
 			return state;
 		}
 	}
-
-	#if UNITY_EDITOR
-	[CustomEditor(typeof(BaseNode), true)]
-	[CanEditMultipleObjects]
-	public class BaseNodeEditor : Editor
-	{
-		public override void OnInspectorGUI()
-		{
-			DrawDefaultInspector();
-			
-			BaseNode myScript = (BaseNode)target;
-			if(GUILayout.Button("Execute"))
-			{
-				myScript.Execute();
-			}
-		}
-	}
-	#endif	
-
 }

@@ -12,10 +12,15 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
+    using Common.Utilities;
+
 	public class Comment : ActionNode {
 
+        [SerializeField]
+        protected Logger.LogLevel type;
 		[SerializeField]
-		protected string logString;
+		protected string logText;
+
 
         public override ActionState OnUpdate() {
 
@@ -23,8 +28,8 @@ namespace ActionBehaviour {
 			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
-			if(logString.Length > 0)
-				Debug.Log(logString);
+            if(logText.Length > 0)
+                Logger.Log(type, logText);
 			return ActionState.Success;
 
 		}

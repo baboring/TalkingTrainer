@@ -12,8 +12,11 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
+    using NaughtyAttributes;
+
 	public class ActiveGameObject : ActionNode {
 
+        [ReorderableList]
 		[SerializeField]
 		protected GameObject[] objects;
 

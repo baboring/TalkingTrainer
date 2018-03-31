@@ -10,12 +10,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ActionBehaviour {
+    
+    using NaughtyAttributes;
 
-	public class RepeatNode : ActionNode {
+	public class Repeat : ActionNode {
 
         [SerializeField]
         protected int loop = 1;
         
+        [ReorderableList]
 		[SerializeField]
 		protected ActionNode[] childNodes;
 

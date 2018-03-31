@@ -10,8 +10,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace ActionBehaviour {
-	public class EnableBehaviourNode : ActionNode {
 
+    using NaughtyAttributes;
+
+	public class EnableMonoBehaviour : ActionNode {
+
+        [ReorderableList]
 		[SerializeField]
 		protected ActionNode[] targets;
 
