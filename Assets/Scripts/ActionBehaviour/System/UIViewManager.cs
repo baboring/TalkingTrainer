@@ -17,7 +17,12 @@ namespace ActionBehaviour {
 
     public class UIViewManager : MonoSingleton<UIViewManager> {
 
-        public void Execute() {
+		protected override void Awake()
+		{
+            base.Awake();
+		}
+
+		public void Execute() {
             
         }
 

@@ -17,7 +17,7 @@ namespace ActionBehaviour {
 	public class Comment : ActionNode {
 
         [SerializeField]
-        protected Logger.LogLevel type;
+        protected LogLevel type;
 		[SerializeField]
 		protected string logText;
 

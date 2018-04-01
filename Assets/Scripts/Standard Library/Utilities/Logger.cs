@@ -20,18 +20,19 @@ namespace Common.Utilities
 {
 	using System.IO;
 
+    public enum LogLevel
+    {
+        DEBUG,
+        INFO,
+        WARN,
+        ERROR,
+        FATAL,
+        PACKET, // 이렇게 넣으면 흠...
+    }
+
 	// 로그만 따로 정리해서 보여주는거 필요해서 만들었다.
 	public static class Logger
 	{
-		public enum LogLevel
-		{
-			DEBUG,
-			INFO,
-			WARN,
-			ERROR,
-			FATAL,
-			PACKET,	// 이렇게 넣으면 흠...
-		}
 
 		// 로그 레벨
 		static LogMask captureLogMask = new LogMask {

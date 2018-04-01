@@ -24,22 +24,29 @@ namespace ActionBehaviour {
         [SerializeField]
         protected bool isIndex	= true;
 
+        [BoxGroup("Setting")]
         [HideIf("isIndex")]
 		[SerializeField]
 		protected string LevelName;		// Scene Name
 
+        [BoxGroup("Setting")]
         [ShowIf("isIndex")]
 		[SerializeField]
 		protected int LeveIndex;		// Scene Build Index
 
+        [BoxGroup("Setting")]
 		[SerializeField]
 		protected LOAD_SCENE_METHOD loadMethod;	// Sync, Async
 
+        [BoxGroup("Setting")]
 		[SerializeField]
 		protected LoadSceneMode loadMode;	// Addictive, Single
 
+        [BoxGroup("Actions")]
         [SerializeField]
         protected ActionNode NodeOnStartLoad;
+
+        [BoxGroup("Actions")]
         [SerializeField]
         protected ActionNode NodeOnSceneLoaded;
 

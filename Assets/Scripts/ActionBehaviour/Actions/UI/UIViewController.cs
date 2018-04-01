@@ -7,10 +7,6 @@
 
 using UnityEngine;
 
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
-
 namespace ActionBehaviour {
 
 
@@ -41,21 +37,4 @@ namespace ActionBehaviour {
 		
 	}
 
-#if UNITY_EDITOR
-    [CustomEditor(typeof(ActionController), true)]
-    [CanEditMultipleObjects]
-    public class NodeActionControllerEditor : Editor
-    {
-      public override void OnInspectorGUI()
-      {
-          DrawDefaultInspector();
-
-            ActionController myScript = (ActionController)target;
-            if(GUILayout.Button("Execute"))
-            {
-                myScript.Execute();
-            }
-      }
-    }
-#endif
 }

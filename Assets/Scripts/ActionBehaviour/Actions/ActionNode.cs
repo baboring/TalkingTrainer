@@ -12,6 +12,7 @@ using UnityEngine;
 namespace ActionBehaviour {
 
 	using Common.Utilities;
+    using NaughtyAttributes;
 
 	public class ActionNode : BaseNode {
 
@@ -21,6 +22,11 @@ namespace ActionBehaviour {
 
 		[SerializeField]
 		public string label;
+
+        [Button("Run Execute")]
+        private void _RunInEdtior() {
+            Execute();
+        }
 
         public override ActionState OnUpdate() {
 			if(label.Length > 0)

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace Common.Utilities {
 
 
-	public class Timer : SingletonMono<Timer> {
+	public class Timer : MonoSingleton<Timer> {
 
 		/// <summary>
 		/// Timer 

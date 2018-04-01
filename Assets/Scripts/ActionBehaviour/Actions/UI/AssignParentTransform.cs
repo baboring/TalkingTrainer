@@ -1,6 +1,6 @@
 ﻿/* *************************************************
 *  Created:  2018-1-28 20:15:39
-*  File:     ObjectDisableNode.cs
+*  File:     AssignParentTransform.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -25,12 +25,13 @@ namespace ActionBehaviour {
         [SerializeField]
         protected ManagerType type;
 
+        [SerializeField]
+        protected Transform parent;
+
         [ReorderableList]
 		[SerializeField]
 		protected ActionNode[] targets;
 
-        [SerializeField]
-        protected Transform parent;
 
         public override ActionState OnUpdate() {
 

@@ -33,7 +33,7 @@ namespace Common.Utilities {
 
 
 
-	public class SingletonMono<T> : MonoBehaviour where T : SingletonMono<T>
+	public class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
 	{
 		private static T _instance;
 		private static object _lock = new object();
@@ -52,10 +52,15 @@ namespace Common.Utilities {
 				return _instance;
 			}
 		}
+
+        // Awake
 		protected virtual void Awake()	{
-			Logger.Debug("Awake singleton : " + typeof(T));
-			if (null == _instance)
-				_instance = (T)this;
+            Logger.Log(LogLevel.DEBUG,"Awake singleton : " + typeof(T));
+            if (null == _instance) {
+                _instance = (T)this;
+                if(this.transform.parent == null)
+                    DontDestroyOnLoad(this.gameObject);
+            }
 		}
 
 		public virtual T Create() {
@@ -71,7 +76,8 @@ namespace Common.Utilities {
 				if (null == _instance)
 					Debug.LogError("FATAL! Cannot create an instance of " + typeof(T) + ".");
 				else {
-					DontDestroyOnLoad(obj);
+                    if (obj.transform.parent == null)
+    					DontDestroyOnLoad(obj);
 				}
 			}
 			else {
@@ -79,6 +85,8 @@ namespace Common.Utilities {
 			}
 			return _instance;
 		}
+
+        // Destroy
 		public static void SelfDestroy()
 		{
 			if (null != _instance) {
