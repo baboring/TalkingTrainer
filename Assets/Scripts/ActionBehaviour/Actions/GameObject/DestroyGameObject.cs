@@ -26,10 +26,10 @@ namespace ActionBehaviour {
 			ActionState result = base.OnUpdate();
 			if(result != ActionState.Success)
 				return result;
-			
-			for( int i=0;i < objects.Length; ++i )
-				objects[i].SetActive(true);
-			return ActionState.Success;
+
+            for (int i = 0; i < objects.Length; ++i)
+                GameObject.Destroy(objects[i]);
+            return ActionState.Success;
 		}
 	}
 
