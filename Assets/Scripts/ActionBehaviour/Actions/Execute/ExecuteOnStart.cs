@@ -1,6 +1,6 @@
 ﻿/* *************************************************
 *  Created:  2018-1-28 19:46:32
-*  File:     ExecuteOnStartNode.cs
+*  File:     ExecuteOnStart.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class ExecuteOnStartNode : ActionNode {
+    public class ExecuteOnStart : Execute {
 
 		void Start() {
 			Execute();

@@ -17,7 +17,7 @@ namespace ActionBehaviour {
         // called end of loaded level
         void OnLevelWasLoaded(int level)
         {
-            Logger.DebugFormat("OnLevelWasLoaded: {0}}", level);
+            Logger.DebugFormat("OnLevelWasLoaded: {0}", level);
             Execute();
         }
     }

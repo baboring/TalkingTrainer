@@ -1,20 +1,26 @@
 ﻿/* *************************************************
 *  Created:  2018-1-28 19:46:32
-*  File:     ExecuteOnEvent.cs
+*  File:     Execute.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace ActionBehaviour {
+
+    using NaughtyAttributes;
 
 	public class Execute : ActionNode {
 
 		[SerializeField]
 		protected ActionNode Node;
+
+        protected override void OnReset()
+        {
+            base.OnReset();
+            Debug.Assert(Node != null, "Node is null:" + label);
+        }
 
         public override ActionState OnUpdate() {
 
@@ -23,8 +29,10 @@ namespace ActionBehaviour {
 			if(result != ActionState.Success)
 				return result;
 			
-			if(Node == null || Node == this)
-				return ActionState.Error;
+            Debug.Assert(Node != null, "Node is null:" + label);
+            Debug.Assert(Node != this, "Node is owner:" + label);
+            if (Node == this || Node == null)
+                return ActionState.Error;
 
 			return Node.Execute();;
 		}

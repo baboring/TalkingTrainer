@@ -11,7 +11,8 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-	public class ExecuteOnEnable : ActionNode {
+    public class ExecuteOnEnable : Execute {
+        
 		void OnEnable() {
 			Execute();
 		}		
