@@ -42,9 +42,9 @@ namespace ActionBehaviour {
 
             for (int i = 0; i < targets.Length; ++i) {
                 if( type == ManagerType.None)
-                    targets[i].transform.parent = this.parent;
+                    targets[i].transform.SetParent(this.parent);
                 else if (type == ManagerType.UIViewManager)
-                    targets[i].transform.parent = UIViewManager.instance.transform;
+                    targets[i].transform.SetParent(UIViewManager.instance.transform);
             }
 
 			return ActionState.Success;

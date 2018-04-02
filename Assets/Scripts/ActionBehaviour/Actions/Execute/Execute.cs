@@ -9,8 +9,6 @@ using UnityEngine;
 
 namespace ActionBehaviour {
 
-    using NaughtyAttributes;
-
 	public class Execute : ActionNode {
 
 		[SerializeField]

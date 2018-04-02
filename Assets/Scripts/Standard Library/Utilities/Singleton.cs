@@ -75,10 +75,6 @@ namespace Common.Utilities {
 				_instance = obj.AddComponent<T>();
 				if (null == _instance)
 					Debug.LogError("FATAL! Cannot create an instance of " + typeof(T) + ".");
-				else {
-                    if (obj.transform.parent == null)
-    					DontDestroyOnLoad(obj);
-				}
 			}
 			else {
 				Debug.Log("Aleady Instance of " + typeof(T) + " exists in the scene.");

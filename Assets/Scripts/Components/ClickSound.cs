@@ -14,14 +14,12 @@ namespace TTrainer {
 		[SerializeField]
 		private AudioClip sound;
 
+		[SerializeField]
+		private AudioSource source;
+
 		private Button button {
 			get {
 				return GetComponent<Button>();
-			}
-		}
-		private AudioSource source {
-			get {
-				return GetComponent<AudioSource>();
 			}
 		}
 
@@ -33,12 +31,15 @@ namespace TTrainer {
 		void Reset() {
 			if( null == source)
 				gameObject.AddComponent<AudioSource>();
-			source.clip = sound;
-			source.playOnAwake = false;
+			if(source != null) {
+				source.clip = sound;
+				source.playOnAwake = false;
+			}
 		}
 		
 		public void PlaySound() {
-			source.PlayOneShot(sound);
+			if(null != source)
+				source.PlayOneShot(sound);
 		}
 
 		#if UNITY_EDITOR

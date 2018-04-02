@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 namespace TTrainer {
 
+	using Common.Utilities;
 	public class UILessionDisplay : MonoBehaviour {
 
 		[SerializeField]
@@ -41,7 +42,7 @@ namespace TTrainer {
 			if(info.lstStudyBoard == default(InfoStudyBoardData[])) {
 				StartCoroutine(ResourceManager.instance.LoadAssetBundle(
 					new AssetInfo(bundleName, info.SheetName,typeof(TextAsset), (bundleLoaded)=>{
-					var lstBoard = R.CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>(),false);
+					var lstBoard = CsvUtil.LoadObjects<InfoStudyBoardData>(bundleLoaded.GetAsset<TextAsset>(),false);
 					info.lstStudyBoard = lstBoard.ToArray();
 					Debug.Log("Load asset " + info.SheetName);
 					funcUpdateTotal(info.lstStudyBoard.Length);

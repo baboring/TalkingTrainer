@@ -118,6 +118,8 @@ namespace Common.Utilities {
 			return null;
 		}
 	}
+
+
 	public static class StringExtensionMethods
 	{
 		/// Sets the color of the text according to the parameter value.
@@ -184,6 +186,8 @@ namespace Common.Utilities {
 		white,
 		yellow
 	}
+
+
 	public static class LogExtensionMethods
 	{
 		static public void LogFormatColor(this Debug target, ColorType color,string format, params object[] args)
@@ -243,4 +247,5 @@ namespace Common.Utilities {
 		
 
 	}
+
 }

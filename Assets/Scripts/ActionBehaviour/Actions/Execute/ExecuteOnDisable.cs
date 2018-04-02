@@ -1,6 +1,6 @@
 ﻿/* *************************************************
 *  Created:  2018-1-28 19:46:32
-*  File:     ExecuteOnEvent.cs
+*  File:     ExecuteOnDisable.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/

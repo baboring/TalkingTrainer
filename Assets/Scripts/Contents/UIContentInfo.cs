@@ -14,9 +14,9 @@ namespace TTrainer {
 		[SerializeField]
 		protected Image imgLogo;
 		[SerializeField]
-		protected Text displayTitle;
+		protected TMP_Text displayTitle;
 		[SerializeField]
-		protected Text displayDesc;
+		protected TMP_Text displayDesc;
 
 		[SerializeField]
 		protected Button buttonDownload;

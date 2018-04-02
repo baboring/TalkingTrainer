@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 namespace TTrainer {
 
-	public class ContentsManager : SingletonMono<ContentsManager> {
+	using Common.Utilities;
+	
+	public class ContentsManager : MonoSingleton<ContentsManager> {
 
 		public GameObject mainManu;
 

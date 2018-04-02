@@ -7,6 +7,7 @@ using UnityEngine.UI;
 namespace TTrainer {
 
 	using AssetBundles;
+	using Common.Utilities;
 	public class ContentStudyBoardController : ContentControllerBase {
 
 		[SerializeField]
@@ -14,19 +15,26 @@ namespace TTrainer {
 
 		[SerializeField]
 		protected ScrollRect objListup;
+
 		[SerializeField]
 		protected ScrollRect objPlay;
 
 		[SerializeField]
+		protected Text displayTitle;		
+
+		[SerializeField]
 		protected RectTransform objContentViewListup;
+
 		[SerializeField]
 		protected RectTransform objContentViewSnap;
 		
 		[SerializeField]
 		protected UILessionDisplay prefabDisplayItem;	// prefab
+
 		[SerializeField]
 		protected UIStudyBoard prefabStudyBoard;	// prefab
 
+		/// ---------------------------------------------------------
 		private UILessionDisplay currentUnit = null;
 		private List<InfoLessonData> _lstUnits = null;
 
@@ -40,7 +48,7 @@ namespace TTrainer {
 
 			yield return StartCoroutine(ResourceManager.instance.LoadAssetBundle(
 				new AssetInfo(config.tableBundleName, config.tableAssetName, typeof(TextAsset), (bundleLoaded)=>{
-				_lstUnits = R.CsvUtil.LoadObjects<InfoLessonData>(bundleLoaded.GetAsset<TextAsset>());
+				_lstUnits = CsvUtil.LoadObjects<InfoLessonData>(bundleLoaded.GetAsset<TextAsset>());
 				Debug.Log("Load asset " + config.tableAssetName);
 			})));
 
@@ -52,6 +60,9 @@ namespace TTrainer {
 		}
 
 		void ListupContents() {
+
+			displayTitle.text = info.Title;
+
 			prefabDisplayItem.gameObject.SetActive(false);
 			objContentViewListup.transform.Clear();
 			foreach(var info in this._lstUnits) {
@@ -62,6 +73,9 @@ namespace TTrainer {
 			}
 		}
 		void ListupStudyBoards(InfoLessonData lesson) {
+
+			displayTitle.text = lesson.TitleName;
+			
 			prefabStudyBoard.gameObject.SetActive(false);
 			objContentViewSnap.transform.Clear();
 			currentLession = null;
