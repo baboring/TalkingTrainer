@@ -1,45 +1,45 @@
 ManifestFileVersion: 0
-CRC: 4095688674
+CRC: 2982364483
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: player-bundle
-      Dependencies: {}
-    Info_1:
-      Name: icon-bundle
-      Dependencies: {}
-    Info_2:
-      Name: sound-bundle
-      Dependencies: {}
-    Info_3:
       Name: scene-bundle
       Dependencies:
         Dependency_0: icon-bundle
         Dependency_1: sound-bundle
+    Info_1:
+      Name: cdata002-scene-bundle
+      Dependencies:
+        Dependency_0: ui-skin-frames
+        Dependency_1: icon-bundle
+        Dependency_2: fonts-bundle
+        Dependency_3: sound-bundle
+        Dependency_4: contents-bundle
+    Info_2:
+      Name: ui-skin-frames
+      Dependencies: {}
+    Info_3:
+      Name: icon-bundle
+      Dependencies: {}
     Info_4:
+      Name: fonts-bundle
+      Dependencies: {}
+    Info_5:
+      Name: player-bundle
+      Dependencies: {}
+    Info_6:
+      Name: cdata002-sound-mid-unit1-pattern-part2
+      Dependencies: {}
+    Info_7:
+      Name: cdata002-sound-mid-unit1-pattern-part1
+      Dependencies: {}
+    Info_8:
+      Name: sound-bundle
+      Dependencies: {}
+    Info_9:
+      Name: cdata002-data-bundle
+      Dependencies: {}
+    Info_10:
       Name: contents-bundle
       Dependencies:
         Dependency_0: icon-bundle
-    Info_5:
-      Name: cdata002-scene-bundle
-      Dependencies:
-        Dependency_0: icon-bundle
-        Dependency_1: sound-bundle
-        Dependency_2: contents-bundle
-        Dependency_3: fonts-bundle
-        Dependency_4: ui-skin-frames
-    Info_6:
-      Name: cdata002-data-bundle
-      Dependencies: {}
-    Info_7:
-      Name: fonts-bundle
-      Dependencies: {}
-    Info_8:
-      Name: ui-skin-frames
-      Dependencies: {}
-    Info_9:
-      Name: cdata002-sound-mid-unit1-pattern-part1
-      Dependencies: {}
-    Info_10:
-      Name: cdata002-sound-mid-unit1-pattern-part2
-      Dependencies: {}

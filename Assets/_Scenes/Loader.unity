@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a28f790249541de8b11cbbf0eecbe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   objects:
   - {fileID: 1475501680}
 --- !u!1 &277129224
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 568fdedf7c904432b875776fcc899c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   objects:
   - {fileID: 974405667}
 --- !u!1 &510578199
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50315bc8a05c64794946e15bbfae68d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: Action Controller
+  comments: 
   Node: {fileID: 1275018205}
   startType: 0
 --- !u!114 &510578205
@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf7a27646352471189af8261b1d043f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   childNodes:
   - {fileID: 230232859}
   - {fileID: 1793060555}
@@ -1015,9 +1015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4a650bbabcf44258ce4f3a4accfe6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   isIndex: 0
   LevelName: Main-TalkTrainer
+  Set: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
   LeveIndex: 0
   loadMethod: 0
   loadMode: 0
@@ -1034,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50315bc8a05c64794946e15bbfae68d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: Main Action Controller
+  comments: 
   Node: {fileID: 1180691846}
   startType: 0
 --- !u!1 &1222903496
@@ -1252,7 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50315bc8a05c64794946e15bbfae68d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: Main Action Controller
+  comments: 
   Node: {fileID: 1275018207}
   startType: 0
 --- !u!4 &1275018206
@@ -1279,12 +1280,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4a650bbabcf44258ce4f3a4accfe6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   isIndex: 0
   LevelName: Main-MineGame
-  LeveIndex: 0
+  Set: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
+  LeveIndex: 3
   loadMethod: 0
-  loadMode: 0
+  loadMode: 1
   NodeOnStartLoad: {fileID: 1015484976}
   NodeOnSceneLoaded: {fileID: 0}
 --- !u!1 &1430154369
@@ -1330,7 +1332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf7a27646352471189af8261b1d043f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: Main Seq
+  comments: 
   childNodes:
   - {fileID: 278728018}
   - {fileID: 2111507052}
@@ -1345,7 +1347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50315bc8a05c64794946e15bbfae68d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: Main Action Controller
+  comments: 
   Node: {fileID: 1430154371}
   startType: 1
 --- !u!1 &1475501680 stripped
@@ -1393,7 +1395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 568fdedf7c904432b875776fcc899c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   objects:
   - {fileID: 1928428255}
 --- !u!1 &1890811560
@@ -1599,7 +1601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf7a27646352471189af8261b1d043f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   childNodes: []
 --- !u!114 &1928428258
 MonoBehaviour:
@@ -1612,7 +1614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0635e6497c8794cb58129f1d263ff500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   Node: {fileID: 1928428257}
   startType: 0
 --- !u!114 &1928428259
@@ -1661,7 +1663,7 @@ GameObject:
   - component: {fileID: 1958727448}
   - component: {fileID: 1958727452}
   m_Layer: 5
-  m_Name: '{/} Canvas'
+  m_Name: '{/} Canvas ( UI-Manager)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1871,7 +1873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97cccaf1fa3d74e1fbb42dee501c8977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   objects:
   - {fileID: 2080586090}
 --- !u!114 &2080586093
@@ -1885,7 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d5b4af55caed42f28f1d785792ea1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: System Managers
+  comments: 
   Node: {fileID: 2080586092}
 --- !u!1 &2111507051
 GameObject:
@@ -1914,7 +1916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a28f790249541de8b11cbbf0eecbe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: 
+  comments: 
   objects:
   - {fileID: 1928428255}
 --- !u!4 &2111507053
