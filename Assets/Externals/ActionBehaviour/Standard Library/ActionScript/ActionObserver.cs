@@ -4,8 +4,11 @@ using UnityEngine;
 
 namespace Common.ActionScript {
 
+	using NaughtyAttributes;
+
 	public class ActionObserver : MonoBehaviour {
 
+		[ReorderableList]
 		[SerializeField]
 		protected ActionTrigger[] list;
 		// Use this for initialization

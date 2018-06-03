@@ -1,3 +1,7 @@
+Version 0.0.4 [2018.06.03]
+- Added ActionScript from the project
+- ActionScript have notifier and object base on scriptObject
+
 Version 0.0.3 [2018.06.02]
 - Updated AssignParentTransform ( Added GroupBox and hide condition in it  for showing field properly )
 - Deprecated ActionController and Replaced ActionStarter instead
