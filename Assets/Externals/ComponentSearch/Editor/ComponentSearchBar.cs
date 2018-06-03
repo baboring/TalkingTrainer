@@ -59,8 +59,8 @@ public class ComponentSearchBar : EditorWindow
 			// Nothing is selected. Be demure.
 			GUI.backgroundColor = Color.white;
 		}
-		
-		title = "Find";
+
+		titleContent.text = "Find";
 		minSize = new Vector2(250f, 90f);
 
 		// Draw the search bar

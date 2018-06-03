@@ -10,6 +10,10 @@ namespace NaughtyAttributes.Editor
     [PropertyDrawer(typeof(DropdownAttribute))]
     public class DropdownPropertyDrawer : PropertyDrawer
     {
+        /// <summary>
+        /// Draws the property.
+        /// </summary>
+        /// <param name="property">Property.</param>
         public override void DrawProperty(SerializedProperty property)
         {
             EditorDrawUtility.DrawHeader(property);
@@ -20,11 +24,13 @@ namespace NaughtyAttributes.Editor
             FieldInfo fieldInfo = ReflectionUtility.GetField(target, property.name);
             FieldInfo valuesFieldInfo = ReflectionUtility.GetField(target, dropdownAttribute.ValuesFieldName);
 
+            /// null
             if (valuesFieldInfo == null)
             {
                 this.DrawWarningBox(string.Format("{0} cannot find a values field with name \"{1}\"", dropdownAttribute.GetType().Name, dropdownAttribute.ValuesFieldName));
                 EditorGUILayout.PropertyField(property, true);
             }
+            /// type is GetElementType ( int, float... )
             else if (fieldInfo.FieldType == valuesFieldInfo.FieldType.GetElementType())
             {
                 // Selected value
@@ -52,6 +58,46 @@ namespace NaughtyAttributes.Editor
                 // Draw the dropdown
                 this.DrawDropdown(target, fieldInfo, property.displayName, selectedValueIndex, values, displayOptions);
             }
+            // type is ScriptableObject
+            else if (valuesFieldInfo.GetValue(target) is ScriptableObject) {
+                // Current value index, values and display options
+                ActionBehaviour.StringSet stringSet = (ActionBehaviour.StringSet)valuesFieldInfo.GetValue(target);
+                if (null != stringSet)
+                {
+                    // Current value
+                    object selectedValue = fieldInfo.GetValue(target);
+
+                    Debug.Log(stringSet.ToString());
+                    List<string> valuesList = stringSet.GetList();
+                    object[] values = new object[valuesList.Count];
+                    string[] displayOptions = new string[valuesList.Count];
+
+                    for (int i = 0; i < values.Length; i++)
+                    {
+                        object value = valuesList[i];
+                        values[i] = value;
+                        displayOptions[i] = value.ToString();
+                    }
+
+                    // Selected value index
+                    int selectedValueIndex = Array.IndexOf(values, selectedValue);
+                    if (selectedValueIndex < 0)
+                    {
+                        Array.Resize<object>(ref values, values.Length + 1);
+                        Array.Resize<string>(ref displayOptions, displayOptions.Length + 1);
+                        selectedValueIndex = values.Length - 1;
+                        values[selectedValueIndex] = selectedValue;
+                        displayOptions[selectedValueIndex] = "[new]" + selectedValue.ToString();
+                    }
+                    // Draw the dropdown
+                    this.DrawDropdown(target, fieldInfo, property.displayName, selectedValueIndex, values, displayOptions);
+                }
+                else {
+                    this.DrawWarningBox(typeof(DropdownAttribute).Name + " Wrong Droplist set");
+                    EditorGUILayout.PropertyField(property, true);
+                }
+            }
+            // type is IDropdownList
             else if (valuesFieldInfo.GetValue(target) is IDropdownList)
             {
                 // Current value
@@ -88,6 +134,7 @@ namespace NaughtyAttributes.Editor
                 // Draw the dropdown
                 this.DrawDropdown(target, fieldInfo, property.displayName, selectedValueIndex, values.ToArray(), displayOptions.ToArray());
             }
+            // otherwise
             else
             {
                 this.DrawWarningBox(typeof(DropdownAttribute).Name + " works only when the type of the field is equal to the element type of the array");
