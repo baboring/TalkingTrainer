@@ -19,23 +19,24 @@ namespace ActionBehaviour {
 
     public class LoadScene : ActionNode {
 
+		[BoxGroup("Setting")]
         [SerializeField]
         protected bool isIndex	= true;
 
         [BoxGroup("Setting")]
-        [Dropdown("Set")]
+		[Dropdown("LevelNameSet")]
         [HideIf("isIndex")]
         [SerializeField]
         protected string LevelName; // Scene Name
-
-        [SerializeField]
-        protected StringSet Set;
-
 
         [BoxGroup("Setting")]
         [ShowIf("isIndex")]
 		[SerializeField]
 		protected int LeveIndex;		// Scene Build Index
+
+		[BoxGroup("Setting")]
+        [SerializeField]
+		protected StringSet LevelNameSet;
 
         [BoxGroup("Setting")]
 		[SerializeField]

@@ -16,7 +16,7 @@ namespace TTrainer {
 	public class ResourceManager : MonoSingleton<ResourceManager>{
 
 		[SerializeField]
-		protected ActionObject actObj;	// 
+		protected ActionObject OnInitialized;	// 
 
 		//makes a list _singleWords and a dictionary _SentencesTypes
 		public List<InfoLessonData> _lstLesson;
@@ -53,8 +53,10 @@ namespace TTrainer {
 			var request = AssetBundleManager.Initialize();
 			if (request != null)
 				yield return StartCoroutine(request);
-
+            
 			isInitilizaed = true;
+			if (null != OnInitialized)
+				OnInitialized.Initialize(this.gameObject);
 		}
 
 		public IEnumerator InitializeLevelAsync (string assetBundleName,string levelName, bool isAdditive)
@@ -83,6 +85,8 @@ namespace TTrainer {
 
 		bool LoadAll(string path) {
 
+            if (!isInitilizaed)
+                return false;
 			// load & make a table with GreetingWords csv
 			//CsvUtil class
 			Debug.Log("Load csv - ContantsTable");

@@ -1,6 +1,6 @@
 ﻿/* *************************************************
-*  Created:  2018-1-28 19:46:32
-*  File:     ActionController.cs
+*  Created:  2018-06-02 19:46:32
+*  File:     ActionStarter.cs
 *  Author:   Benjamin
 *  Purpose:  []
 ****************************************************/
@@ -10,7 +10,7 @@ using UnityEngine;
 namespace ActionBehaviour {
 
 	// deprecated ( ActionStarter instead )
-    public class ActionController : Execute {
+    public class ActionStarter : Execute {
 
 		public enum StartOption {
 			None = 0,	// nothing to start
@@ -26,14 +26,6 @@ namespace ActionBehaviour {
 				base.Execute();
 		}
 
-        // called by outside
-        public void RunController()
-        {
-
-            base.Execute();
-        }
-
-		
 	}
 
 }

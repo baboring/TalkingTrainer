@@ -22,11 +22,17 @@ namespace ActionBehaviour {
 	public class AssignParentTransform : ActionNode {
 
 
+		[BoxGroup("Parent Info")]
         [SerializeField]
         protected ManagerType type;
 
+		[BoxGroup("Parent Info")]
+		[ShowIf("isHideParent")]
         [SerializeField]
         protected Transform parent;
+
+		protected bool isHideParent() { return type != ManagerType.UIViewManager; }
+
 
         [ReorderableList]
 		[SerializeField]

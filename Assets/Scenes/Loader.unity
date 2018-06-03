@@ -300,8 +300,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: -0.000015259}
-  m_SizeDelta: {x: -520, y: 110.9}
+  m_AnchoredPosition: {x: 0.0000038147, y: 0}
+  m_SizeDelta: {x: -520, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510578204
 MonoBehaviour:
@@ -803,7 +803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1016423533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7c0cbb3bb1a4cbe9ccba1e06f421dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainManu: {fileID: 1958727447}
+  UIViewManager: {fileID: 1958727447}
 --- !u!4 &1016423534
 Transform:
   m_ObjectHideFlags: 0
@@ -1018,8 +1018,8 @@ MonoBehaviour:
   comments: 
   isIndex: 0
   LevelName: Main-TalkTrainer
-  Set: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
   LeveIndex: 0
+  LevelNameSet: {fileID: 0}
   loadMethod: 0
   loadMode: 0
   NodeOnStartLoad: {fileID: 1015484976}
@@ -1071,10 +1071,10 @@ RectTransform:
   m_Father: {fileID: 1928428256}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 207, y: -575}
-  m_SizeDelta: {x: -542.2, y: -1312.1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -150}
+  m_SizeDelta: {x: -520, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1222903501
 MonoBehaviour:
@@ -1283,8 +1283,8 @@ MonoBehaviour:
   comments: 
   isIndex: 0
   LevelName: Main-MineGame
-  Set: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
   LeveIndex: 3
+  LevelNameSet: {fileID: 0}
   loadMethod: 0
   loadMode: 1
   NodeOnStartLoad: {fileID: 1015484976}
@@ -1825,7 +1825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 058d673d595b44390b4d38b4482788ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actObj: {fileID: 0}
+  OnInitialized: {fileID: 0}
 --- !u!1 &2080586090
 GameObject:
   m_ObjectHideFlags: 0

@@ -144,9 +144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   comments: 
   isIndex: 1
-  LevelName: 
-  Set: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
+  LevelName: Loader
   LeveIndex: 1
+  LevelNameSet: {fileID: 11400000, guid: ef212b32268f4434c985bf37d9ced18c, type: 2}
   loadMethod: 0
   loadMode: 0
   NodeOnStartLoad: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1118728443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50315bc8a05c64794946e15bbfae68d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 85fe09541e07e4729811a41eb6761a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   comments: 
