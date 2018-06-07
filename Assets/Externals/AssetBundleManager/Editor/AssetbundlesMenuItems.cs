@@ -26,5 +26,15 @@ namespace AssetBundles
 		{
 			BuildScript.BuildAssetBundles();
 		}
+
+		[MenuItem("Assets/Asset Bundle/Clean All Cache Bundle")]
+        public static void CleanCache()
+        {
+            if (Caching.ClearCache())
+                Debug.Log("Successfully cleaned the cache.");
+            else
+                Debug.Log("Cache is being used.");
+        }
+
 	}
 }

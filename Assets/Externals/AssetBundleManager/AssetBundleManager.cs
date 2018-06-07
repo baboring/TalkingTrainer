@@ -330,8 +330,12 @@ namespace AssetBundles
 			// For manifest assetbundle, always download it as we don't have hash for it.
 			if (info.isManifestBundle)
 				info.download = new WWW(url);
-			else
-				info.download = WWW.LoadFromCacheOrDownload(url, m_AssetBundleManifest.GetAssetBundleHash(info.assetBundleName), 0); 
+			else{
+				
+				using (info.download = WWW.LoadFromCacheOrDownload(url, m_AssetBundleManifest.GetAssetBundleHash(info.assetBundleName), 0)) {
+
+                }
+			}
 	
 			m_DownloadingWWWs.Add(info.assetBundleName, info);
 
@@ -416,7 +420,8 @@ namespace AssetBundles
 				Log(LogType.Info, assetBundleName + " has been unloaded successfully");
 			}
 		}
-	
+
+#region _UNITY_FUNCTIONS_
 		void Update()
 		{
 			// Collect all the finished WWWs.
@@ -475,7 +480,8 @@ namespace AssetBundles
 					i++;
 			}
 		}
-	
+
+#endregion
 		// Load asset from the given assetBundle.
 		static public AssetBundleLoadAssetOperation LoadAssetAsync (string assetBundleName, string assetName, System.Type type)
 		{

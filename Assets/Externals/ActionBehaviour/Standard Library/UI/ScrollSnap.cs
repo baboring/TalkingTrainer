@@ -2,6 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 using System.Linq;
 using UnityEngine.Events;
 
@@ -10,11 +11,14 @@ namespace UI {
 	[DisallowMultipleComponent]
 	[RequireComponent(typeof(ScrollRect))]
 	public class ScrollSnap : UIBehaviour, IDragHandler, IEndDragHandler {
+		
 		[SerializeField] public int startingIndex = 0;
 		[SerializeField] public bool wrapAround = false;
 		[SerializeField] public float lerpTimeMilliSeconds = 200f;
 		[SerializeField] public float triggerPercent = 5f;
 		[Range(0f, 10f)] public float triggerAcceleration = 1f;
+		[SerializeField] public RectTransform elementInScroll;
+		[SerializeField] public CanvasGroup canvasView;    // touch group, in view
 
 		public class OnLerpCompleteEvent : UnityEvent {}
 		public OnLerpCompleteEvent onLerpComplete;
@@ -24,7 +28,6 @@ namespace UI {
 		int actualIndex;
 		int cellIndex;
 		ScrollRect scrollRect;
-		CanvasGroup canvasGroup;
 		RectTransform content;
 		Vector2 cellSize;
 		bool indexChangeTriggered = false;
@@ -33,6 +36,16 @@ namespace UI {
 		Vector2 releasedPosition;
 		Vector2 targetPosition;
 
+		public int CurrentIndex {
+            get {
+                int count = LayoutElementCount();
+                int mod = actualIndex % count;
+                return mod >= 0 ? mod : count + mod;
+            }
+        }
+		Vector2 m_offset = Vector2.zero;
+
+
 		protected override void Awake() {
 			base.Awake();
 			actualIndex = startingIndex;
@@ -40,24 +53,78 @@ namespace UI {
 			this.onLerpComplete = new OnLerpCompleteEvent();
 			this.onRelease = new OnReleaseEvent();
 			this.scrollRect = GetComponent<ScrollRect>();
-			this.canvasGroup = GetComponent<CanvasGroup>();
 			this.content = scrollRect.content;
-			this.cellSize = content.GetComponent<GridLayoutGroup>().cellSize;		
-			content.anchoredPosition = new Vector2(-cellSize.x * cellIndex, content.anchoredPosition.y);
-			int count = LayoutElementCount();
-			SetContentSize(count);
 
-			if(startingIndex < count) {
-				MoveToIndex(startingIndex);
+			//this.cellSize = new Vector2(content.sizeDelta.x * content.localScale.x,content.sizeDelta.y * content.localScale.y);
+			//content.anchoredPosition = new Vector2(-elementInScroll.rect.width * cellIndex, content.anchoredPosition.y);
+			//int count = LayoutElementCount();
+			//SetContentSize(count);
+
+			//if(startingIndex < count) {
+			//	MoveToIndex(startingIndex);
+			//}
+		}
+
+		protected override void Start() {
+			base.Start();
+
+		}
+
+        void OnEnable()
+		{
+			StartCoroutine(SetupCellSize());
+		}
+
+		IEnumerator SetupCellSize()
+		{
+			yield return new WaitForEndOfFrame();
+
+			while(!CalcCellSize())
+				yield return null;
+		}
+
+        bool CalcCellSize()
+		{
+			var elements = content.GetComponentsInChildren<LayoutElement>(false)
+			                      .Where(e => e.transform.parent == content)
+			                      .ToArray();
+			if (elements.Length < 1)
+				return false;
+			if(elements.Length == 1)
+			{
+				var rectTrans = elements[0].GetComponent<RectTransform>();
+                rectTrans.ForceUpdateRectTransforms();
+				if (rectTrans.rect.size.magnitude == 0f)
+                    return false;
+				this.cellSize = rectTrans.rect.size;
 			}
+			else
+			{
+				var first = elements[0].GetComponent<RectTransform>();
+                var second = elements[1].GetComponent<RectTransform>();
+                first.ForceUpdateRectTransforms();
+				if (first.rect.size.magnitude == 0f)
+                    return false;
+
+				this.cellSize.y = first.rect.size.y;
+				this.cellSize.x = second.anchoredPosition.x - first.anchoredPosition.x;
+			}
+
+			m_offset = content.anchoredPosition;
+
+			if(startingIndex < elements.Length) {
+              MoveToIndex(startingIndex);
+            }
+			return true;
 		}
 
 		void LateUpdate() {
+
 			if(isLerping) {
 				LerpToElement();
 				if(ShouldStopLerping()) {
 					isLerping = false;
-					canvasGroup.blocksRaycasts = true;
+					canvasView.blocksRaycasts = true;
 					onLerpComplete.Invoke();
 					onLerpComplete.RemoveListener(WrapElementAround);
 				}
@@ -98,14 +165,7 @@ namespace UI {
 				.Count (e => e.transform.parent == content);
 		}
 		
-		public int CurrentIndex {
-			get {
-				int count = LayoutElementCount();
-				int mod = actualIndex % count;
-				return mod >= 0 ? mod : count + mod;
-			}
-		}
-		
+
 		public void OnDrag(PointerEventData data) {
 			float dx = data.delta.x;
 			float dt = Time.deltaTime * 1000f;
@@ -163,7 +223,7 @@ namespace UI {
 			releasedPosition = content.anchoredPosition;
 			targetPosition = CalculateTargetPoisition(cellIndex);
 			lerpStartedAt = DateTime.Now;
-			canvasGroup.blocksRaycasts = false;
+			canvasView.blocksRaycasts = false;
 			isLerping = true;
 		}
 
@@ -209,7 +269,7 @@ namespace UI {
 		}
 		
 		Vector2 CalculateTargetPoisition(int index) {
-			return new Vector2(-cellSize.x * index, content.anchoredPosition.y);
+			return new Vector2(-cellSize.x * index + m_offset.x, m_offset.y);
 		}
 
 		bool ShouldStopLerping() {
