@@ -1,29 +1,37 @@
-# README #
+# Talking Trainer
+This app for the someone to learn English. this app help them their speaking skill.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## System Requirements
+Unity 2017.1.0f3 only
 
-### What is this repository for? ###
+## Data based project
+Using Excel file and CSV ( import & export )
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_2.jpg)
+![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_1.jpg)
+![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_0.jpg)
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## License
+MIT License
 
-### Contribution guidelines ###
+Copyright (c) 2017 Benjamin Park
 
-* Writing tests
-* Code review
-* Other guidelines
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Who do I talk to? ###
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repo owner or admin
-* Other community or team contact
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
