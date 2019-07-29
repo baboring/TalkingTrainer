@@ -7,10 +7,6 @@ Unity 2017.1.0f3 only
 ## Data based project
 Using Excel file and CSV ( import & export )
 
-![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_2.jpg)
-![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_1.jpg)
-![code](http://baboring.onlinewebshop.net/_www_homepage/public/images/talk_to_your_pain_0.jpg)
-
 
 ## License
 MIT License
